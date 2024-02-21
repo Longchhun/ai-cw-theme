@@ -1,0 +1,17 @@
+// Overwrite build/css/application/_editor_ckeditor.scss
+.cke_widget_image {
+
+	img {
+        max-width: 100%;
+    }
+
+	.cke_image_resizer {
+		bottom: -0.3125rem;
+    	right: -0.3125rem;
+		height: 0.625rem;
+		outline-color:	$white;
+		padding: unset;
+		width: 0.625rem;
+	}
+
+}

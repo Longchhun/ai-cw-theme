@@ -1,0 +1,15 @@
+#portlet_consentFormPortlet,
+#portlet_webPresenceNavigationPortlet,
+#portlet_learningPathAdminPortlet,
+#portlet_learningAdminManageCoursesPortlet,
+#portlet_copMemberManagementPortlet,
+#portlet_learningAdminNavigationPortlet {
+    .portlet-topper {
+        display: none;
+    }
+    .portlet-topper {
+        .portlet-topper-toolbar {
+            display: none;
+        }
+    }
+}

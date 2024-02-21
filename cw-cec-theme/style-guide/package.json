@@ -1,0 +1,14 @@
+{
+  "name": "style-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styleguide": "nucleus --config config.nucleus.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nucleus-styleguide": "^1.0.0"
+  }
+}

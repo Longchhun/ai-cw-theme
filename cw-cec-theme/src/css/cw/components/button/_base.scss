@@ -1,0 +1,18 @@
+$disabled-opacity: .2;
+.link-state-disabled {
+    &:hover,
+    &:focus {
+        opacity: $disabled-opacity;
+        color: $black !important;
+        cursor: not-allowed !important;
+    }
+}
+
+.btn-state-disabled {
+    &:hover,
+    &:focus {
+        opacity: $disabled-opacity;
+        background-color: $primary !important;
+        cursor: not-allowed !important;
+    }
+}

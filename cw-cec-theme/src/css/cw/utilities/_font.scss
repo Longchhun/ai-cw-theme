@@ -1,0 +1,35 @@
+.font-family {
+    &-lato {
+        font-family: $font-family-lato;
+    }
+}
+
+@for $i from 8 through 40 {
+  @if $i % 2 == 0 {
+    .font-size-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+}
+
+.font-size {
+    &-38 {
+        font-size: 38px !important;
+    }
+    &-46 {
+        font-size: 46px !important;
+    }
+    &-12-sm-down {
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-small !important;
+        }
+    }
+}
+
+.font-style-normal {
+    font-style: normal !important;
+}
+
+.font-weight-semibold {
+    font-weight: $font-weight-semi-bold;
+}

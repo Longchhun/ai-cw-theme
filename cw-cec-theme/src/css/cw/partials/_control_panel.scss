@@ -1,0 +1,41 @@
+.lfr-product-menu-panel {
+    &.sidenav-fixed {
+        z-index: 1030 !important;
+        background-color: $dark !important;
+
+        .company-logo {
+            max-width: 3rem;
+            margin-right: 1rem;
+        }
+        .panel {
+            background-color: $dark !important;
+            border: 0 !important;
+
+            .list-group-heading {
+                &:after {
+                    background-color: $dark !important;
+                    color: $gray-lighter-alt1 !important;
+                }
+            }
+            .panel-header, .list-group-item, .panel-header-link, .navigation-link-container {
+                background-color: $dark !important;
+                color: $gray-lighter-alt1 !important;
+                border: none !important;
+            }
+            .list-group-item {
+                .nav-link {
+                    color: $gray-lighter-alt1 !important;
+                }
+            }
+            .panel-header-link {
+                &:focus,
+                &:focus-visible {
+                    box-shadow: none !important;
+                }
+            }
+        }
+        .panel-secondary {
+            color: $gray-lighter !important;
+        }
+    }
+}

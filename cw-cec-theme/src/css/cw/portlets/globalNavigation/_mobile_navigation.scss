@@ -1,0 +1,10 @@
+.mobile-navigation {
+    bottom: 0;
+    border-top: 0.125rem solid #f0f1f1;
+    transform: translate3d(0,0,0);
+    transition: .1s all ease-out;
+
+    &.navbar--hidden {
+        transform: translate3d(0, 100%,0);
+    }
+}

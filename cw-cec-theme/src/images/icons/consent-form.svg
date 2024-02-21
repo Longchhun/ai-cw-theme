@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>consent form</title>
+    <g id="Manage-Consent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="consent-form" transform="translate(1.000000, 0.750192)" stroke="#339BB2">
+            <line x1="4" y1="8" x2="13.5" y2="8" id="Shape"></line>
+            <line x1="4" y1="11" x2="10" y2="11" id="Shape"></line>
+            <line x1="4" y1="5" x2="11" y2="5" id="Shape"></line>
+            <line x1="4" y1="14" x2="8" y2="14" id="Shape"></line>
+            <line x1="4" y1="17" x2="8" y2="17" id="Shape"></line>
+            <path d="M10,23 L1,23 C0.44771525,23 0,22.5522847 0,22 L0,1 C0,0.44771525 0.44771525,0 1,0 L14.293,0 C14.5581948,0 14.8125073,0.105450625 15,0.293 L18.707,4 C18.8945494,4.18749273 19,4.44180519 19,4.707 L19,8" id="Shape"></path>
+            <circle id="Oval" cx="17" cy="17" r="6"></circle>
+            <path d="M19.674,15.256 L16.769,19.129 C16.6382581,19.3026743 16.4387571,19.4112741 16.2219275,19.426803 C16.005098,19.4423319 15.7921571,19.3632703 15.638,19.21 L14.138,17.71" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-130.000000, -1326.000000)">
+            <g transform="translate(130.000000, 1326.000000)">
+                <rect id="Rectangle" fill="#3B5998" x="0" y="0" width="36" height="36" rx="8"></rect>
+                <path d="M23.5570404,18.4778493 L20.2943286,18.4778493 L20.2943286,30 L15.351043,30 L15.351043,18.4778493 L13,18.4778493 L13,14.428507 L15.351043,14.428507 L15.351043,11.8081226 C15.351043,9.93426499 16.2744459,7 20.3383312,7 L24,7.01476715 L24,10.9453438 L21.3432203,10.9453438 C20.9074316,10.9453438 20.2946545,11.1552259 20.2946545,12.04911 L20.2946545,14.4322774 L23.9889179,14.4322774 L23.5570404,18.4778493 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

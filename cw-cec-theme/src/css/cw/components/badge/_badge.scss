@@ -1,0 +1,65 @@
+/**
+ *
+ * @atom Badge
+ * @section Badge
+ * @description https://v2.clayui.com/docs/css-framework/satellites/badge.html
+ * @modifiers
+ *   .badge-primary text color white with background gray
+ *   .badge-secondary dark text with dark background color
+ *   .badge-dashed set min and max content with border dashed
+ * @markup
+ *    <span class="badge w-50 status truncate-text text-gray">
+ *         @{include:.cw-small-logo}
+ *         <span class="ml-2">Default badge</span>
+ *    </span>
+ *    <span class="badge w-50 truncate-text badge-primary">
+ *         @{include:.cw-small-logo}
+ *         <span class="ml-2">Primary badge</span>
+ *    </span>
+ *    <span class="badge w-50 truncate-text badge-secondary">
+ *         @{include:.cw-small-logo}
+ *         <span class="ml-2 text-black">Secondary badge</span>
+ *    </span>
+ *    <span class="badge w-50 truncate-text badge-light">
+ *         @{include:.cw-small-logo}
+ *         <span class="ml-2 text-black">Light badge</span>
+ *    </span>
+ *    <span class="badge w-50 truncate-text badge-light badge-dashed">
+ *         @{include:.cw-small-logo}
+ *         <span class="ml-2 text-black">Dashed badge</span>
+ *    </span>
+*/
+.badge {
+    font-size: $font-size-small;
+    padding: 0.5rem 0.625rem;
+
+    svg {
+        height: 0.8125rem;
+        width: 0.8125rem;
+        vertical-align: middle;
+
+        &:hover {
+            color: $primary;
+            cursor: pointer;
+            stroke-width: 0.125rem;
+        }
+    }
+
+    &.status {
+        display: inline-block;
+        background-color: $gray-lighter-alt1;
+        height: 2rem;
+        max-width: 13.75rem;
+        padding: .375rem .8rem;
+    }
+
+    &.badge-dashed {
+        min-width: min-content;
+        max-width: max-content;
+        border: 1px dashed;
+    }
+
+    &.badge-secondary {
+        min-width: 2.1875rem;
+    }
+}

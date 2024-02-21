@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+$spaces: (
+  none: 0,
+  xxs: .25rem,
+  xs: .5rem,
+  sm: .75rem,
+  md: 1rem,
+  lg: 1.5rem,
+  xl: 2rem,
+  xxl: 3.875rem,
+);
+
+@function size($size) {
+  $value: map-get($spaces, $size);
+  @if $value == null { @error 'Size ' + $size + ' not found' }
+
+  @return $value;
+}
+
+@function rem($pixels) {
+  @return math.div($pixels, 16) * 1rem;
+}

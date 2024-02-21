@@ -1,0 +1,37 @@
+.card {
+    &.cec-simple-card {
+        &.cec-align-center {
+            text-align: center;
+        }
+        &.cec-selectable {
+            cursor: pointer;
+        }
+        &.cec-selectable:hover,
+        &.cec-selected {
+            border-color: transparent;
+            box-shadow: 0 0 0 2px $primary;
+        }
+        &.cec-selected {
+            background-color: $white-dark;
+            cursor: default;
+
+            .cec-selected-icon {
+                display: unset;
+                color: $primary;
+            }
+        }
+        .cec-selected-icon {
+            display: none;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            @include media-breakpoint-down(xs) {
+                top: 0.25rem;
+                right: 0.25rem;
+            }
+        }
+        .card-title {
+            margin-top: 0;
+        }
+    }
+}

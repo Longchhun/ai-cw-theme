@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g data-name="Group 661" transform="translate(-8570 -9525)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path d="M8570.5 9529.5h20"/>
+        <path data-name="Path" d="M8573.5 9527.25a.25.25 0 10.25.25.25.25 0 00-.25-.25h0M8575.5 9527.25a.25.25 0 10.25.25.25.25 0 00-.25-.25h0M8577.5 9527.25a.25.25 0 10.25.25.25.25 0 00-.25-.25h0"/>
+        <path data-name="Path" d="M8577.5 9541.5h-5a2 2 0 01-2-2v-12a2 2 0 012-2h16a2 2 0 012 2v6"/>
+        <path data-name="Path" d="M8586.5 9548.5c-2-1.5-3-4.5-3-7s1-5.5 3-7M8586.5 9548.5c2-1.5 3-4.5 3-7s-1-5.5-3-7M8580.174 9538.5h12.652M8580.174 9544.5h12.652M8579.5 9541.5h14"/>
+        <circle cx="7" cy="7" r="7" transform="translate(8579.5 9534.5)"/>
+    </g>
+</svg>

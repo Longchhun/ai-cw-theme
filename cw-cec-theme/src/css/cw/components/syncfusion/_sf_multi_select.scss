@@ -1,0 +1,28 @@
+.e-multi-select-list-wrapper {
+    .e-filter-parent {
+        .e-input-group.e-control-wrapper {
+            border-bottom-color: $primary !important;
+
+            &:before,
+            &:after {
+                content: none !important;
+            }
+        }
+    }
+    .e-dropdownbase {
+        .e-list-parent {
+            li.e-list-item {
+                &.e-active {
+                    background-color: $white !important;
+                    color: $black !important;
+                }
+
+                .e-checkbox-wrapper {
+                    .e-check {
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}

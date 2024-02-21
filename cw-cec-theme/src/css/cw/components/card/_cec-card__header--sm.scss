@@ -1,0 +1,15 @@
+&--sm {
+    padding: 1.3125rem $padding-base $padding-base $padding-base !important;
+    border-bottom: none !important;
+
+    &:after {
+        position: absolute;
+        border-bottom: 0.0625rem solid $border-color-base;
+        width: calc(100% - 2.55rem);
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        content: "";
+        bottom: 0;
+        left: 0;
+    }
+}

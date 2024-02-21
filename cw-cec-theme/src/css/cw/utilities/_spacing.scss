@@ -1,0 +1,180 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $size, $length in $cec-spacers {
+            @if $size != 0 {
+                .cec-m#{$infix}-n#{$size} { margin: -$length !important; }
+                .cec-mt#{$infix}-n#{$size},
+                .cec-my#{$infix}-n#{$size} {
+                    margin-top: -$length !important;
+                }
+                .cec-mr#{$infix}-n#{$size},
+                .cec-mx#{$infix}-n#{$size} {
+                    margin-right: -$length !important;
+                }
+                .cec-mb#{$infix}-n#{$size},
+                .cec-my#{$infix}-n#{$size} {
+                    margin-bottom: -$length !important;
+                }
+                .cec-ml#{$infix}-n#{$size},
+                .cec-mx#{$infix}-n#{$size} {
+                    margin-left: -$length !important;
+                }
+            }
+        }
+    }
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $size, $length in $cec-spacers {
+            @if $size != 0 {
+                .cec-p#{$infix}-#{$size} { padding: $length !important; }
+                .cec-pt#{$infix}-#{$size},
+                .cec-py#{$infix}-#{$size} {
+                    padding-top: $length !important;
+                }
+                .cec-pr#{$infix}-#{$size},
+                .cec-px#{$infix}-#{$size} {
+                    padding-right: $length !important;
+                }
+                .cec-pr#{$infix}-#{$size}-px {
+                    padding-right: #{$size}px !important;
+                }
+                .cec-pb#{$infix}-#{$size},
+                .cec-py#{$infix}-#{$size} {
+                    padding-bottom: $length !important;
+                }
+                .cec-pl#{$infix}-#{$size},
+                .cec-px#{$infix}-#{$size} {
+                    padding-left: $length !important;
+                }
+            } @else {
+                .cec-p#{$infix}-#{$size} { padding: $length !important; }
+                .cec-pt#{$infix}-#{$size},
+                .cec-py#{$infix}-#{$size} {
+                    padding-top: $length !important;
+                }
+                .cec-pr#{$infix}-#{$size},
+                .cec-px#{$infix}-#{$size} {
+                    padding-right: $length !important;
+                }
+                .cec-pb#{$infix}-#{$size},
+                .cec-py#{$infix}-#{$size} {
+                    padding-bottom: $length !important;
+                }
+                .cec-pl#{$infix}-#{$size},
+                .cec-px#{$infix}-#{$size} {
+                    padding-left: $length !important;
+                }
+            }
+        }
+    }
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $size, $length in $cec-spacers {
+            @if $size != 0 {
+                .cec-m#{$infix}-#{$size} { margin: $length !important; }
+                .cec-mt#{$infix}-#{$size},
+                .cec-my#{$infix}-#{$size} {
+                    margin-top: $length !important;
+                }
+                .cec-mr#{$infix}-#{$size},
+                .cec-mx#{$infix}-#{$size} {
+                    margin-right: $length !important;
+                }
+                .cec-mb#{$infix}-#{$size},
+                .cec-my#{$infix}-#{$size} {
+                    margin-bottom: $length !important;
+                }
+                .cec-ml#{$infix}-#{$size},
+                .cec-mx#{$infix}-#{$size} {
+                    margin-left: $length !important;
+                }
+            } @else {
+                .cec-m#{$infix}-#{$size} { margin: $length !important; }
+                .cec-mt#{$infix}-#{$size},
+                .cec-my#{$infix}-#{$size} {
+                    margin-top: $length !important;
+                }
+                .cec-mr#{$infix}-#{$size},
+                .cec-mx#{$infix}-#{$size} {
+                    margin-right: $length !important;
+                }
+                .cec-mb#{$infix}-#{$size},
+                .cec-my#{$infix}-#{$size} {
+                    margin-bottom: $length !important;
+                }
+                .cec-ml#{$infix}-#{$size},
+                .cec-mx#{$infix}-#{$size} {
+                    margin-left: $length !important;
+                }
+            }
+        }
+    }
+}
+
+.right {
+    &-xs {
+        @include media-breakpoint-down(xs) {
+            &-0 {
+                right: 0 !important;
+            }
+        }
+    }
+}
+
+.left-65 {
+    left: 65% !important;
+}
+
+.letter-spacing {
+    &-normal {
+        letter-spacing: normal;
+    }
+    &-1-dot-64 {
+        letter-spacing: 0.103rem;
+    }
+}
+
+.cec-py-130 {
+    padding-top: 8.125rem !important;
+    padding-bottom: 8.125rem !important;
+}
+
+.right-0 {
+    right: 0 !important;
+}
+
+.left-0 {
+    left: 0 !important;
+}
+
+.cec-mt-2-px {
+    margin-top: 0.125rem;
+}
+
+.cec-mr {
+    &-1-px {
+        margin-right: 0.063rem;
+    }
+}
+
+.cec-ml {
+    &-n7 {
+        margin-left: -6rem!important;
+    }
+}
+
+.cec-mt {
+    &-64-px {
+        margin-top: 4rem !important;
+    }
+}

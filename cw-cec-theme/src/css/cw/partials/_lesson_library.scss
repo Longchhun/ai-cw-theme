@@ -1,0 +1,29 @@
+.lesson-library-wrapper {
+    .cw-top-header {
+        .btn-action {
+            width: 17rem;
+        }
+    }
+
+    .btn-action {
+        @include media-breakpoint-down(lg) {
+            margin-left: 0.25rem !important;
+        }
+        @include media-breakpoint-down(md) {
+            margin-left: 0 !important;
+        }
+        @include media-breakpoint-down(md) {
+            width: 14rem;
+        }
+    }
+
+    .lesson-library-empty-state {
+        width: 18.875rem;
+        height: 18.5rem;
+        margin: 3.125rem 0 8.125rem 0;
+        svg {
+            width: 17.063rem;
+            height: 10.813rem;
+        }
+    }
+}

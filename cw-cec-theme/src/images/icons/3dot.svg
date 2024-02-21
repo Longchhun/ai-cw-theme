@@ -1,0 +1,7 @@
+<svg data-name="Group 10" viewBox="2 0 1 23" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#bcbcbc">
+        <circle cx="2.5" cy="2.5" r="2.5"/>
+        <circle cx="2.5" cy="2.5" data-name="Oval" r="2.5" transform="translate(0 9)"/>
+        <circle cx="2.5" cy="2.5" data-name="Oval" r="2.5" transform="translate(0 18)"/>
+    </g>
+</svg>

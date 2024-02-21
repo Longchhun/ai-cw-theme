@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 84</title>
+    <g id="LEARNING-ADMIN" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-84" transform="translate(1.000000, 1.000000)" stroke="currentColor">
+            <circle id="Oval" cx="17" cy="17" r="6"></circle>
+            <line x1="17" y1="14" x2="17" y2="20" id="Shape"></line>
+            <line x1="17" y1="20" x2="19.25" y2="17.75" id="Shape"></line>
+            <line x1="17" y1="20" x2="14.75" y2="17.75" id="Shape"></line>
+            <path d="M10,23 L1,23 C0.44771525,23 0,22.5522847 0,22 L0,1 C0,0.44771525 0.44771525,0 1,0 L14.293,0 C14.5581948,0 14.8125073,0.105450625 15,0.293 L18.707,4 C18.8945494,4.18749273 19,4.44180519 19,4.707 L19,8" id="Shape"></path>
+        </g>
+    </g>
+</svg>

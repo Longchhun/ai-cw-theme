@@ -1,0 +1,153 @@
+// Styles for cw-vuejs-global-components cw-editor (richt_text_editor.es.js)
+@import 'editor/cke_widget_image';
+@import 'editor/cke_dialog_container';
+
+.cke_panel.cke_combopanel {
+    height: 9.6875rem;
+}
+
+.cw-editor-display {
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        margin: 1em 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.cw-editor {
+    .cke_chrome {
+        width: 100% !important;
+    }
+
+    .cke_focus {
+        .cke_contents {
+            border-color: $input-border !important;
+        }
+    }
+
+    &.cke_editable {
+        background: $white;
+        padding: 1em;
+        color: $black;
+
+        li p {
+            margin-bottom: 0;
+        }
+    }
+
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        margin: 1em 0;
+    }
+
+    p {
+        margin : 1px 0;
+        padding : 0;
+    }
+
+    .cke_top {
+        padding: 0.75rem 0.75rem 0.5rem;
+    }
+
+    .cke_button,
+    .cke_combo,
+    .cke_combo_button,
+    .cke_combo_arrow,
+    .cke_combo_text,
+    .cke_combo_open {
+        cursor: pointer;
+    }
+
+    .cke_combo_text {
+        font-family: "Lato";
+        font-size: 1.2em;
+        width: 96px;
+    }
+
+    .cke_bottom {
+        border-top: none;
+        background: none;
+    }
+
+    // toolbar buttons
+    .cke_button,
+    .cke_combo_button {
+        border-radius: $border-radius-base;
+    }
+
+    .cke_combo_on a.cke_combo_button,
+    .cke_combo_off a.cke_combo_button:hover,
+    .cke_combo_off a.cke_combo_button:focus,
+    .cke_combo_off a.cke_combo_button:active,
+    a.cke_button_off:hover,
+    a.cke_button_off:focus,
+    a.cke_button_off:active {
+        border-color: transparent;
+    }
+
+    a.cke_button_on {
+        border-color: transparent;
+        background: lighten($primary, 50%);
+    }
+
+    a.cke_button_off:hover,
+    a.cke_button_off:focus,
+    a.cke_button_off:active,
+    .cke_combo_on a.cke_combo_button,
+    .cke_combo_off a.cke_combo_button:hover,
+    .cke_combo_off a.cke_combo_button:focus {
+        background-color: $gray-lighter-alt1;
+    }
+
+    .cke_combo_on a.cke_combo_button:active,
+    .cke_combo_off a.cke_combo_button:active {
+        background-color: $gray-lighter;
+    }
+
+    // divider lines
+    .cke_toolgroup a.cke_button:last-child:after,
+    .cke_toolgroup a.cke_button.cke_button_disabled:hover:last-child:after,
+    .cke_combo:after {
+        display: none;
+    }
+
+    .cke_toolbar {
+        margin-right: 0.8em;
+
+        .cke_combo__format {
+            width: 7rem;
+
+            .cke_combo_on a.cke_combo_button {
+                margin-right: 0.25rem !important;
+            }
+
+            .cke_combo_button {
+                width: 4.5rem;
+
+                .cke_combo_open {
+                    left: 6rem;
+                    position: absolute;
+                    margin-left: 0.25rem !important;
+                }
+
+                .cke_combo_text {
+                    margin-top: 0 !important;
+                }
+
+                &:hover {
+                    margin: 0 0.25rem !important;
+                }
+            }
+        }
+    }
+
+    // customize panels (doesn't work)
+    .cke_panel_grouptitle {
+        display: none;
+    }
+}

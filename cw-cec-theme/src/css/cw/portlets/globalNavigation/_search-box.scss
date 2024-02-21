@@ -1,0 +1,169 @@
+$box-search-width: 29.375rem;
+
+.portlet-global-navigation-wrapper {
+
+    .search-container {
+        max-width: $box-search-width;
+        margin: 0 auto;
+        border-radius: $border-radius-base;
+        z-index: 1;
+
+        .cw-header__group-item {
+            display: none;
+
+            @media (max-width: $screen-xs-max) {
+                display: inline-block;
+            }
+        }
+
+        .input-search {
+
+            @media (max-width: $screen-xs-max) {
+                position: absolute;
+                width: 100%;
+                margin-top: 2.25rem;
+                left: 0;
+                background-color: $white;
+                z-index: 1;
+            }
+        }
+
+    }
+
+    .search-box-suggestion-wrapper {
+        background: $white;
+        border-top: 2px solid $border-color-base;
+        border-bottom: 2px solid $border-color-base;
+        margin-top: 0.875rem;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        left: 0;
+        top: 3.35rem;
+
+        @media (max-width: $screen-xs-max) {
+            margin-top: 4.75rem;
+        }
+    }
+
+    .search-box__content {
+        max-width: 80rem;
+        margin: 0 auto;
+
+        @media (max-width: $screen-xs-max) {
+            background-color: $white-dark;
+        }
+
+    }
+
+    .search-box__space {
+        @include flex-basis(calc((100% - #{$box-search-width})/2));
+
+        @media (max-width: $screen-xs-max) {
+            display: none;
+        }
+    }
+
+    .search-box__block {
+        @include flex-basis($box-search-width);
+        margin: 0.938rem 0;
+        border-left: 2px solid $border-color-base;
+
+        @media (max-width: $screen-xs-max) {
+            @include flex-basis(100%);
+            background-color: $white;
+            border-bottom: 2px solid $border-color-base;
+            border-left: none;
+            margin: 0 0 0.625rem 0;
+            padding: 0.625rem 0 0 0;
+        }
+    }
+
+    .search-box__block:last-child {
+        @include flex(1);
+
+        @media (max-width: $screen-xs-max) {
+            border-top: 2px solid $border-color-base;
+        }
+    }
+
+    .search-box__vertical {
+        padding-left: 0.938rem;
+        padding-right: 0.938rem;
+
+        h3 {
+            font-size: $font-size-regular;
+            margin-top: 0;
+        }
+    }
+
+    .search-box-suggestion {
+        list-style: none;
+        line-height: 2.4;
+        padding-left: 0;
+        padding-top: 0.625rem;
+
+        .search-box-option {
+            cursor: pointer;
+            display: block;
+            padding: 0.75rem 0;
+
+            svg {
+                color: $gray-light;
+                height: 2.25rem;
+                width: 2rem;
+                margin-right: 0.938rem;
+
+                @media (max-width: $screen-xs-max) {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+
+            .nav-item-label {
+                color: $black;
+                font-weight: bold;
+                font-size: 0.875rem;
+                font-weight: bold;
+
+                @media (max-width: $screen-xs-max) {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+
+            &:hover {
+                svg {
+                    color: $primary;
+                }
+            }
+        }
+
+        &.search-box-suggestion__left {
+            padding-top: 0;
+
+            @media (max-width: $screen-xs-max) {
+                @include display(flex);
+
+                .search-box-element {
+                    @include flex-grow(1);
+                    text-align: center;
+                }
+            }
+        }
+
+        .search-box-element {
+            a {
+                text-decoration: none;
+
+                &.search-box-item {
+                    color: $gray;
+                }
+
+                &.search-box-item:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

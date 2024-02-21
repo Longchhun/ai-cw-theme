@@ -1,0 +1,17 @@
+#notificationsManagementToolbar {
+
+    .management-bar-light {
+        background-color: $white;
+        border: 1px solid $color-grey-light;
+
+        .nav-link {
+            color: $primary;
+        }
+
+        .dropdown {
+            .btn {
+                min-width: auto;
+            }
+        }
+    }
+}

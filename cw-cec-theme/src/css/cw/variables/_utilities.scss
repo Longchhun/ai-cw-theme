@@ -1,0 +1,71 @@
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$dimension-percentage: 10%;
+$dimensions: (
+    1: ($dimension-percentage * 2),
+    2: ($dimension-percentage * 4),
+    3: ($dimension-percentage * 6),
+    4: ($dimension-percentage * 8),
+    5: ($dimension-percentage * 10)
+);
+
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+);
+
+$cec-spacer: 0.3125rem;
+$cec-spacers: (
+    0: 0,
+    1: ($cec-spacer * 1),
+    2: ($cec-spacer * 2),
+    3: ($cec-spacer * 3),
+    4: ($cec-spacer * 4),
+    5: ($cec-spacer * 5),
+    6: ($cec-spacer * 6),
+);
+
+$border-width: 0.063rem;
+$border-widths: (
+    0: 0,
+    1: ($border-width * 1),
+    2: ($border-width * 2),
+    3: ($border-width * 3),
+    4: ($border-width * 4),
+    5: ($border-width * 5),
+);
+
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex;
+$overflows: auto, hidden;
+$positions: static, relative, absolute, fixed, sticky;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+    (
+        10: 10%,
+        20: 20%,
+        30: 30%,
+        40: 40%,
+        50: 50%,
+        60: 60%,
+        70: 70%,
+        80: 80%,
+        90: 90%,
+        100: 100%,
+        auto: auto
+    ),
+    $sizes
+);

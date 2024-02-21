@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 22 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>email-action-unread</title>
+    <g id="Contact-detail" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="email-action-unread" transform="translate(1.000000, 0.000000)" stroke="#339BB2">
+            <rect id="Rectangle" x="0.416666667" y="0.785647059" width="19.1666667" height="13.1764706" rx="2"></rect>
+            <polyline id="Path" points="19.0925 1.26494118 10 8.60917647 0.9075 1.26494118"></polyline>
+        </g>
+    </g>
+</svg>

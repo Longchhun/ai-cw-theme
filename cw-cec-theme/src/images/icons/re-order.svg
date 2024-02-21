@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29">
+  <g data-name="Interface-Essential / Move / direction-button-arrows">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" data-name="Group 722">
+      <path data-name="Shape 3410" d="M14.5.5v28"/>
+      <path data-name="Shape 3411" d="M28.5 14.5H.5"/>
+      <path data-name="Shape 3412" d="M4.318 10.682L.5 14.5l3.818 3.817"/>
+      <path data-name="Shape 3413" d="M10.682 24.682L14.5 28.5l3.818-3.818"/>
+      <path data-name="Shape 3414" d="M24.682 18.318l3.818-3.817-3.818-3.819"/>
+      <path data-name="Shape 3415" d="M18.318 4.317L14.5.5l-3.818 3.817"/>
+    </g>
+  </g>
+</svg>

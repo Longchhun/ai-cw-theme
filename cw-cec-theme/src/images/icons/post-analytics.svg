@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 25 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(1.000000, 0.500000)" stroke="currentColor">
+            <rect id="Rectangle-path" x="0" y="0" width="23" height="17" rx="1"></rect>
+            <line x1="4" y1="13" x2="4" y2="11" id="Shape"></line>
+            <line x1="7" y1="13" x2="7" y2="8" id="Shape"></line>
+            <line x1="10" y1="13" x2="10" y2="10" id="Shape"></line>
+            <line x1="19" y1="13" x2="19" y2="6" id="Shape"></line>
+            <line x1="16" y1="13" x2="16" y2="8.5" id="Shape"></line>
+            <line x1="13" y1="13" x2="13" y2="4" id="Shape"></line>
+        </g>
+    </g>
+</svg>

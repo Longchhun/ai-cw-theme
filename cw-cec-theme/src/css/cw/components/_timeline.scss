@@ -1,0 +1,212 @@
+$timeline-border-thickness: 4px;
+$timeline-card-triangle-size: 15px;
+$timeline-card-dot-size: 6px;
+$timeline-two-col-card-margin: 1.125%;
+
+.cec-timeline {
+    background: transparent;
+    border-top: $timeline-border-thickness solid $gray;
+    list-style-type: none;
+    overflow: auto;
+    position: relative;
+    z-index: 0;
+    padding-left: 0;
+
+    &:before {
+        border-left: $timeline-border-thickness solid $gray;
+        bottom: 0;
+        content: '';
+        left: calc(50% - #{$timeline-border-thickness} / 2);
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    &__date {
+        clear: both;
+        display: flex;
+        justify-content: center;
+        margin: $cec-spacing auto;
+        z-index: 1;
+    }
+
+    &__last-updated {
+        color: $gray;
+        font-style: italic;
+        position: absolute;
+        right: $cec-spacing;
+        top: 10px;
+
+        @media (max-width: 767px) {
+            text-align: right;
+            width: 40%;
+        }
+
+        @media (max-width: $screen-xs-min) {
+            font-size: 11px;
+            text-align: left;
+            padding-left: 10px;
+            right: 0;
+            width: 30%;
+        }
+    }
+
+    .icon-timeline-sort {
+        cursor: pointer;
+        left: calc(50% + 32px);
+        position: absolute;
+
+        svg {
+            height: 18px;
+            width: 21px;
+        }
+    }
+}
+
+.cec-card.cec-card--timeline {
+    margin: 40px auto;
+    max-width: 600px;
+    position: relative;
+    width: 100%;
+
+    // Dot on the timeline
+
+    &:before {
+        background: #2e343b;
+        border: 4px solid $gray;
+        border-radius: 50%;
+        box-sizing: content-box;
+        bottom: calc(100% + #{$timeline-card-triangle-size} / 2);
+        content: '';
+        height: $timeline-card-dot-size;
+        left: calc(50% - #{$timeline-card-dot-size} * 1.15);
+        position: absolute;
+        width: $timeline-card-dot-size;
+        z-index: 1;
+    }
+
+    // Triangle top of card
+
+    &:after {
+        background: $white;
+        border-right: 1px solid $color-border;
+        border-top: 1px solid $color-border;
+        bottom: calc(100% - #{$timeline-card-triangle-size} / 2);
+        content: '';
+        height: $timeline-card-triangle-size;
+        left: calc(50% - #{$timeline-card-triangle-size} / 2);
+        position: absolute;
+        transform: rotate(-45deg);
+        width: $timeline-card-triangle-size;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .cec-action-menu {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .ckeditor-html {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.cec-timeline--two-col {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+    .cec-timeline--two-col {
+        // Target the second card to offset the tops of the cards
+        .cec-card--timeline + .cec-card.cec-card--timeline {
+            margin-top: 100px;
+
+            // Reset the margin-top for any further siblings
+            & + .cec-card--timeline {
+                margin-top: $cec-spacing;
+            }
+        }
+    }
+
+    .cec-timeline--two-col .cec-card.cec-card--timeline {
+        position: relative;
+        margin: $cec-spacing 0;
+        width: 46%;
+
+        &.cec-card--timeline--odd {
+            clear: left;
+            float: left;
+            margin-left: $timeline-two-col-card-margin;
+        }
+
+        &.cec-card--timeline--even {
+            clear: right;
+            float: right;
+            margin-right: $timeline-two-col-card-margin;
+
+            // Dot on the timeline
+
+            &:before {
+                border-color: $green;
+                left: calc(-5.75% - 10px);
+                right: initial;
+            }
+
+            // Triangle top of card
+
+            &:after {
+                bottom: 85%;
+                left: -9px;
+                right: initial;
+                transform: rotate(-130deg);
+            }
+        }
+
+        // Dot on the timeline
+
+        &:before {
+            border-color: $yellow;
+            bottom: 85%;
+            left: initial;
+            right: calc(-5.75% - 10px);
+        }
+
+        // Triangle top of card
+
+        &:after {
+            bottom: 85%;
+            left: initial;
+            right: -9px;
+            transform: rotate(45deg);
+        }
+    }
+}
+
+.timeline-separator {
+    position: relative;
+
+    hr {
+        margin: 45px -30px 10px -30px;
+    }
+
+    span {
+        border: 1px dotted;
+        border-radius: 20px;
+        padding: 5px 25px;
+        font-size: $font-size-small;
+        background-color: $white;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute
+    }
+}

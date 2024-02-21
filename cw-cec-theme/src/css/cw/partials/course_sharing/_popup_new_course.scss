@@ -1,0 +1,42 @@
+.popup-new-course-wrapper {
+    .course-option-item {
+        width: 5.25rem;
+        height: 4.063rem;
+    }
+
+    .list-course-wrapper {
+        margin-right: 0.625rem;
+        padding: 0.1875rem;
+        margin-left: -0.125rem;
+
+        .image__wrapper {
+            margin-bottom: 0;
+        }
+
+        .course-image-thumbnail {
+            width: 7.5rem;
+            height: 3.125rem;
+            object-fit: cover;
+        }
+    }
+
+    .tick-icon {
+        position: absolute;
+        right: 1.4375rem;
+        top: 1.25rem;
+    }
+
+    .btn-clear-search {
+        position: absolute;
+        right: 0.75rem;
+    }
+
+    .scroll-content {
+        @include media-breakpoint-up(sm) {
+            overflow-x: hidden !important;
+        }
+        &-area {
+            min-height: 100% !important;
+        }
+    }
+}

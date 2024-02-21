@@ -1,0 +1,74 @@
+
+.folder-tree-navigation {
+    min-height: 12.5rem;
+}
+
+.folder-tree-encrypt-nav,
+.folder-tree-navigation {
+    overflow-x: auto;
+    padding: 1.25rem 0;
+
+    @include media-breakpoint-down(sm) {
+        min-height: unset;
+    }
+
+    ul {
+        list-style: none;
+
+        ul {
+            padding-left: 1.0625rem;
+
+            li {
+                padding-left: 0 !important;
+            }
+        }
+
+        li {
+            padding-left: 1.75rem !important;
+            cursor: pointer;
+
+            @include media-breakpoint-down(sm) {
+                padding-left: 1.25rem !important;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            .no-child {
+                margin-left: 1.0625rem;
+                @include media-breakpoint-down(sm) {
+                    margin-left: 0;
+                }
+            }
+
+            .glyphicon {
+                color: $black;
+                font-size: 0.625rem;
+            }
+
+            .folder-icon {
+                height: 1.1875rem !important;
+            }
+
+            .tree-item {
+                height: 2.5rem;
+
+                &:hover,
+                &:focus,
+                &.active {
+                    background-color: $gray-lignter-alt6;
+                }
+
+                .folder-label {
+                    letter-spacing: 0.0269rem;
+                    font-size: $font-size-small;
+
+                    @include media-breakpoint-down(md) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

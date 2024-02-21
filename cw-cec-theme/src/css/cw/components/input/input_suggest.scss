@@ -1,0 +1,14 @@
+.cw-input-suggestion {
+    ul.suggestion-dropdown {
+        margin-top: 2.5rem;
+        &:hover {
+            cursor: default;
+        }
+
+        .dropdown-menu {
+            @include media-breakpoint-down(sm) {
+                max-width: unset;
+            }
+        }
+    }
+}

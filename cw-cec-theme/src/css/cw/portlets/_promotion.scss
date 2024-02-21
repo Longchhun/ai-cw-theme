@@ -1,0 +1,32 @@
+.cw-promotion {
+    position: relative;
+
+    img {
+        border-radius: 4px;
+        width: 100%;
+    }
+    a.bg-img {
+        position: relative;
+    }
+    a.bg-img:before {
+        border-radius: 4px;
+        box-sizing: border-box;
+        content: " ";
+        height: 100%;
+        opacity: 0.8;
+        position: absolute;
+        width: 100%;
+    }
+    .read-more {
+        bottom: 0.6875rem;
+        left: 0px;
+        color: $white;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+
+        h6 {
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M62.5,0 C97.0175,0 125,27.9825 125,62.5 C125,97.01875 97.01625,125 62.5,125 C27.98125,125 0,97.01875 0,62.5 C0,27.9825 27.98125,0 62.5,0 Z" id="Path" fill="#86C440" fill-rule="nonzero"></path>
+            <path d="M62.4955384,88.7572873 C62.3765616,85.536982 59.8780488,82.9512195 55,81 L55,81 L21.5,81 L21.5,36 L21.5,36 L55,36 C59.3333333,36 61.8333333,38.1666667 62.5,42.5 L62.5,42.5 C63.1666667,38.1666667 65.6666667,36 70,36 L103.5,36 L103.5,36 L103.5,81 L70,81 C65,83 62.5,85.6666667 62.5,89 Z" id="Combined-Shape-Copy" fill="#C0202F"></path>
+            <path d="M62.4955384,84.7572873 C62.3765616,81.536982 59.8780488,78.9512195 55,77 L55,77 L21.5,77 L21.5,32 L21.5,32 L55,32 C59.3333333,32 61.8333333,34.1666667 62.5,38.5 L62.5,38.5 C63.1666667,34.1666667 65.6666667,32 70,32 L103.5,32 L103.5,32 L103.5,77 L70,77 C65,79 62.5,81.6666667 62.5,85 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M62.5,32 L62.5,77 L96,77 C101,79 103.5,81.6666667 103.5,85 C103.5,88.3333333 103.5,72.8333333 103.5,38.5 C102.833333,34.1666667 100.333333,32 96,32 C91.6666667,32 80.5,32 62.5,32 Z" id="Path-3-Copy" fill="#F8F2F2" transform="translate(83.000000, 58.721239) scale(-1, 1) translate(-83.000000, -58.721239) "></path>
+            <g transform="translate(28.000000, 39.000000)" fill="#D9D6E9">
+                <rect x="0" y="0" width="27" height="2"></rect>
+                <rect x="0" y="5" width="27" height="2"></rect>
+                <rect x="0" y="10" width="27" height="2"></rect>
+                <rect x="0" y="15" width="27" height="2"></rect>
+                <rect x="0" y="20" width="27" height="2"></rect>
+                <rect x="0" y="25" width="27" height="2"></rect>
+                <rect x="0" y="30" width="27" height="2"></rect>
+            </g>
+            <g id="Group-6-Copy" transform="translate(71.000000, 39.000000)" fill="#D9D6E9">
+                <rect x="0" y="0" width="27" height="2"></rect>
+                <rect x="0" y="5" width="27" height="2"></rect>
+                <rect x="0" y="10" width="27" height="2"></rect>
+                <rect x="0" y="15" width="27" height="2"></rect>
+                <rect x="0" y="20" width="27" height="2"></rect>
+                <rect x="0" y="25" width="27" height="2"></rect>
+                <rect x="0" y="30" width="27" height="2"></rect>
+            </g>
+            <polygon fill="#C0202F" points="48 32 48 71 52 68.5 55.5 71 55.5 32"></polygon>
+            <g transform="translate(76.000000, 51.000000)">
+                <path d="M28,46 L0,46 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 C4.65685425,-3.04359188e-16 6,1.34314575 6,3 L6,21 L8,21 L8,16 C8,14.3431458 9.34314575,13 11,13 C12.6568542,13 14,14.3431458 14,16 L14,21 L15,21 L15,16 C15,14.3431458 16.3431458,13 18,13 C19.6568542,13 21,14.3431458 21,16 L21,21 L22,21 L22,16 C22,14.3431458 23.3431458,13 25,13 C26.6568542,13 28,14.3431458 28,16 L28,46 Z" id="Combined-Shape" fill="#FBAD47"></path>
+                <rect fill="#FFFFFF" x="0" y="41" width="28" height="13"></rect>
+                <circle fill="#4BA1A3" cx="23.5" cy="47.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

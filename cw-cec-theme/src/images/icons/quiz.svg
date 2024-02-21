@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M62.5,0 C97.0175,0 125,27.9825 125,62.5 C125,97.01875 97.01625,125 62.5,125 C27.98125,125 0,97.01875 0,62.5 C0,27.9825 27.98125,0 62.5,0 Z" id="Path" fill="#64B5F6" fill-rule="nonzero"></path>
+            <g id="Group-8" transform="translate(33.000000, 22.000000)">
+                <rect fill="#123247" x="0" y="8" width="59" height="71" rx="4"></rect>
+                <rect fill="#FFFFFF" x="4" y="12" width="51" height="63" rx="4"></rect>
+                <rect fill="#123247" x="17" y="5" width="25" height="9" rx="2"></rect>
+                <rect fill="#B1C4D0" x="17" y="4" width="25" height="9" rx="2"></rect>
+                <g id="Group-7" transform="translate(11.000000, 28.000000)">
+                    <circle fill="#84BF5A" cx="2.5" cy="2.5" r="2.5"></circle>
+                    <rect fill="#D8D8D8" x="9" y="0" width="27" height="5" rx="2.5"></rect>
+                </g>
+                <g id="Group-6" transform="translate(11.000000, 40.000000)">
+                    <circle fill="#84BF5A" cx="2.5" cy="2.5" r="2.5"></circle>
+                    <rect fill="#D8D8D8" x="9" y="0" width="27" height="5" rx="2.5"></rect>
+                </g>
+                <g id="Group-3" transform="translate(11.000000, 52.000000)">
+                    <circle fill="#84BF5A" cx="2.5" cy="2.5" r="2.5"></circle>
+                    <rect fill="#D8D8D8" x="9" y="0" width="27" height="5" rx="2.5"></rect>
+                </g>
+                <path d="M29,0 C31.7614237,0 34,2.23857625 34,5 C34,7.76142375 31.7614237,10 29,10 C26.2385763,10 24,7.76142375 24,5 C24,2.23857625 26.2385763,0 29,0 Z M29,2 C27.3431458,2 26,3.34314575 26,5 C26,6.65685425 27.3431458,8 29,8 C30.6568542,8 32,6.65685425 32,5 C32,3.34314575 30.6568542,2 29,2 Z" id="Combined-Shape" fill="#B1C4D0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

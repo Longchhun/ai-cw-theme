@@ -1,0 +1,103 @@
+.slideshow-banner-wrapper {
+    height: 25rem;
+
+    .banner-wrapper {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        li.carousel-control {
+            background-color: $white;
+            border: 0.063rem solid $gray-lighter-alt12;
+
+            &.active {
+                background-color: $primary;
+            }
+        }
+
+        a,li {
+            opacity: 1;
+
+            &.carousel-control {
+                display: none;
+            }
+        }
+
+        button {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+            &.on-top-right {
+                padding-left: 0.188rem;
+                padding-right: 0.188rem;
+                display: none;
+                left: initial;
+                right: 2%;
+                top: 5%;
+                transform: translate(0, 0);
+                @include media-breakpoint-down(xs) {
+                    display: block;
+                }
+            }
+            &.btn-label {
+                color: $gray-darker;
+                font-weight: bold;
+            }
+            &.btn-edit-banner {
+                border: 0.063rem solid $gray-lighter-alt12;
+                background-color: $white-darker-alt1;
+            }
+        }
+
+        &:hover {
+            button {
+                &.on-top-right {
+                    display: block;
+                }
+            }
+            a,li {
+                &.carousel-control {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    .banner-img {
+        height: 25rem;
+    }
+
+    .badge {
+        font-weight: bold;
+        color: white;
+
+        &.badge-new {
+            background-color: $green-alt-2;
+        }
+
+        &.badge-banner-type {
+            background-color: $yellow-alt-1;
+        }
+
+        &.badge-info {
+            background-color: $gray-lighter-alt13;
+        }
+    }
+
+    .on-top-left {
+        position: absolute;
+        top: 1.438rem;
+        left: 2rem;
+    }
+
+    .banner-info {
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        right: 2rem;
+    }
+}

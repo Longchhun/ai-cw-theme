@@ -1,0 +1,20 @@
+.centering-item {
+    &-vertical {
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+    &-horizontal {
+        left: 50% !important;
+        position: absolute !important;
+        transform: translateX(-50%) !important;
+    }
+}
+.item--left-35 {
+    left: 35% !important;
+}
+.align-items-center-sm-down {
+    @include media-breakpoint-down(sm) {
+        align-items: center !important;
+    }
+}

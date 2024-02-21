@@ -1,0 +1,53 @@
+.tag-pills {
+    margin-top: 10px;
+
+    .badge {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    .badge-pill {
+        .badge {
+            background: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .badge-light {
+            -webkit-transform: scale(0.55);
+            -ms-transform: scale(0.55);
+            transform: scale(0.55);
+        }
+
+        .pill-remove {
+            cursor: pointer;
+
+            svg {
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+
+    .badge-default {
+        background-color: $color-primary-alt4;
+        color: $gray;
+
+        svg {
+            color: $gray;
+
+            &:hover, &:focus {
+                color: $primary;
+                stroke-width: 2px;
+            }
+        }
+    }
+
+    .badge-primary {
+        svg {
+            &:hover, &:focus {
+                stroke-width: 2px;
+            }
+        }
+    }
+}

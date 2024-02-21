@@ -1,0 +1,165 @@
+body {
+    font-size: $font-size-regular;
+    @include clay-scale-component {
+        font-size: $font-size-base-mobile;
+    }
+}
+
+#wrapper {
+    padding-top: 0;
+    top: 0;
+    z-index: 100;
+    border-bottom: 0.125rem solid $color-grey-light-alt1;
+}
+
+.StripeElement {
+    height: 40px;
+    padding: 10px 12px;
+    border: 1px solid $color-grey-light-alt4;
+    border-radius: 3px;
+    background-color: $white;
+
+    &--invalid {
+        border-color: $danger;
+    }
+}
+
+.card,
+.card-horizontal {
+    border: 1px solid $color-grey-light;
+    box-shadow: none;
+    .tick-icon {
+        display: none;
+    }
+
+    &.selected {
+        box-shadow: 0 0 0 0.0625rem $primary;
+        border-color: $primary;
+        .tick-icon {
+            display: block;
+        }
+    }
+
+    a {
+        color: $primary;
+    }
+
+    .btn-primary {
+        color: $white;
+    }
+}
+
+.tabular-list-group {
+    .list-group-item-content {
+        .btn-primary {
+            color: $white;
+
+            &:hover,
+            &:focus {
+                color: $white;
+            }
+        }
+
+        .btn-default {
+            color: $primary;
+
+            &:hover,
+            &:focus {
+                color: $white;
+            }
+        }
+    }
+}
+
+//Filter/Order
+.management-bar-default {
+    background-color: $white;
+    border: 1px solid $color-grey-light;
+}
+
+.portal-popup #timezoneMessageContainer {
+    display: none;
+}
+
+.portlet-layout {
+    &.row {
+        margin-left: -10px;
+        margin-right: -10px;
+        > div[class^="col-"] {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .portlet {
+        margin-bottom: 20px;
+    }
+}
+
+.modify-pages .delete-tab {
+    top: 22px;
+}
+
+.display-style-buttons > .dropdown > .dropdown-menu {
+
+    &:after,
+    &:before {
+        @include media-breakpoint-down(sm) {
+            border-width: 0;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .overlay-focused:focus {
+        outline: 0;
+    }
+}
+
+.line-clamp {
+    position: relative;
+    overflow-y: hidden;
+    line-height: 1.4em;
+
+    &:after {
+        content: "";
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        height: 1.4em;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+    }
+}
+
+.portlet-boundary .portlet-content {
+    padding: 0;
+}
+
+.yui3-aclist {
+    z-index: 1000;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.straight-line {
+    border: 1px solid $border-color-base;
+    width: 163px;
+}
+
+.error-message {
+    font-size: $font-size-small;
+}
+
+.link-primary {
+    color: $primary;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@import 'control_panel';

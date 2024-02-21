@@ -1,0 +1,75 @@
+.img {
+    &-30-30 {
+        width: 1.875rem;
+        height: 1.875rem;
+        object-fit: cover;
+    }
+    &-72-72 {
+        width: 4.5rem;
+        height: 4.5rem;
+        object-fit: cover;
+    }
+
+    &-125-60 {
+        width: 7.813rem;
+        height: 3.75rem;
+        object-fit: cover;
+    }
+
+    &-125-80 {
+        width: 7.813rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+
+    &-108-68 {
+        width: 6.75rem;
+        height: 4.2rem !important;
+        object-fit: cover;
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            height: auto !important;
+        }
+    }
+
+    &-238-126 {
+        width: 14.875rem;
+        height: 7.875rem;
+    }
+    &-112-80 {
+        width: 7rem;
+        height: 5rem;
+    }
+
+    &-770-290 {
+        width: 48.125rem;
+        height: 18.125rem;
+        object-fit: cover;
+    }
+
+    &-60-60 {
+        width: 3.75rem;
+        height: 3.75rem;
+        object-fit: cover;
+    }
+
+    &-64-64 {
+        width: 4rem;
+        height: 4rem;
+        object-fit: cover;
+    }
+
+    &-100-100 {
+        width: 6.25rem;
+        height: 6.25rem;
+        object-fit: cover;
+    }
+
+    &-270-130-sm-down {
+        @include media-breakpoint-down(sm) {
+            width: 16.875rem !important;
+            height: 8.125rem !important;
+        }
+    }
+}

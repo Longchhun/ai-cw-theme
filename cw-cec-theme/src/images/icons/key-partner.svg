@@ -1,0 +1,12 @@
+<svg viewBox="0 0 20.166 20.167" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Group 8" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.083 .083)">
+        <circle cx="2.917" cy="2.917" r="2.917" transform="translate(12.5 .417)"/>
+        <circle cx="2.5" cy="2.5" data-name="Oval" r="2.5" transform="translate(5.833 1.25)"/>
+        <path d="M.417 12.917v6.667"/>
+        <path
+            d="M12.917 18.75a2.5 2.5 0 0 0-2.5-2.5H7.292a2.5 2.5 0 0 0-2.5-2.5H.417v5zM4.792 16.25h3.125M13.333 14.583H11.25v-2.916a4.167 4.167 0 0 1 8.333 0v2.916H17.5l-.417 5h-2.5"
+            data-name="Shape"/>
+        <path d="M4.167 12.084v-.417a4.167 4.167 0 0 1 5.935-3.774" data-name="Shape"/>
+    </g>
+</svg>

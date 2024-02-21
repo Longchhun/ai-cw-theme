@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Group 7</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Group-7" stroke="#979797">
+            <line x1="0.5" y1="0.5" x2="12.5" y2="0.5" id="Line-5"></line>
+            <line x1="0.5" y1="4.5" x2="12.5" y2="4.5" id="Line-5-Copy"></line>
+            <line x1="0.5" y1="8.5" x2="12.5" y2="8.5" id="Line-5-Copy-2"></line>
+            <line x1="0.5" y1="12.5" x2="12.5" y2="12.5" id="Line-5-Copy-3"></line>
+        </g>
+    </g>
+</svg>

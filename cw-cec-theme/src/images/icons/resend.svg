@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 20.5 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Pending-member-selected" transform="translate(-895, -244)" stroke="currentColor">
+            <g id="Group-5" transform="translate(896, 243)">
+                <g id="resend" transform="translate(0, 2)">
+                    <polygon id="Path" points="14.7826087 14.7826087 14.7826087 17.3913043 20 12.6086957 14.7826087 7.82608696 14.7826087 10.4347826 8.69565217 10.4347826 8.69565217 14.7826087"></polygon>
+                    <path d="M6.95652174,12.173913 L1.30434783,12.173913 C0.583976413,12.173913 0,11.5899366 0,10.8695652 L0,1.30434783 C0,0.583976413 0.583976413,0 1.30434783,0 L16.9565217,0 C17.6768932,0 18.2608696,0.583976413 18.2608696,1.30434783 L18.2608696,6.95652174" id="Path"></path>
+                    <polyline id="Path" points="17.8843478 0.387826087 9.13043478 7.39130435 0.376521739 0.387826087"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

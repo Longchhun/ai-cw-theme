@@ -1,0 +1,165 @@
+.course-detail-wrapper {
+    background-color: $white;
+    .status {
+        background-color: $orange;
+        border-radius: 0.252rem 0 0;
+    }
+    .property {
+        display: inline-block;
+        background-color: $white-darker-alt1;
+    }
+    .download-icon {
+        width: 3.625rem !important;
+        height: 3.75rem !important;
+    }
+    .course-additional-info {
+        background-color: $gray-lignter-alt3;
+    }
+    .btn-help {
+        svg {
+            height: 1rem;
+            width: 1.875rem;
+            margin-right: 0.75rem;
+        }
+    }
+    .attachment {
+        margin-bottom: 1.25rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .course-properties {
+        margin-left: 2.437rem;
+    }
+    .tag {
+        border-radius: 1.937rem;
+        border: 1px solid $gray;
+    }
+    .overall-title {
+        margin-bottom: 1.875rem;
+    }
+    .courses-list {
+        list-style: none;
+        li {
+            border-bottom: 1px dashed $border-color-base;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+    .cw-icon-course-activity {
+        width: 7.8125rem;
+        height: 7.8125rem;
+    }
+    .image__wrapper.loaded {
+        .image__item {
+            max-height: 25rem;
+            object-fit: cover;
+        }
+    }
+    .member-info-wrapper {
+        height: fit-content;
+    }
+
+    .cec-card__item-wrapper {
+        .course-schedule-info {
+            color: $gray-darker !important;
+        }
+
+        .booked-course {
+            color: $gray-darker;
+            border-radius: 0.625rem;
+            background-color: $white-darker-alt1;
+        }
+    }
+    .manage-course-people {
+        .cec-popup-wrapper {
+            .scroll-content {
+                max-height: 18.75rem;
+            }
+            .user-role {
+                min-height: 22.75rem;
+                max-height: 22.75rem;
+            }
+        }
+    }
+
+    .preview-popup-wrapper {
+        .cw-slot-tooltips {
+            &.cw-tooltip-wrapper {
+                a.btn-primary +
+                .tooltip-body {
+                    @include media-breakpoint-down(sm) {
+                        left: 70% !important;
+
+                        &::before {
+                            left: 40%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.children-info-popup {
+    &.swal2-popup.cec-left-content {
+        .children-info-header {
+            border-bottom: 0;
+            padding-left: 0;
+
+            .swal2-title {
+                margin: 0;
+                @include media-breakpoint-down(sm) {
+                    font-size: $header-font-size;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .children-info-content {
+        .icon-add {
+            border: 0.0625rem solid $gray;
+            border-radius: $border-radius-base;
+            color: $gray-base;
+            padding: $border-radius-base;
+        }
+
+        @include media-breakpoint-down(sm) {
+            .btn-primary {
+                width: 100% !important;
+            }
+            .add-more-name-holder {
+                text-align: left !important;
+            }
+        }
+    }
+}
+
+.swal2-popup.cec-left-content {
+    .form-group {
+        label {
+            display: flex;
+            margin-bottom: .9375rem;
+        }
+
+        input[type=checkbox] {
+            top: 0;
+        }
+    }
+}
+
+.course-schedule-info {
+    line-height: 1.5625rem;
+}
+.course-note {
+    .btn-update {
+        @include media-breakpoint-down(sm) {
+            width: 100% !important;
+        }
+    }
+}
+
+
+

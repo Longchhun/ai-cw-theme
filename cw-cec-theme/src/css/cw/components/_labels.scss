@@ -1,0 +1,20 @@
+.label {
+    border-radius: $border-radius-base;
+
+    svg {
+        height: 13px;
+        vertical-align: middle;
+        width: 13px;
+
+        &:hover {
+            color: $primary;
+            cursor: pointer;
+            stroke-width: 2px;
+        }
+    }
+}
+
+.label-default {
+    color: $gray;
+    background-color: $gray-lighter;
+}

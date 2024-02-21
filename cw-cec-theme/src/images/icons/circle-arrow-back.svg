@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+    <g transform="translate(-230.5 -7194.5)">
+        <path d="M242,7217a11,11,0,1,0-11-11A11,11,0,0,0,242,7217Z" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M248,7206H235" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="1"/>
+        <path d="M239.5,7210.5,235,7206l4.5-4.5" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="1"/>
+    </g>
+</svg>

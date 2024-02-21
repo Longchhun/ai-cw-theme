@@ -1,0 +1,26 @@
+
+// TYPOGRAPHY
+$font-family-sans-serif:        'Lato', sans-serif;
+$font-family-lato:              'Lato', sans-serif;
+
+$font-size-small:               0.75rem;                 // 12px
+$font-size-regular:             0.875rem;                // 14px
+$font-size-base:                1rem;                    // 16px
+$font-size-desktop-base:        $font-size-regular;      // 16px
+$header-font-size:              $font-size-base * 1.25;  // 20px
+$font-size-title:               1.438rem;                // 23px
+$font-size-title-desktop:       2.5rem;                  // 40px
+
+$font-weight-light:             300;
+$font-weight-normal:            400;
+$font-weight-semi-bold:         500;
+$font-weight-bold:              700;
+
+$h1-font-size:                  22px;                    // 22px
+$h2-font-size:                  19px;                    // 19px
+$h3-font-size:                  $font-size-base;         // 16px
+$h4-font-size:                  $font-size-regular;      // 14px
+$h5-font-size:                  $font-size-regular;      // 14px
+$h6-font-size:                  $font-size-small;        // 12px
+
+$headings-font-weight:          $font-weight-bold;

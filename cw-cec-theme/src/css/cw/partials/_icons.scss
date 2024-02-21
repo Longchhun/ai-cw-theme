@@ -1,0 +1,379 @@
+.lexicon-icon {
+    margin-top: 0;
+}
+
+.cw-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+
+    &-dot {
+        background-color: $primary;
+        border-radius: 50%;
+        margin-right: 0.625rem;
+    }
+
+    &-asterisk {
+        width: 0.437rem !important;
+        height: 0.437rem !important;
+    }
+    &-tn {
+        width: 0.75rem !important;
+        height: 0.75rem !important;
+    }
+    &-xs {
+        width: 1rem !important;
+        height: 1rem !important;
+    }
+    &-view-all {
+        width: 0.813rem;
+        height: 0.438rem;
+    }
+    &-trash {
+        width: 0.875rem !important;
+        height: 1.125rem !important;
+    }
+    &-download {
+        width: 1.145rem !important;
+        height: 1.125rem !important;
+    }
+    &-sm {
+        width: 1.25rem !important;
+        height: 1.25rem !important;
+    }
+    &-lg {
+        height: 1.75rem !important;
+        width: 1.75rem !important;
+    }
+    &-xl {
+        height: 2.125rem !important;
+        width: 2.125rem !important;
+        min-width: 2.5rem !important;
+        min-height: 2.5rem !important;
+    }
+    &-xxl {
+        height: 2.8125rem !important;
+        width: 2.8125rem !important;
+    }
+    &-1xl {
+        width: 3.0313rem;
+        height: 3.0313rem;
+    }
+    &-2xl {
+        width: 3.875rem;
+        height: 3.875rem;
+    }
+    &-3xl {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    &-18-10 {
+        width: 1.125rem !important;
+        height: 0.625rem !important;
+    }
+    &-100 {
+        width: 6.25rem !important;
+        height: 6.25rem !important;
+    }
+    &-142 {
+        height: 8.875rem;
+        width: 8.875rem;
+    }
+    &-160 {
+        height: 10rem;
+        width: 10rem;
+    }
+    &-170 {
+        height: 10.625rem;
+        width: 10.625rem;
+    }
+    &-188-169 {
+        height: 11.75rem;
+        width: 10.5625rem;
+    }
+    &-216-194 {
+        height: 13.5rem;
+        width: 12.125rem;
+    }
+    &-240-170 {
+        width: 15rem;
+        height: 10.625rem;
+    }
+    &-240-200 {
+        width: 15rem;
+        height: 12.5rem;
+    }
+    &-300 {
+        width: 18.75rem;
+        height: 18.75rem;
+    }
+    &-354-173 {
+        width: 22.125rem;
+        height: 10.813rem;
+    }
+
+    &-600-430 {
+        width: 37.5rem;
+        height: 26.875rem;
+    }
+
+    &-message {
+        width: 6.3rem;
+        height: 6.3rem;
+    }
+
+    &.cec-icon-user-book {
+        width: 1.25rem;
+    }
+
+    &-file {
+        width: 1.625rem;
+        height: 1.75rem;
+    }
+
+    &-mail-box {
+        height: 6.5rem;
+        width: 7.5rem;
+    }
+
+    &-plus {
+        width: 0.6875rem;
+        height: 0.6875rem;
+    }
+
+    &-empty-search {
+        width: 4.651rem;
+        height: 6.25rem;
+    }
+
+    &-collapse {
+        transform: rotate(180deg);
+        width: 1rem;
+        height: 0.4375rem;
+    }
+
+    &-search {
+        width: 0.6875rem;
+        height: 0.6875rem;
+        position: absolute;
+        top: 42%;
+        left: 1.25rem;
+    }
+    &-recording {
+        width: 6.8125rem;
+        height: 5rem;
+    }
+
+    &-remove-image {
+        position: absolute;
+        top: -0.4375rem;
+        right: -0.4375rem;
+        width: 0.8125rem;
+        height: 0.8125rem;
+        cursor: pointer;
+    }
+    &-empty-upload {
+        width: 12.5rem !important;
+        height: 8.75rem !important;
+    }
+
+    &-empty {
+        width: 14.875rem !important;
+        height: 10.313rem !important;
+    }
+
+    &.cec-icon-back {
+        height: 1.625rem;
+        width: 1.625rem;
+    }
+
+    &.cw-icon-messages-bubble-empty {
+        width: 1.5rem;
+    }
+
+    &.lexicon-icon-times-circle {
+        @include cw-transition(transform);
+    }
+
+    &-profile {
+        border-radius: 1rem;
+    }
+    &-form-size {
+        width: 3.1875rem;
+        height: 3.1875rem;
+    }
+    &-heart {
+        max-width: 1.875rem;
+        max-height: 1.875rem;
+        overflow: visible !important;
+
+        use {
+            fill: transparent;
+            stroke: rgba(59, 51, 51, 0.7);
+            stroke-width: 1.2;
+            transition: all 0.33s ease;
+
+            &:last-child {
+                fill: $red-alt-1;
+                stroke: $red-alt-1;
+                opacity: 0;
+                transform: scale(.33);
+                transform-origin: center;
+            }
+        }
+    }
+}
+
+.on .cw-icon-heart {
+    use {
+        stroke: transparent;
+
+        &:last-child {
+            opacity: 1;
+            transform: none;
+            transition: all 0.5s cubic-bezier(.19, 2.41, .45, .94);
+        }
+    }
+}
+
+/* ---------- Omni Admin Icon animation ---------- */
+
+.cw-icon-product-menu {
+    display: inline-block;
+    height: 20px;
+    margin: 10px 4px 0 4px;
+    position: relative;
+    width: 20px;
+
+    &__menu {
+        border-left: 1px solid $primary;
+        border-radius: 1px;
+        height: 16px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.6s $ease-out-quart 0.2s;
+    }
+
+    &__page {
+        border: 1px solid $primary;
+        border-radius: 1px;
+        content: '';
+        height: 18px;
+        position: absolute;
+        right: 0;
+        top: -1px;
+        transition: all 0.3s $ease-out-quart 0.2s;
+        width: 15px;
+    }
+}
+
+body.open .cw-icon-omni-admin {
+    &__menu {
+        border-left-width: 6px;
+        height: 18px;
+        left: 4px;
+        top: -1px;
+    }
+
+    &__page {
+        border-left-width: 9px;
+        width: 19px;
+    }
+}
+
+.icon-rotate {
+    &-45 {
+        transform: rotate(45deg);
+    }
+    &-180 {
+        transform: rotate(180deg);
+    }
+    &-360 {
+        transform: rotate(360deg);
+    }
+}
+
+.taglib-empty-result-message .taglib-empty-result-message-header {
+    background-image: url(@theme_image_path@/emoticons/sad_search_results.gif);
+    &.announcement-empty-state {
+        background-image: url(@theme_image_path@/emoticons/empty_announcement.svg);
+    }
+}
+
+.icon-loading {
+    height: 6.25rem;
+    width: 6.25rem;
+
+    &-xs {
+        height: 2.1875rem;
+        width: 2.1875rem;
+    }
+
+    &-lg {
+        height: 9.375rem;
+        width: 9.375rem;
+    }
+
+    &-xlg {
+        height: 12.5rem;
+        width: 12.5rem;
+    }
+}
+
+svg[class*='icon-loading'] {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.confirm-indicator__icon {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 0 auto 30px auto;
+    width: 150px;
+
+    &.success {
+        background-color: $success;
+    }
+
+    &.warning {
+        background-color: $warning;
+    }
+
+    &.danger {
+        background-color: $danger;
+    }
+
+    svg {
+        color: $white;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.icon-lightbulb {
+    color: $black;
+
+    @media (max-width: $screen-xs-max) {
+        font-size: $font-size-xxlarge;
+        padding-right: 10px;
+    }
+}
+
+.icon-phone {
+    color: $primary;
+}
+
+.attachment-icon {
+    width: 1.0625rem;
+    height: 1.1875rem;
+}
+
+.icon-monospaced .lexicon-icon {
+    height: 2rem;
+    width: 2rem;
+    padding: 0.5rem;
+}

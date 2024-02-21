@@ -1,0 +1,62 @@
+
+.learning-path-item {
+
+    a {
+        color: $black;
+    }
+
+    padding-top: 30px;
+
+    .course-items {
+        .rounded-circle {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 10px;
+            margin-top: 2px;
+            border: 1px solid $gray-light;
+        }
+    }
+    .learning-path-tag {
+        @include media-breakpoint-up(md) {
+            width: 282px;
+        }
+
+        .badge {
+            font-size: 10px;
+            padding: 5px 9px;
+        }
+        .badge-success {
+            background-color: $orange;
+        }
+    }
+    .learning-path-info {
+        @include media-breakpoint-up(md) {
+            width: 240px;
+        }
+    }
+    h4 {
+        margin: 5px 0;
+    }
+    .subtitle-learning-path {
+        color: $orange;
+    }
+    .black-text {
+        color: $black;
+    }
+    .action-menu {
+        .dropdown-toggle {
+            font-size: 18px;
+            padding: 0 10px;
+            cursor: pointer;
+        }
+        .dropdown-menu-right {
+            right: 10px;
+        }
+    }
+    .learning-path-thumbnail {
+        width: 14.688rem !important;
+        height: 8.938rem !important;
+        object-fit: cover;
+    }
+}

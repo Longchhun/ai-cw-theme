@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Card</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-53" transform="translate(1.000000, 1.000000)" stroke="#8E8E8E">
+            <rect id="Rectangle" x="0" y="1.56469565" width="12" height="8.86956522" rx="1"></rect>
+            <path d="M1.56521739,2.60869565 L1.56521739,4.95652174 C1.56521739,5.38874459 1.91560324,5.73913043 2.34782609,5.73913043 C2.78004893,5.73913043 3.13043478,5.38874459 3.13043478,4.95652174 L3.13043478,1.04347826 C3.13043478,0.467181131 2.66325365,6.32827124e-13 2.08695652,6.32827124e-13 C1.51065939,6.32827124e-13 1.04347826,0.467181131 1.04347826,1.04347826 L1.04347826,1.56521739" id="Path"></path>
+            <line x1="4.69565217" y1="4.1733913" x2="10.4347826" y2="4.1733913" id="Path"></line>
+            <line x1="4.17391304" y1="6.26034783" x2="10.4347826" y2="6.26034783" id="Path"></line>
+            <line x1="1.56521739" y1="8.34730435" x2="10.4347826" y2="8.34730435" id="Path"></line>
+        </g>
+    </g>
+</svg>

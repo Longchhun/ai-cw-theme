@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M30,0 C46.5684,0 60,13.4316 60,30 C60,46.569 46.5678,60 30,60 C13.431,60 0,46.569 0,30 C0,13.4316 13.431,0 30,0 Z" id="Path-Copy-6" fill="#3DB39E"></path>
+            <polygon id="Path" fill="#FFFFFF" points="9.65217391 15.9130435 50.3478261 15.9130435 50.3478261 44.3478261 9.65217391 44.3478261"></polygon>
+            <polygon id="Path" fill="#E2574C" points="12.7826087 24 38.0869565 24 38.0869565 40.173913 12.7826087 40.173913"></polygon>
+            <polygon id="Path" fill="#C04A41" points="41.4782609 24 47.2173913 24 47.2173913 27.1304348 41.4782609 27.1304348"></polygon>
+            <polygon id="Path" fill="#C04A41" points="41.4782609 30.5217391 47.2173913 30.5217391 47.2173913 33.6521739 41.4782609 33.6521739"></polygon>
+            <polygon id="Path" fill="#C04A41" points="41.4782609 37.0434783 47.2173913 37.0434783 47.2173913 40.173913 41.4782609 40.173913"></polygon>
+            <polygon id="Path" fill="#324D5B" points="9.65217391 15.9130435 50.3478261 15.9130435 50.3478261 20.8695652 9.65217391 20.8695652"></polygon>
+            <polygon id="Path" fill="#FEECD6" points="46.3754941 17.4782609 48 17.4782609 48 19.0434783 46.3754941 19.0434783"></polygon>
+            <polygon id="Path" fill="#FEECD6" points="18.7588933 17.4782609 20.3833992 17.4782609 20.3833992 19.0434783 18.7588933 19.0434783"></polygon>
+            <polygon id="Path" fill="#FEECD6" points="12.2608696 17.4782609 13.8853755 17.4782609 13.8853755 19.0434783 12.2608696 19.0434783"></polygon>
+            <polygon id="Path" fill="#FEECD6" points="15.5098814 17.4782609 17.1343874 17.4782609 17.1343874 19.0434783 15.5098814 19.0434783"></polygon>
+            <polygon id="Path" fill="#F7F8F9" points="22.6956522 36.2608696 22.6956522 28.173913 30.7826087 32.2173913"></polygon>
+        </g>
+    </g>
+</svg>

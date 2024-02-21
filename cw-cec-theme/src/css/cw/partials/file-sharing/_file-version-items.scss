@@ -1,0 +1,11 @@
+.file-version-item {
+    .dropdown-menu {
+        .dropdown-item:active,
+        li > a:active {
+            background-color: $white-dark;
+        }
+    }
+}
+.swal2-actions.file-version-actions {
+    z-index: 0;
+}

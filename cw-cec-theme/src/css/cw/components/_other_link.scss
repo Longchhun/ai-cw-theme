@@ -1,0 +1,26 @@
+.other-link-wrapper {
+    .cec-p-4 {
+        &:last-child {
+            padding-top: 0 !important;
+        }
+    }
+    .link-item-card {
+        border: 1px solid $border-color-base;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+
+        .item-image {
+            padding: 1rem;
+
+            img {
+                width: 10rem;
+            }
+        }
+        .description {
+            padding-top: 1rem;
+        }
+        .btn-link-item {
+            width: 10rem;
+        }
+    }
+}

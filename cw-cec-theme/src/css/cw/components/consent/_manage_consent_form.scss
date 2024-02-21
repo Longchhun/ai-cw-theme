@@ -1,0 +1,22 @@
+.manage-consent-form-wrapper {
+
+    .cw-pagination-wrapper {
+        .cw-pagination {
+            height: auto !important;
+        }
+
+        @include media-breakpoint-up(sm) {
+            padding-left: 15rem !important;
+            padding-right: 15rem !important;
+        }
+    }
+
+    .btn-create-form {
+        margin: 0 !important;
+    }
+    a[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+}
+

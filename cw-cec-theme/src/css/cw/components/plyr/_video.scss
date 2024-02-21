@@ -1,0 +1,8 @@
+.plyr--video {
+    width: 53.125rem;
+    height: 30.5rem !important;
+
+    @include media-breakpoint-down(sm) {
+        height: 12.5rem !important;
+    }
+}

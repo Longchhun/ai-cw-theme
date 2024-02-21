@@ -1,0 +1,38 @@
+.cec-card.cec-card--navlist {
+    padding: 20px;
+
+    .nav {
+        /* Because we need to add the nav class for Bootstrap's scrollspy to
+           work properly, we need to unset some of the styling that the nav
+           class adds. */
+
+        :before,
+        :after {
+            content: none;
+        }
+
+        > li {
+            @include display(flex);
+
+            > a {
+                padding: 0;
+            }
+        }
+    }
+
+    .cec-card__list-item {
+        &.active a {
+            color: $black;
+        }
+
+        a {
+            color: $gray;
+            font-weight: bold;
+            text-decoration: none;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}

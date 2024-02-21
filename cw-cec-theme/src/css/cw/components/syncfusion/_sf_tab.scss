@@ -1,0 +1,118 @@
+// refs: Overwrite style syncfusion https://ej2.syncfusion.com/vue/documentation/tab/style/
+
+.sf-tablist {
+    &.e-tab {
+        .e-content .e-item {
+            color: $primary;
+            font-size: $font-size-regular;
+        }
+
+        .e-tab-header {
+            .e-toolbar-item.e-active .e-tab-text {
+                font-weight: $font-weight-bold !important;
+                color: $black !important;
+            }
+
+            .e-tab-text {
+                font-size: $font-size-regular !important;
+                font-family: $font-family-sans-serif !important;
+            }
+            .e-indicator {
+                background: $primary;
+            }
+        }
+    }
+
+    &--xs {
+        .e-text-wrap,
+        .e-tab-wrap,
+        .e-toolbar-item,
+        .e-toolbar-items {
+            height: 3.125rem !important;
+        }
+    }
+    &--sm {
+        .e-text-wrap,
+        .e-tab-wrap,
+        .e-toolbar-item,
+        .e-toolbar-items {
+            height: 3.75rem !important;
+        }
+    }
+
+    &--xs,
+    &--sm {
+        .e-toolbar-items {
+            @include media-breakpoint-down(xs) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        &.e-tab {
+            .e-tab-header {
+                .e-indicator {
+                    background: $teal-darker;
+                }
+
+                .e-toolbar-item.e-active .e-tab-text {
+                    font-weight: $font-weight-normal !important;
+                }
+
+                .e-toolbar-item {
+                    margin-right: 1.25rem !important;
+
+                    &:last-child {
+                        margin-right: 0 !important;
+                    }
+
+                    .e-tab-wrap {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+
+                    .e-tab-text {
+                        text-transform: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &--lg {
+        .e-text-wrap,
+        .e-tab-wrap,
+        .e-toolbar-item,
+        .e-toolbar-items {
+            height: 4.75rem !important;
+        }
+
+        &.e-tab {
+            .e-tab-header {
+                .e-indicator {
+                    background: $teal-darker;
+                }
+                .e-toolbar-item.e-active .e-tab-text {
+                    font-weight: $font-weight-normal !important;
+                }
+
+                .e-toolbar-item {
+                    margin-right: 1.875rem !important;
+
+                    &:last-child {
+                        margin-right: 0 !important;
+                    }
+                    .e-tab-wrap {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                    .e-tab-text {
+                        font-size: $h1-font-size !important;
+                        font-weight: $font-weight-light !important;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+#web-notification-container {
+    .notification {
+        &:hover {
+            background-color: $gray-100;
+        }
+    }
+}

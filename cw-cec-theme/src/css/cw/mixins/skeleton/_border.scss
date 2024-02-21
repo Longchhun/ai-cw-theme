@@ -1,0 +1,28 @@
+@use './space';
+
+$borders-radius: (
+  md: (
+    size: space.size(xxs),
+  ),
+  lg: (
+    size: space.size(xs),
+  ),
+  xl: (
+    size: space.rem(10),
+  ),
+  pill: (
+    size: space.rem(100),
+  ),
+);
+
+@function radius($type: md) {
+  $size-exists: map-has-key($borders-radius, $type);
+  @if $size-exists == false { @error '#{$type} doesn`t exist on border-radius list.' }
+
+  $style: map-get($borders-radius, $type);
+  @return map-get($style, size);
+}
+
+@mixin radius($size: md) {
+  border-radius: radius($size);
+}

@@ -1,0 +1,30 @@
+.phone-input {
+    .vue-tel-input {
+        &:focus {
+            border-color: $input-border-focus !important;
+        }
+        &.invalid {
+            border-color: $red;
+        }
+        .dropdown {
+            border-right: 0.0625rem solid $input-border;
+            margin-right: .5rem;
+        }
+        .input-phone-number {
+            background-color: transparent;
+            font-size: $font-size-regular;
+            text-align: justify;
+            padding-top: 0.3125rem !important;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        .country-dial {
+            font-size: $font-size-regular;
+            color: $black;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+}

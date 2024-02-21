@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Filter Mobile</title>
+    <g id="Member-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-32" transform="translate(0.521000, 0.501000)" stroke="currentColor">
+            <circle id="Oval" cx="9.47652941" cy="2.23529412" r="2.23529412"></circle>
+            <line x1="11.7095882" y1="2.23529412" x2="19" y2="2.23529412" id="Shape"></line>
+            <line x1="0" y1="2.23529412" x2="7.23676471" y2="2.23529412" id="Shape"></line>
+            <circle id="Oval" cx="5.00594118" cy="9.5" r="2.23529412"></circle>
+            <line x1="7.23676471" y1="9.5" x2="19" y2="9.5" id="Shape"></line>
+            <line x1="0" y1="9.5" x2="2.76617647" y2="9.5" id="Shape"></line>
+            <circle id="Oval" cx="7.24123529" cy="16.7647059" r="2.23529412"></circle>
+            <line x1="9.47205882" y1="16.7647059" x2="19" y2="16.7647059" id="Shape"></line>
+            <line x1="2.27373675e-13" y1="16.7647059" x2="5.00594118" y2="16.7647059" id="Shape"></line>
+        </g>
+    </g>
+</svg>

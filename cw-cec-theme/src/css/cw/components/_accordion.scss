@@ -1,0 +1,79 @@
+/**
+ *
+ * @atom .accordin
+ * @section Accordin
+ * @markup
+ *    <div class="border-bottom">
+ *       <div class="header accordion__header" role="tab">
+ *           <a class="d-flex justify-content-between collapse-icon position-relative collapsed text-decoration-none"
+ *               data-toggle="collapse"
+ *               href="#dropItem"
+ *               aria-expanded="false" aria-controls="dropItem">
+ *               <span>Accordin callapsed 1</span>
+ *               <span class="collapse-icon-open position-static">
+ *                   <i class="icon-chevron-up icon-1x" focusable="false" role="presentation"></i>
+ *               </span>
+ *               <span class="collapse-icon-closed position-static">
+ *                   <i class="icon-chevron-down icon-1x" focusable="false" role="presentation"></i>
+ *               </span>
+ *           </a>
+ *       </div>
+ *       <div id="dropItem" class="collapse" role="tabpanel" aria-labelledby="ariaLabelledby" data-parent="dataParent">
+ *           <div class="accordion-body accordion__body">
+ *               <p>Content 1</p>
+ *           </div>
+ *       </div>
+ *   </div>
+ *    <div class="border-bottom">
+ *       <div class="header accordion__header" role="tab">
+ *           <a class="d-flex justify-content-between collapse-icon position-relative text-decoration-none"
+ *               data-toggle="collapse"
+ *               href="#dropItem"
+ *               aria-expanded="true" aria-controls="dropItem">
+ *               <span>Accordin expanded 2</span>
+ *               <span class="collapse-icon-open position-static">
+ *                   <i class="icon-chevron-up icon-1x" focusable="false" role="presentation"></i>
+ *               </span>
+ *           </a>
+ *       </div>
+ *       <div id="dropItem" class="collapse show" role="tabpanel" aria-labelledby="ariaLabelledby" data-parent="dataParent">
+ *           <div class="accordion-body accordion__body">
+ *               <div class="form-group input-checkbox-wrapper">
+ *                   <label for="visibility0" class="font-weight-normal">
+ *                   <input type="radio" id="visibility0" value="1" />
+ *                       <span>Crosswired</span>
+ *                   </label>
+ *               </div>
+ *           </div>
+ *       </div>
+ *   </div>
+*/
+.accordion {
+    &__header {
+        font-size: $font-size-regular;
+        font-weight: $font-weight-bold;
+        &:target .collapse-icon-closed {
+            display: none !important;
+        }
+        .collapse-header {
+            color: $gray;
+            padding: 1.25rem 1.25rem;
+        }
+    }
+
+    &__body {
+        padding: 0 1.25rem 1.25rem 1.25rem;
+        input[type=radio] {
+            margin-right: 0.375rem;
+            vertical-align: text-bottom;
+        }
+        .textarea-excerpt {
+            min-height: 8.125rem;
+        }
+        .dropdown-width-128 {
+            @include media-breakpoint-up(md) {
+                width: 8rem !important;
+            }
+        }
+    }
+}

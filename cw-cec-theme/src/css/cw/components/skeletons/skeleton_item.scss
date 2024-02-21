@@ -1,0 +1,43 @@
+
+.skeleton-button {
+    width: 7.9375rem;
+    height: 2.5rem;
+}
+
+.skeleton-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.skeleton-badge {
+  border-radius: 0.25rem;
+}
+
+.skeleton-threedots {
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: .3125rem;
+}
+
+
+.skeleton-paragraph-50 {
+    width: 3.125rem;
+}
+
+.skeleton-paragraph-100 {
+    width: 6.25rem;
+}
+
+.skeleton-paragraph-250 {
+    width: 15.625rem;
+    @media (max-width: $screen-sm-max) {
+        width: 100%;
+    }
+}
+
+.skeleton-paragraph-350 {
+    width: 21.875em;
+    @media (max-width: $screen-sm-max) {
+        width: 100%;
+    }
+}

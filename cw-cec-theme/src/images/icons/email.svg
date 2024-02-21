@@ -1,0 +1,10 @@
+<svg viewBox="0 0 20.167 20.167" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10" transform="translate(.083 .083)">
+        <circle cx="9.583" cy="9.583" r="9.583" transform="translate(.417 .417)"/>
+        <path d="M15.416 7.5v5.417a.833.833 0 0 1-.833.833H5.416a.833.833 0 0 1-.833-.833V7.5"/>
+        <path
+            d="M15.416 7.5v-.417a.833.833 0 0 0-.833-.833H5.416a.833.833 0 0 0-.833.833V7.5l4.754 2.711a1.25 1.25 0 0 0 1.325 0z"
+            data-name="Shape"/>
+    </g>
+</svg>

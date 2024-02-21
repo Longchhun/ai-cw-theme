@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.021 54.022">
+  <g transform="translate(-9266.129 -3663.995)" stroke="currentColor">
+    <g transform="translate(9264.5 3664.5)">
+      <rect width="37.199" height="37.199" rx="1" transform="translate(2.335 26.506) rotate(-45)"
+        stroke-width="1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10" fill="none"/>
+      <path d="M1.2,16.739V0" transform="translate(27.5 14.611)" fill="none" stroke="currentColor"
+        stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path d="M1.2,1.2h0" transform="translate(27.49 34.937)" fill="none" stroke="currentColor"
+        stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path d="M1.169.6a.586.586,0,0,0-.567.61.607.607,0,0,0,.6.586h.022a.588.588,0,0,0,.567-.61A.6.6,0,0,0,1.2.6"
+        transform="translate(27.495 35.535)" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/><path d="M1.206,1.2H1.185"
+      transform="translate(27.489 34.937)" fill="none" stroke="currentColor" stroke-linecap="round"
+      stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

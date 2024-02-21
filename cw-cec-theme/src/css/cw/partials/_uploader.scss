@@ -1,0 +1,72 @@
+.lfr-upload-container {
+    .upload-target {
+        border-color: $gray-lighter;
+        border-radius: $border-radius-base;
+    }
+
+    .upload-file {
+        border-radius: $border-radius-base;
+    }
+}
+
+#uploadDescription {
+    input[class^="input-file"] {
+        display: none !important;
+    }
+
+    label[class^="btn btn-default"] {
+        padding: 8px 0 !important;
+    }
+}
+
+.cw-form-image-wrapper {
+    position: relative;
+    height: 126px;
+    border: 1px solid $border-color-base;
+    border-radius: $border-radius;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+    button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        &.on-top-right {
+            display: none;
+            left: initial;
+            right: 1%;
+            top: 2%;
+            transform: translate(0, 0);
+            @include media-breakpoint-down(xs) {
+                display: block;
+            }
+        }
+    }
+    &:hover {
+        button {
+            &.on-top-right {
+                display: block;
+            }
+        }
+    }
+}
+
+.image-upload-container {
+
+    &.empty-image {
+        height: 24.5rem;
+        @include media-breakpoint-down(xs) {
+            height: 15rem !important;
+            width: auto !important;
+        }
+    }
+    .cw-form-image-wrapper {
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+#session-expired-popup {
+
+    .transparent-background {
+        z-index: 9998;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        background-color: $gray-darker;
+        opacity: 0.95;
+    }
+
+    .session-expired-wrapper {
+        z-index: 9999;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+
+        .session-expired-container {
+            min-height: 12.5rem;
+            max-width: 25rem;
+            background: $white;
+            border-radius: 0.625rem;
+            border: 0.0625rem solid #E2E2E2;
+
+            .title {
+                font-size: 1.625rem;
+                line-height: 1.625rem;
+            }
+
+            a {
+                width: fit-content;
+            }
+        }
+    }
+}

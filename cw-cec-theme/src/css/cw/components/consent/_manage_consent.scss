@@ -1,0 +1,76 @@
+.manage-consent {
+    .consent-card {
+        border-radius: .5rem;
+    }
+}
+
+.manage-consent-form-wrapper {
+
+    .consent-form-content {
+        height: calc(100vh - 6.25rem);
+    }
+
+    .create-custom-consent-from {
+        color: $primary;
+    }
+
+    .selected-form {
+        border: 0.125rem solid $primary !important;
+    }
+
+    .selected-form-icon {
+        color: $primary;
+    }
+
+    .preview-consent-form {
+        .scroll-content {
+            &::-webkit-scrollbar-thumb, &::-webkit-scrollbar-track {
+                border-radius: 0.625rem;
+                margin-top: 0.25rem;
+                margin-bottom: 0.25rem;
+            }
+        }
+    }
+
+    .preview-selected-form-container {
+        background-color: $white-darker-alt1;
+
+        .consent-item {
+            p {
+                display: inline
+            }
+        }
+    }
+
+    .view-consent-items-wrapper {
+
+        .right-container {
+            background-color: $white-darker-alt1;
+        }
+
+        .scroll-content {
+            height: 16.875rem;
+
+            &::-webkit-scrollbar-thumb, &::-webkit-scrollbar-track {
+                border-radius: 0.625rem;
+                margin-top: 0.25rem;
+                margin-bottom: 0.25rem;
+            }
+        }
+
+        .circle-number {
+            width: 1.375rem;
+            height: 1.375rem;
+            border-radius: 50%;
+            border: 0.0625rem solid $black;
+        }
+    }
+
+    .bottom-button {
+        @include media-breakpoint-down(sm) {
+            width: calc(100% - 2.5rem);
+            position: absolute;
+            bottom: 1.25rem;
+        }
+    }
+}

@@ -1,0 +1,308 @@
+/**
+ *
+ * @atom btn
+ * @section Button
+ * @modifiers
+ *  .btn
+ *  .btn-transparent background transparent keep the same size
+ *  .btn-default is deprecated but still use in Liferay
+ *  .btn-action use to work with icon
+ * @markup
+ *   <button class="btn btn-primary">Button primary</button>
+ *   <button class="btn btn-transparent">Button transparent</button>
+ *   <button class="btn btn-action ">@{include:.cw-icon-add-photo}&nbspButton Action</button>
+*/
+
+.btn {
+    white-space: nowrap;
+    &:not(.btn-unstyled):not(.btn-icon-only):not(.link-icon):not(.btn-square):not(.nav-btn):not(.ddm-form-field-repeatable-add-button):not(.ddm-form-field-repeatable-delete-button) {
+        min-width: 127px;
+        min-height: 40px;
+    }
+    &:focus,
+    &:active:focus {
+        outline: none;
+        outline-offset: 0;
+    }
+    &.disabled,
+    &[disabled] {
+        opacity: 0.2;
+    }
+    &-connection {
+        min-width: 6.25rem !important;
+        min-height: 1.875rem !important;
+    }
+    &-transparent {
+        background-color: transparent;
+    }
+    &-action {
+        min-width: 52px;
+        line-height: $line-height-base;
+        z-index: auto;
+
+        @media (min-width: $screen-sm-min) {
+            min-width: 64px;
+        }
+    }
+    &-footer {
+        padding: 0.56rem 2rem;
+        @include media-breakpoint-down(xs) {
+            width: 100%;
+        }
+    }
+    &-xs-full-width {
+        @include media-breakpoint-down(xs) {
+            width: 100%;
+        }
+    }
+    &-image {
+        background-size: cover;
+        background-position: center;
+        width: 100px;
+        height: 100px;
+        color: $color-grey-dark-alt1;
+        border-color: $color-grey-light-alt4;
+        padding: 0;
+        position: relative;
+
+        &:hover {
+            color: $primary;
+        }
+
+        .lexicon-icon {
+            top: 50%;
+            left: 50%;
+            margin-top: -12px;
+            margin-left: -12px;
+            position: absolute;
+            width: 24px;
+            height: 24px;
+        }
+        input[type="file"] {
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        .video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .video-content {
+            width: 100%;
+            height: 100%;
+        }
+        .video-node {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &-link {
+        border-color: $primary;
+        font-weight: $font-weight-bold;
+        &.active,
+        &:active,
+        &.active:hover,
+        &:active:hover,
+        &:hover,
+        &:focus {
+            background-color: $primary;
+            border-color: $primary;
+            text-decoration: none;
+        }
+
+        &[disabled] {
+            opacity: 0.2;
+        }
+        &-icon {
+            align-items: center;
+            background-color: transparent !important;
+            border-width: 0;
+            color: $gray !important;
+            display: flex;
+            font-weight: $font-weight-normal;
+            min-width: 0;
+            padding: 0 !important;
+
+            &:hover,
+            &:focus {
+                background-color: transparent !important;
+                color: $primary;
+            }
+
+            svg {
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+
+            i[class^='icon-'] {
+                font-size: 20px;
+                margin-right: 8px;
+            }
+        }
+    }
+    &-icon-only {
+        min-width: 0;
+        min-height: 0;
+    }
+    &-change-photo {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-color: $gray;
+        color: $gray;
+        display: none;
+        letter-spacing: 0.5px;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        svg {
+            color: $gray;
+            height: 18px;
+            width: 18px;
+        }
+
+        span {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            background-color: $primary;
+            border-color: $primary;
+            color: $white;
+
+            svg {
+                color: $white;
+            }
+        }
+    }
+    &-file {
+        position: relative;
+        input[type='file'] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+    }
+    &-rotate-wrapper {
+        a {
+            color: $gray;
+            &:hover,
+            &:focus {
+                color: $link-hover-color;
+            }
+        }
+    }
+    &-light {
+        background-color: transparent;
+        border-color: $border-color-base;
+        color: $gray;
+        &:hover,
+        &:focus {
+            background-color: $white-dark;
+            color: $black;
+        }
+    }
+    &-warning {
+        color: $white;
+    }
+    &-outline-warning {
+        &:hover {
+            color: $white;
+        }
+    }
+    &-play {
+        width: 9.75rem;
+        height: 9.75rem;
+        @include media-breakpoint-up(sm) {
+            width: 18.75rem;
+            height: 18.75rem;
+        }
+    }
+
+    &-play--sm {
+        height: 10.5625rem;
+        width: 10.5625rem;
+
+        @include media-breakpoint-down(sm) {
+            width: 5.75rem;
+            height: 5.75rem;
+        }
+    }
+
+
+    &--width-200 {
+        width: 12.5rem;
+    }
+    &--width-240 {
+        width: 15rem;
+    }
+    &--width-150 {
+        width: 9.375rem;
+    }
+    &--width-257 {
+        width: 16.0625rem;
+    }
+    &--width-220 {
+        width: 13.75rem;
+    }
+    &--width-110 {
+        width: 6.875rem !important;
+        min-width: 6.875rem !important;
+    }
+    &-md--width-257 {
+        @include media-breakpoint-up(md) {
+            width: 16.0625rem;
+        }
+    }
+    &-md--width-265 {
+        @include media-breakpoint-up(md) {
+            width: 16.5625rem;
+        }
+    }
+    &-md--width-245 {
+        @include media-breakpoint-up(md) {
+            width: 15.3125rem;
+        }
+    }
+    &-md--min-width-98 {
+        @include media-breakpoint-up(md) {
+            min-width: 6.125rem !important;
+        }
+    }
+
+    &--height-40 {
+        height: 2.5rem;
+    }
+    &--height-45 {
+        height: 2.813rem;
+    }
+    &--height-30 {
+        min-height: 1.875rem !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    &--min-height-35 {
+        @include media-breakpoint-up(md) {
+            min-height: 2.188rem !important;
+        }
+    }
+}
+
+@import 'button/base';
+@import 'button/btn-default';
+@import 'button/btn-holder';
+@import 'button/cec-btn-sticky';
+@import 'button/cw-btn-add-photo';
+@import 'button/cw-btn-icon';
+@import 'button/link-icon';
+@import 'button/cec-btn-transparent';
+@import 'button/radio';

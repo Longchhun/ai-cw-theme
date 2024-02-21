@@ -1,0 +1,26 @@
+.quick-post-popup {
+    .multiselect,
+    .image-list-upload,
+    textarea {
+        &.disabled,
+        &:disabled {
+            pointer-events: none;
+            cursor: not-allowed;
+            background-color: transparent;
+            opacity: 0.3;
+        }
+    }
+
+    .quick-post-count-wrapper {
+        .cw-length-counter {
+            display: block !important;
+            position: absolute;
+            right: 0;
+            bottom: -1.5rem;
+        }
+    }
+
+    .image-list-upload .image-preview {
+        background-size: cover !important;
+    }
+}

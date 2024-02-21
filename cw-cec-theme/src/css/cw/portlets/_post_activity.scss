@@ -1,0 +1,189 @@
+.pos-sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 92px;
+
+    .has-control-menu & {
+        top: 156px;
+    }
+
+    &.no-space {
+        top: 71px;
+    }
+
+    .has-control-menu &.no-space {
+        top: 135px;
+    }
+}
+
+.getting-start {
+    .activity-item {
+        border-bottom: 0.063rem solid $border-color-base;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
+
+.white-space-break {
+    white-space: break-spaces;
+}
+
+.white-space-pre-line {
+    white-space: pre-line;
+}
+
+.post-sharing-scope {
+    &__options-wrapper {
+        label {
+            font-weight: $font-weight-normal;
+        }
+
+        .btn-group {
+            @include media-breakpoint-up(sm) {
+                margin-left: 6px;
+            }
+        }
+
+        .open {
+            >.dropdown-menu {
+                display: block;
+            }
+        }
+
+        .dropdown-menu {
+            padding: 20px 20px 10px 20px;
+            margin-top: -1px;
+            min-width: 240px;
+
+            .input-radio-wrapper {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    &__wp-wrapper {
+        max-height: 260px;
+        overflow-y: auto;
+
+        .cec-jumbotron {
+            @include media-breakpoint-up(sm) {
+                margin-bottom: 10px;
+            }
+        }
+
+        .checkbox {
+            &-group-wrapper {
+                max-height: 230px;
+                min-height: 250px;
+                overflow-y: auto;
+            }
+
+            +.checkbox {
+                margin-top: 0;
+            }
+
+            label {
+                font-weight: $font-weight-normal;
+                max-width: 250px;
+                padding-top: 3px;
+            }
+
+        }
+
+        .this-cop {
+            position: absolute;
+            top: 23px;
+            right: 15px;
+        }
+
+        .cop-item {
+            border-radius: 5px;
+
+            &.active {
+                margin-right: 0.125rem;
+                background: $color-grey-light-alt1;
+            }
+        }
+
+        .search-box-wrapper {
+            margin-bottom: 20px;
+
+            @include media-breakpoint-up(sm) {
+                margin-bottom: 0;
+            }
+        }
+
+        .has-feedback {
+            .form-control {
+                padding-right: 10px;
+
+                &:focus {
+                    border-color: $border-color-base;
+                }
+            }
+        }
+
+        .dropdown-menu {
+            padding: $padding-base 0;
+            margin-top: -1px;
+            max-width: 100%;
+            min-width: 240px;
+
+            .checkbox-group-wrapper {
+                max-height: 145px;
+                min-height: 145px;
+                padding: 0 $padding-base;
+                overflow-y: auto;
+            }
+        }
+    }
+}
+
+.edit-sharing-post {
+    &__wrapper {
+        cursor: pointer;
+
+        .multiselect {
+            border-radius: 0.3125rem;
+            width: fit-content;
+
+            &__content-wrapper {
+                margin-left: 0.5rem;
+                border: solid 1px $color-grey-light;
+                border-radius: 0.3125rem;
+                min-width: 11.875rem;
+                padding: 0.625rem 0.625rem;
+                margin-top: 0.3125rem;
+                box-shadow: 0.125rem 0.125rem 0.75rem 0 $color-grey-light;
+            }
+
+            &__select {
+                height: 1.9375rem;
+            }
+
+            &__tags {
+                margin-left: 0.5rem;
+                margin-top: 0.1875rem;
+                min-height: 1.9375rem;
+                padding-top: 0.3125rem;
+                border-bottom-left-radius: .3125rem !important;
+                border-bottom-right-radius: .3125rem !important;
+            }
+
+            &--active, &:hover {
+
+                &__select {
+                    top: 0;
+                }
+
+                .multiselect {
+                    &__tags, &__single {
+                        background: $color-grey-light-alt1;
+                    }
+                }
+            }
+        }
+    }
+}

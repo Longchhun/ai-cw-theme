@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Cato-icon" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-59" transform="translate(1.000000, 1.000000)" stroke="currentColor">
+            <rect id="Rectangle" x="0" y="0" width="26" height="26" rx="2"></rect>
+            <polyline id="Path" points="5.08695652 7.91304348 6.7826087 9.60869565 11.3043478 5.08695652"></polyline>
+            <polyline id="Path" points="5.08695652 19.2173913 6.7826087 20.9130435 11.3043478 16.3913043"></polyline>
+            <line x1="14.6956522" y1="9.04347826" x2="21.4782609" y2="9.04347826" id="Path"></line>
+            <line x1="14.6956522" y1="19.2173913" x2="21.4782609" y2="19.2173913" id="Path"></line>
+        </g>
+    </g>
+</svg>

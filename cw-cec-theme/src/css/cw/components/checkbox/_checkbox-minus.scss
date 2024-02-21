@@ -1,0 +1,7 @@
+.checkbox-minus {
+    input[type=checkbox]::after {
+        top: 0.5rem !important;
+        height: 0 !important;
+        transform: rotate(0deg) !important;
+    }
+}

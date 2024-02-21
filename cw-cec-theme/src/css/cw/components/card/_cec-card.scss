@@ -1,0 +1,151 @@
+.cec-card {
+    background-color: $white;
+    background-clip: border-box;
+    border: 1px solid $border-color-base;
+    border-radius: $border-radius-base;
+    position: relative;
+    word-break: break-word;
+
+    @import 'cec-card__content';
+    @import 'cec-card__header';
+    @import 'cec-card__title';
+    @import 'cec-card__body';
+    @import 'cec-card__footer--interaction';
+    @import 'cec-card__carousel';
+
+    &__toolbar {
+        align-items: center;
+        border-bottom: 1px solid $border-color-base;
+        display: flex;
+        padding: $padding-base;
+
+        @media (min-width: $screen-sm-min) {
+            padding: $padding-base $padding-desktop-base;
+        }
+    }
+
+    &__footer {
+        border-top: 1px solid $border-color-base;
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px $padding-base $padding-base $padding-base;
+        @media (min-width: $screen-sm-min) {
+            padding: $padding-base $padding-desktop-base;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        span {
+            font-weight: normal;
+        }
+    }
+
+    &__list {
+        list-style-type: none;
+        margin-bottom: $cec-spacing;
+        padding: 0;
+    }
+
+    &__list-item {
+        align-items: center;
+        display: flex;
+        padding: $cec-spacing 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid $color-border;
+        }
+    }
+
+    &__action-row {
+        color: $gray;
+        display: flex;
+        align-items: center;
+    }
+
+    &__action {
+
+        &:not(:last-child) {
+            margin-right: 16px;
+        }
+
+        .cw-icon {
+            height: 18px;
+            width: 18px;
+        }
+
+        a {
+            display: flex;
+            color: $gray;
+            &:hover,
+            &:focus {
+                color: $link-hover-color;
+                text-decoration: none;
+
+                svg.cw-icon-heart {
+                    color: $red;
+                }
+            }
+        }
+    }
+
+    &__headline {
+        @media (min-width: $screen-sm-min) {
+            max-width: 380px;
+        }
+    }
+
+    &__datetime {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    &--lg {
+        max-width: 470px;
+        width: 100%;
+    }
+
+    &--xl {
+        max-width: 940px;
+        width: 100%;
+    }
+    &--panel {
+        > .cec-card {
+            &__header {
+                border-bottom-width: 4px;
+                border-bottom-color: $border-color-base;
+            }
+        }
+    }
+    &--sm {
+        > .cec-card {
+            &__header {
+                padding: $padding-base;
+            }
+            &__body {
+                padding: $padding-base;
+                &--full-width {
+                    padding: $padding-base 0;
+                }
+            }
+        }
+    }
+
+    .cec-card__header_fix_height {
+        height: 3.75rem;
+        @include media-breakpoint-down(sm) {
+            height: 100%;
+        }
+    }
+}

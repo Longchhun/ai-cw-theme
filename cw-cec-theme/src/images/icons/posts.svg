@@ -1,0 +1,15 @@
+<svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Group 1" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path
+            d="M24.5 3.026v18.947a2.338 2.338 0 0 1-2.087 2.526H2.587A2.338 2.338 0 0 1 .5 21.973V3.026A2.339 2.339 0 0 1 2.587.5h19.826A2.339 2.339 0 0 1 24.5 3.026"/>
+        <path d="M.5 6.816h24" data-name="Shape 2"/>
+        <path d="M4.526 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268" data-name="Shape 3"/>
+        <path d="M7.546 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268" data-name="Shape 4"/>
+        <path d="M10.675 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268"
+            data-name="Shape 5"/>
+        <path d="M3.721 11.868h4.831" data-name="Shape 9"/>
+        <path d="M3.721 15.658h8.052" data-name="Shape 10"/>
+        <path d="M3.721 19.447h17.178" data-name="Shape 11"/>
+    </g>
+</svg>

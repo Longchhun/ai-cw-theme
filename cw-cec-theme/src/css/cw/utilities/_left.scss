@@ -1,0 +1,15 @@
+.left-md-auto {
+    @include media-breakpoint-up(sm) {
+        left: auto !important;
+    }
+}
+
+.left-sm-n55px {
+    @include media-breakpoint-down(sm) {
+        left: -3.438rem !important;
+    }
+}
+
+.left-55 {
+    left: 55% !important;
+}

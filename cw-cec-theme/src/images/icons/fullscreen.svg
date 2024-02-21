@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Iteration-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Mini-Chat-Search-Conversation-Result" transform="translate(-452.000000, -16.000000)" stroke="currentColor">
+            <g id="Group-15" transform="translate(0.000000, 14.000000)">
+                <g id="Group-7" transform="translate(24.000000, 0.000000)">
+                    <g id="Group-30" transform="translate(381.000000, 3.000000)">
+                        <g id="expand-1" transform="translate(48.000385, 0.332667)">
+                            <line x1="15.6521739" y1="8.34782609" x2="24" y2="0" id="Shape"></line>
+                            <line x1="0" y1="24" x2="8.34782609" y2="15.6521739" id="Shape"></line>
+                            <polyline id="Shape" points="5.2173913 24 0 24 0 18.7826087"></polyline>
+                            <polyline id="Shape" points="24 5.2173913 24 0 18.7826087 0"></polyline>
+                            <line x1="15.6521739" y1="15.6521739" x2="24" y2="24" id="Shape"></line>
+                            <line x1="0" y1="0" x2="8.34782609" y2="8.34782609" id="Shape"></line>
+                            <polyline id="Shape" points="0 5.2173913 0 0 5.2173913 0"></polyline>
+                            <polyline id="Shape" points="18.7826087 24 24 24 24 18.7826087"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

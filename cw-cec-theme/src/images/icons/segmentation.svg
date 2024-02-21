@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.999 24.414">
+    <g transform="translate(-.031 .208)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path d="M11.531 23.5l-2.307-2.544a1.5 1.5 0 0 1 2.307-1.918l2 2.286V13.5a1.5 1.5 0 1 1 3 0V18h3a4 4 0 0 1 4 4v1.5"/>
+        <circle cx="2.25" cy="2.25" r="2.25" transform="translate(13.281 1.499)"/>
+        <path data-name="Path" d="M20.031 10.503a4.644 4.644 0 0 0-9 0z"/>
+        <circle data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(2.781 5.499)"/>
+        <path data-name="Path" d="M9.531 14.503a4.644 4.644 0 0 0-9 0zM21.031.499l-1 1M10.031.499l1 1M21.445 4.499h-1.414M9.617 4.499h1.414"/>
+    </g>
+</svg>

@@ -1,0 +1,70 @@
+#_PostActivityWeb_postDetail,
+#_postDetailPortlet_postDetail,
+#_editPostPortlet_newPost,
+.cw-post-detail,
+.portlet-edit_post_wrapper {
+    .recent-post {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+
+        &-content {
+            padding-top: 0.6875rem;
+        }
+    }
+
+    .post-interaction-wrapper {
+
+        margin-top: -1.5625rem;
+        padding-bottom: 1.1875rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+
+        .cec-card__action-row {
+            padding-left: 0.625rem;
+            padding-right: 0.625rem;
+
+            @include media-breakpoint-down(sm) {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+        }
+
+        .cec-activity-post__title {
+            padding-right: 1.875rem;
+            padding-left: 1.875rem;
+        }
+
+        .cec-list-group__list-group-item {
+            margin: 0 !important;
+            padding-left: 1.875rem !important;
+            padding-right: 1.875rem !important;
+        }
+    }
+
+    @include media-breakpoint-up(sm) {
+        .post-duration {
+            text-align: right;
+        }
+
+        .user-info {
+            display: flex;
+        }
+    }
+
+    .post-content-wrapper {
+        .editor-content {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.cw-post-detail {
+    .recommendation-status,
+    .user-info-wrapper {
+        height: 4.875rem;
+        padding-top: 1rem;
+        padding-bottom: 0.625rem;
+    }
+}

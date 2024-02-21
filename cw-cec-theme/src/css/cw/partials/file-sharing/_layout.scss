@@ -1,0 +1,7 @@
+.layout-wrapper {
+    .cec-card__header_fix_height {
+        @include media-breakpoint-down(sm) {
+            height: 3.75rem !important;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.training-report-wrapper {
+    min-height: 27rem;
+
+    .tabulator {
+        &-header,
+        &-footer {
+            background-color: $white !important;
+            border-right: 0 !important;
+            border-left: 0 !important;
+            border-bottom: 1px dashed $border-color-base !important;
+            border-top: 1px dashed $border-color-base !important;
+        }
+        &-col {
+            border-right: 0 !important;
+        }
+        &-row {
+            border-bottom: 1px dashed $border-color-base !important;
+            .tabulator-responsive-collapse {
+                border-bottom: none !important;
+                border-top: 1px dashed $border-color-base !important;
+            }
+            &:hover {
+                background-color: $white-darker-alt1 !important;
+            }
+            .learner-badge {
+                font-size: 0.563rem !important;
+                background-color: $yellow-alt-2;
+                border-radius: 0.313rem;
+                padding-top: 0.2rem;
+                padding-bottom: 0.2rem;
+            }
+        }
+        &-placeholder {
+            position: relative;
+            width: 100% !important;
+            height: auto !important;
+            min-height: auto !important;
+        }
+        &-table {
+            padding-bottom: 0 !important;
+            width: auto;
+            minWidth: 100%;
+        }
+        &-tableHolder {
+            overflow-y: hidden !important;
+        }
+        &-paginator {
+            display: none;
+        }
+
+        .hide-cell {
+            .tabulator-cell {
+                &:first-child {
+                    padding: 0;
+                    margin-left: 1rem;
+                }
+                &:first-child + div {
+                    padding: 0;
+                    width: 0 !important;
+                }
+
+            }
+        }
+
+        .tabulator-responsive-collapse-toggle-open, .tabulator-responsive-collapse-toggle-close {
+            cursor: pointer;
+        }
+
+        font-size: $font-size-regular !important;
+        font-family: $font-family-sans-serif;
+        border: 0;
+    }
+}
+

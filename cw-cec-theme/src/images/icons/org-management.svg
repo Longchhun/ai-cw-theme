@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="ORG-MANAGEMENT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="hierarchy-6" stroke="currentColor">
+            <rect id="Rectangle" x="0.5" y="14.499" width="9" height="9" rx="1"></rect>
+            <rect id="Rectangle" x="14.5" y="14.499" width="9" height="9" rx="1"></rect>
+            <rect id="Rectangle" x="8.5" y="0.499" width="9" height="9" rx="1"></rect>
+            <path d="M20.5,14.5 L20.5,12.5 C20.5,11.9477153 20.0522847,11.5 19.5,11.5 L4.5,11.5 C3.94771525,11.5 3.5,11.9477153 3.5,12.5 L3.5,14.5" id="Path"></path>
+            <line x1="13.5" y1="9.499" x2="13.5" y2="11.499" id="Path"></line>
+            <line x1="10.5" y1="3.499" x2="15.5" y2="3.499" id="Path"></line>
+            <line x1="16.5" y1="17.499" x2="21.5" y2="17.499" id="Path"></line>
+            <line x1="2.5" y1="17.499" x2="7.5" y2="17.499" id="Path"></line>
+        </g>
+    </g>
+</svg>

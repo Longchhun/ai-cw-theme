@@ -1,0 +1,74 @@
+#dropzone {
+    border: 2px dashed $color-grey-alt1;
+    border-radius: 15px;
+    min-height: 130px;
+
+    b {
+        color: $font-color-regular;
+    }
+
+    &.has-file {
+        border: 0.125rem dashed $primary;
+    }
+
+    .dz-message {
+        margin: 1.25rem 0;
+
+        span {
+            &>span {
+                color: $primary;
+            }
+        }
+    }
+
+    .dz-error {
+        .dz-error-message {
+            display: block;
+            left: 15px;
+            opacity: 1;
+            top: 2.5rem;
+            width: 19.375rem;
+        }
+    }
+
+    .dz-preview-wrapper {
+        margin: 1.5625rem 1.5625rem 0 1.5625rem;
+    }
+
+    .dz-preview {
+        display: flex;
+        margin: 0;
+        min-height: 0;
+
+        .process-info {
+            color: $primary;
+        }
+    }
+
+    &.dropzone {
+
+        circle,
+        path {
+            cursor: pointer;
+        }
+    }
+
+    .cw-icon,
+    svg {
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+
+    .file-info {
+        line-height: 1.0625rem;
+
+        .dz-filename {
+            color: $font-color-regular;
+            font-weight: bold;
+        }
+    }
+
+    .process-info {
+        color: $primary;
+    }
+}

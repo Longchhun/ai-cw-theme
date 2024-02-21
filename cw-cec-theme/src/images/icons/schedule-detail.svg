@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C92F640C-FBE7-41A3-82D4-03FB4B93C2AD</title>
+    <g id="Timezone-Improvement-Ticket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Course-Booking---Timezone" transform="translate(-1010.000000, -564.000000)" stroke="#339BB2">
+            <g id="Group-29" transform="translate(980.000000, 513.000000)">
+                <g id="Group-25" transform="translate(31.000000, 0.000000)">
+                    <g id="Group-22" transform="translate(0.000000, 50.000000)">
+                        <g id="schedule-detail" transform="translate(0.000000, 2.000000)">
+                            <path d="M8.32834783,15.9937391 C8.21982609,15.997913 8.10991304,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 L16,8.03895652" id="Path"></path>
+                            <path d="M6.2706087,11.3370435 L5.74469565,11.9290435 C5.40507963,12.3110235 5.21745059,12.8043542 5.2173913,13.3154783 L5.2173913,15.5033043" id="Path"></path>
+                            <path d="M0.120347826,6.60869564 L4.35269565,6.60869564 C4.90638676,6.60862933 5.43740995,6.82859605 5.82886957,7.22017391 L6.93634783,8.32834783" id="Path"></path>
+                            <path d="M13.7467826,2.43478261 L9.712,2.43478261 C8.8475543,2.43478261 8.14678261,3.1355543 8.14678261,4 C8.14678261,4.8644457 8.8475543,5.56521739 9.712,5.56521739 L10.0125217,5.56521739 C10.596612,5.56519179 11.153983,5.80994045 11.5492174,6.24" id="Path"></path>
+                            <circle id="Oval" cx="11.826087" cy="11.826087" r="4.17391304"></circle>
+                            <polyline id="Path" points="13.2173913 11.8267826 11.826087 11.8267826 11.826087 9.73913043"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

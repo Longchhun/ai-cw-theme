@@ -1,0 +1,46 @@
+/**
+ *
+ * @atom .cec-btn-sticky
+ * @section Cec-Button
+ * @markup
+ *   <div class="cec-btn-sticky__wrapper mt-4">
+ *       <div class="container-fluid-1280 cec-btn-sticky__container">
+ *           <div class="portlet-layout row">
+ *               <div class="col-md-12">
+ *                   <div class="button-holder cec-button-holder m-0">
+ *                       <button class="btn btn-outline-primary">
+ *                           Cancel
+ *                       </button>
+ *                       <button class="btn btn-primary">
+ *                           Save
+ *                       </button>
+ *                   </div>
+ *               </div>
+ *           </div>
+ *       </div>
+ *   </div>
+*/
+
+.cec-btn-sticky {
+    &__wrapper {
+        background-color: $white;
+        bottom: 0;
+        border-top: 1px solid $border-color-base;
+        left: 0;
+        position: fixed;
+        right: 0;
+        z-index: 90;
+
+        .btn {
+            @media (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__container {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+    }
+}

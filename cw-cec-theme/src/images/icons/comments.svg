@@ -1,0 +1,16 @@
+<svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Messages-Chat-Smileys / Messages-Speech-Bubbles / messages-bubble-square-typing-1">
+        <g data-name="Group 100" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path
+                d="M24.501 18.786a1.1 1.1 0 0 1-1.043 1.143H11.979L7.805 24.5v-4.571H1.544a1.1 1.1 0 0 1-1.043-1.143V1.643A1.1 1.1 0 0 1 1.544.5h21.913A1.1 1.1 0 0 1 24.5 1.643z"
+                data-name="Shape 405"/>
+            <path d="M6.267 10.647a1.611 1.611 0 1 0-1.61-1.611 1.61 1.61 0 0 0 1.61 1.611z"
+                data-name="Oval 74"/>
+            <path d="M12.501 10.647a1.611 1.611 0 1 0-1.61-1.611 1.61 1.61 0 0 0 1.61 1.611z"
+                data-name="Oval 75"/>
+            <path d="M18.734 10.647a1.611 1.611 0 1 0-1.61-1.611 1.61 1.61 0 0 0 1.61 1.611z"
+                data-name="Oval 76"/>
+        </g>
+    </g>
+</svg>

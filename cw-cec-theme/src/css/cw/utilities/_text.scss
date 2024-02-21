@@ -1,0 +1,58 @@
+.text-black-darker {
+    color: $black-darker !important;
+}
+.text-yellow-alt-1 {
+    color: $yellow-alt-1 !important;
+}
+.text-gray-darker {
+    color: $gray-darker !important;
+}
+.text-gray {
+    color: $gray !important;
+}
+.text-orange {
+    color: $orange !important;
+}
+.text-black-alt-1 {
+    color: $black-alt-1 !important;
+}
+.text-black-lignter-alt-1 {
+    color: $black-lignter-alt1 !important;
+}
+.text-noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.text-opacity-40 {
+    opacity: 40%;
+}
+.cw-text-danger {
+    color: $cw-color-danger !important;
+}
+.cw-text-warning {
+    color: $cw-color-warning !important;
+}
+.text-first-uppercase {
+    text-transform: lowercase;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+.word-break {
+    &-initial {
+        word-break: initial;
+    }
+}
+.strike-through {
+    text-decoration: line-through;
+}
+.line-height-17 {
+    line-height: 1.063rem;
+}

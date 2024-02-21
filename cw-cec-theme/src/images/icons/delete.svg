@@ -1,0 +1,9 @@
+<svg viewBox="0 0 20.167 20.167" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10">
+        <path d="M17.167 3v15.833a.833.833 0 0 1-.833.833H3.833A.833.833 0 0 1 3 18.833V3"/>
+        <path
+            d="M6.333 3V1.333A.833.833 0 0 1 7.166.5H13a.833.833 0 0 1 .833.833V3M.5 3h19.167M6.333 5.916v10M10.083 5.916v10M13.833 5.916v10"
+            data-name="Shape"/>
+    </g>
+</svg>

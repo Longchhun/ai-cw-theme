@@ -1,0 +1,20 @@
+&__nav {
+
+    &-link, &-span {
+        padding: 1.0625rem 0;
+        padding-left: 1.375rem;
+
+        &.disabled {
+            cursor: not-allowed;
+        }
+    }
+
+    &-link {
+        color: $black;
+
+        &.active, &:hover {
+            color: $primary !important;
+            font-weight: bold;
+        }
+    }
+}

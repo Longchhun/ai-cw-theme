@@ -1,0 +1,8 @@
+.cec-loading-overlay {
+    margin-top: 3.75rem;
+    margin-left: 28%;
+    @include media-breakpoint-down(xs) {
+        margin-top: 9.5625rem;
+        margin-left: 0;
+    }
+}

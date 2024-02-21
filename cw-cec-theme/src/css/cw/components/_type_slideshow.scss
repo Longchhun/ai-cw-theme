@@ -1,0 +1,130 @@
+.preview-popup-wrapper {
+    .footer-wrapper {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+.post-type-slide-show, .preview-popup-wrapper {
+
+    .slide-show-modal {
+        background: $black-alt-1;
+
+        .preview-title {
+            top: 1.25rem;
+            left: 2.5rem;
+            z-index: 10;
+            font-size: 1.375rem;
+
+            @include media-breakpoint-down(sm) {
+                top: 1.875rem;
+                left: 1.875rem;
+            }
+        }
+
+        .close-slide-show {
+            top: 1.25rem;
+            right: 2.5rem;
+            z-index: 10;
+
+            @include media-breakpoint-down(sm) {
+                top: 1.875rem;
+                right: 1.875rem;
+            }
+
+            &:hover {
+                color: $white;
+            }
+        }
+
+        .image-wrapper {
+            align-items: center;
+            img {
+                max-height: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .carousel-item__image {
+            width: 80%;
+            @include media-breakpoint-down(xs) {
+                width: 100%;
+            }
+        }
+
+        .carousel-control-next,
+        .carousel-control-prev {
+            opacity: 1;
+            background: $black-alt-1;
+            z-index: 2 !important;
+            position: relative;
+            width: 10%;
+        }
+    }
+
+    .featured-image-wrapper {
+        height: 18.875rem;
+
+        @include media-breakpoint-down(sm) {
+            height: 12.875rem;
+        }
+    }
+    .featured-image-preview {
+        height: 31.4375rem;
+    }
+    .featured-image-preview, .featured-image-wrapper {
+        .fade-enter-active,
+        .fade-leave-active {
+            transition: opacity .5s;
+        }
+
+        .fade-enter,
+        .fade-leave-to {
+            opacity: 0;
+        }
+
+        .img-background {
+            background-position: center;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+        }
+    }
+    .preview-caption {
+        background: $white-darker;
+        padding-top: 0.9375rem;
+        padding-bottom: 0.9375rem;
+    }
+    .preview-content {
+        .thumbnail-item {
+            width: 16%;
+        }
+    }
+    .thumbnail-item {
+        width: 24%;
+        height: 4.4375rem;
+        position: relative;
+
+        @include media-breakpoint-down(sm) {
+            height: auto;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        .more-slide-show {
+            position: absolute;
+            top: 0;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: $white;
+            opacity: 73%;
+        }
+    }
+}

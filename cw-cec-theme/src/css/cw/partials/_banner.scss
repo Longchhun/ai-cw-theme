@@ -1,0 +1,27 @@
+.learning-path-banner {
+    .banner-title {
+        font-size: $font-size-title;
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            font-size: $font-size-title-desktop;
+            text-align: left;
+        }
+    }
+    .lexicon-icon.cw-icon-xl {
+        width: 36px !important;
+        height: 44px !important;
+    }
+    img {
+        width: 100%;
+        max-width: 100%;
+        @include media-breakpoint-up(md) {
+            width: auto;
+        }
+    }
+}
+
+.badge.warning-banner {
+    background-color: $yellow-light;
+}
+

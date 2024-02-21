@@ -1,0 +1,21 @@
+<svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Group 2" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path
+            d="M24.5 3.026v18.947a2.338 2.338 0 0 1-2.087 2.526H2.587A2.338 2.338 0 0 1 .5 21.973V3.026A2.339 2.339 0 0 1 2.587.5h19.826A2.339 2.339 0 0 1 24.5 3.026"/>
+        <path d="M.5 6.816h24" data-name="Shape 2"/>
+        <path d="M4.526 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268" data-name="Shape 3"/>
+        <path d="M7.546 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268" data-name="Shape 4"/>
+        <path d="M10.675 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268"
+            data-name="Shape 5"/>
+        <path d="M7.702 11.868h8.053" data-name="Shape 198"/>
+        <path d="M7.702 15.658h8.053" data-name="Shape 199"/>
+        <path d="M7.702 19.447h8.053" data-name="Shape 200"/>
+        <path d="M4.794 11.596a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268"
+            data-name="Shape 201"/>
+        <path d="M4.794 15.401a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268"
+            data-name="Shape 202"/>
+        <path d="M4.794 19.206a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268"
+            data-name="Shape 203"/>
+    </g>
+</svg>

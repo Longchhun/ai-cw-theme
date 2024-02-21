@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 7.4.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_7_4_0.dtd">
+
+<look-and-feel>
+    <compatibility>
+        <version>7.4.0+</version>
+    </compatibility>
+    <theme id="cw-cec" name="Crosswired CEC">
+        <template-extension>ftl</template-extension>
+        <settings>
+            <setting configurable="true" key="show-header-search" type="checkbox" value="true" />
+            <setting configurable="true" key="show-site-navigation" type="checkbox" value="true"/>
+            <setting configurable="true" key="hide-globle-navigation" type="checkbox" value="false"/>
+            <setting configurable="true" key="page-icon-svg-name"/>
+        </settings>
+        <control-panel-theme>true</control-panel-theme>
+        <layout-templates>
+            <custom>
+                <layout-template id="crosswired_1_1" name="Crosswired 1_1 Column (100/100)">
+                    <template-path>/layouttpl/custom/crosswired_1_1-layouttpl/crosswired_1_1.tpl
+                    </template-path>
+                    <thumbnail-path>/layouttpl/custom/crosswired_1_1-layouttpl/crosswired_1_1.png
+                    </thumbnail-path>
+                </layout-template>
+                <layout-template id="wp_1_2_3" name="Web Presence 1_2_3 Column (100/100)">
+                    <template-path>/layouttpl/custom/crosswired_1_1-layouttpl/wp_1_2_3.ftl
+                    </template-path>
+                    <thumbnail-path>/layouttpl/custom/crosswired_1_1-layouttpl/wp_1_2_3.png
+                    </thumbnail-path>
+                </layout-template>
+            </custom>
+        </layout-templates>
+        <portlet-decorator id="barebone" name="Barebone">
+            <portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
+        </portlet-decorator>
+        <portlet-decorator id="borderless" name="Borderless">
+            <portlet-decorator-css-class>portlet-borderless</portlet-decorator-css-class>
+        </portlet-decorator>
+        <portlet-decorator id="decorate" name="Decorate">
+            <default-portlet-decorator>true</default-portlet-decorator>
+            <portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
+        </portlet-decorator>
+    </theme>
+</look-and-feel>

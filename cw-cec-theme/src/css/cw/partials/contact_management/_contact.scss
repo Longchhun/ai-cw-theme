@@ -1,0 +1,37 @@
+.profile-summary-wrapper {
+    .edit-profile-image {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .read-only.vue-tel-input {
+        border: 0 !important;
+        &.disabled {
+            opacity: 1;
+        }
+        .dropdown-arrow {
+            display: none !important;
+        }
+
+        .dropdown {
+            padding: 0 !important;
+            border: 0 !important;
+        }
+
+        .input-phone-number {
+            background-color: transparent;
+            color: $black;
+            opacity: 1;
+        }
+
+    }
+
+    .dropdown-three-dots {
+        top: 0;
+        right: 0;
+    }
+
+    .badge-warning {
+        top: 0.375rem;
+    }
+}

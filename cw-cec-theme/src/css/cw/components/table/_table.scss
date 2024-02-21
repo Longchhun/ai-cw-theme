@@ -1,0 +1,93 @@
+.table {
+    &-responsive {
+        margin-bottom: 0;
+        width: 100%;
+
+        @media screen and (max-width: $screen-sm-max) {
+            border-width: 0;
+        }
+
+        @include media-breakpoint-up(sm) {
+            .table-cell-content {
+                min-width: auto;
+            }
+        }
+    }
+    &.no-bordered-last {
+        tr {
+            &:last-child {
+                td {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    > thead {
+        > tr {
+            > th {
+                padding: 20px 0;
+            }
+        }
+    }
+    tr {
+        th,
+        td {
+            &:first-child {
+                @media (min-width: $screen-sm-min) {
+                    padding-left: $padding-desktop-base;
+                }
+            }
+            &:last-child {
+                @media (min-width: $screen-sm-min) {
+                    padding-right: $padding-desktop-base;
+                }
+            }
+            > input[type="checkbox"] {
+                top: 3px;
+                margin-right: 0;
+            }
+            .btn {
+                &.link-icon {
+                    min-height: 0;
+                }
+            }
+        }
+    }
+    &-list {
+        thead, tbody {
+            th,
+            td {
+                &:first-child, &:last-child {
+                    // We override this because the table have the card border outside.
+                    box-shadow: inset 0 #{$table-list-border-y-width} $table-list-border-color, // top
+                    inset 0 0 $table-list-border-color, // right
+                    0 #{$table-list-border-y-width} $table-list-border-color, // bottom
+                    inset 0 0 $table-list-border-color; // left
+                }
+            }
+        }
+        .input-checkbox-wrapper {
+            input {
+                top: 0;
+            }
+        }
+    }
+    &-no-bordered {
+        > thead > tr > th,
+        > tbody > tr > td,
+        > tfoot > tr > td {
+            border-width: 0;
+        }
+    }
+
+    &-first-td-truncate {
+        tr {
+            td:first-child {
+                max-width: 0.0625rem;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+}

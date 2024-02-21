@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>helpsupport</title>
+    <g stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-635.000000, -101.000000)" stroke="#656565">
+            <g id="helpsupport" transform="translate(636.000000, 102.000000)">
+                <path d="M7.74999586,9.241 C7.74710422,7.27361924 9.26434963,5.63811197 11.2264187,5.49361145 C13.1884878,5.34911094 14.9289641,6.74469675 15.2143197,8.69127518 C15.4996753,10.6378536 14.2329892,12.4742697 12.312,12.899 C11.8448681,12.9911618 11.5061258,13.3979028 11.5,13.874 L11.5,14.987" id="Shape"></path>
+                <path d="M11.5,17.491 C11.6380712,17.491 11.75,17.6029288 11.75,17.741 C11.75,17.8790712 11.6380712,17.991 11.5,17.991 C11.3619288,17.991 11.25,17.8790712 11.25,17.741 C11.25,17.6029288 11.3619288,17.491 11.5,17.491" id="Shape"></path>
+                <circle id="Oval" cx="11.5" cy="11.5" r="11.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+@mixin navItem($is-drag-drop: false) {
+    list-style-type: none;
+    padding: 1.0625rem 1.5625rem;
+
+    @if $is-drag-drop {
+        background-color: $white;
+        border: 0.0625rem solid $primary !important;
+    }
+}

@@ -1,0 +1,50 @@
+.cw-split-dropdown {
+    @include media-breakpoint-down(sm) {
+        width: 100% !important;
+    }
+
+    .btn {
+        color: $white;
+        z-index: 1;
+    }
+
+    .btn-action-default {
+        background-color: $primary;
+
+        @include media-breakpoint-down(sm) {
+            width: 85%;
+        }
+    }
+
+    .dropdown-toggle-split {
+        min-width: initial !important;
+        background-color: $gray-darker;
+        max-width: 2.5rem;
+
+        &:hover,
+        &:focus {
+            background-color: $black;
+        }
+
+        .lexicon-icon {
+            width: 0.5rem;
+        }
+    }
+
+    .dropdown-menu {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    &--width-220 {
+        min-width: 13.75rem;
+    }
+
+    &--width-240 {
+        min-width: 15rem;
+    }
+
+    &--width-248 {
+        min-width: 15.5rem;
+    }
+}

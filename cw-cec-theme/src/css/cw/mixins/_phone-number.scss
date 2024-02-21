@@ -1,0 +1,108 @@
+@mixin input-phone-number {
+    .vue-tel-input {
+        border-radius: $border-radius-base !important;
+        height: 2.5rem;
+        border: 0.0625rem solid $input-border !important;
+        padding: 0 0.75rem 0 0;
+
+        &.invalid {
+            border: 0.0625rem solid $danger;
+
+            &:focus-within {
+                border: 1px solid $danger;
+                box-shadow: none;
+            }
+        }
+
+        input {
+            z-index: 0;
+        }
+
+        &:focus-within {
+            border: 0.0625rem solid $primary;
+            box-shadow: none;
+        }
+
+        .dropdown {
+
+            &:hover,
+            &:focus,
+            &.open {
+                background: none;
+                outline: none;
+            }
+
+            .dropdown-arrow {
+                color: $black;
+                font-size: $font-size-regular;
+            }
+
+            ul {
+                border: 0.0625rem solid $input-border;
+                top: 2.5625rem;
+            }
+        }
+
+        .country-dial {
+            color: $black;
+            cursor: default;
+            padding: 10px 0 10px 10px;
+            white-space: nowrap;
+        }
+
+        .country-name {
+            color: $black;
+            font-size: $font-size-regular;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+}
+
+@mixin display-phone {
+
+    .vue-tel-input {
+        &:focus-within {
+            box-shadow: none;
+        }
+
+        &.disabled {
+            border: none;
+
+            &.dropdown,
+            .selection,
+            input {
+                cursor: default;
+                width: auto;
+
+                &:disabled {
+                    background-color: $color-white;
+                }
+            }
+
+            .dropdown {
+                border-width: 0;
+                padding-left: 0;
+                pointer-events: none;
+
+                &:hover,
+                &:focus {
+                    background: none;
+                    outline: none;
+                }
+            }
+
+            .dropdown-arrow {
+                display: none;
+            }
+
+            .iti-flag {
+                margin-left: 0;
+            }
+
+            span {
+                white-space: nowrap;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-58" transform="translate(1.000000, 1.000000)" stroke="currentColor">
+            <polyline id="Shape" points="4.54747351e-13 6.50574775 3 11.0057478 6.5 7.00574775"></polyline>
+            <path d="M3.006,11.0057478 C2.52,4.60574775 6.906,0.205747752 12.151,0.0127477525 C15.5740991,-0.164454943 18.8272205,1.51608409 20.6636389,4.4103156 C22.5000573,7.30454712 22.6349717,10.9636192 21.0166776,13.9852301 C19.3983835,17.0068411 16.2778541,18.9223844 12.851,18.9977478" id="Shape"></path>
+            <circle id="Oval" cx="12.5" cy="9.22074775" r="2"></circle>
+        </g>
+    </g>
+</svg>

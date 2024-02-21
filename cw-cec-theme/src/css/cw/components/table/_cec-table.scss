@@ -1,0 +1,59 @@
+.cec-table {
+    border-top: 1px solid $border-color-base;
+
+    > thead {
+        > tr {
+            > th {
+                padding: 18px 8px;
+                font-weight: $font-weight-bold;
+
+                &:first-child {
+                    padding-left: 30px;
+                    padding-top: 18px;
+
+                    > .checkbox {
+                        margin-bottom: 0;
+                        margin-top: 0;
+                    }
+                }
+
+                &:last-child {
+                    padding-right: 30px;
+                    padding-top: 18px;
+                }
+            }
+        }
+    }
+
+    > tbody {
+        > tr {
+            > td {
+                padding: 18px 8px;
+
+                &:first-child {
+                    padding-left: 30px;
+                }
+                &:last-child {
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+
+    .input-checkbox-wrapper {
+        margin-bottom: 0;
+    }
+
+    .sort-column {
+        color: $black;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+
+        .lexicon-icon {
+            margin-left: 5px;
+        }
+    }
+}

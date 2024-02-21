@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>archive </title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="archive-" transform="translate(0.000000, 1.000000)">
+            <path d="M12.7836997,4.08333333 L11.861948,11.8466744 L2.628617,12.25 L0.725735246,4.68000773 L12.7836997,4.08333333 Z" id="Rectangle" stroke="#8E8E8E"></path>
+            <line x1="4.36695912" y1="7.98644678" x2="10.1428405" y2="7.16976294" id="Path-2" stroke="#979797" stroke-linecap="round" transform="translate(7.254900, 7.578105) rotate(8.000001) translate(-7.254900, -7.578105) "></line>
+            <polyline id="Path" stroke="#8E8E8E" stroke-linecap="round" stroke-linejoin="round" points="2.275 3.83333333 1.75 2.16666667 12.25 2.16666667 11.725 3.83333333"></polyline>
+            <polyline id="Path" stroke="#8E8E8E" stroke-linecap="round" stroke-linejoin="round" points="3.22 1.83333333 2.8 0.166666667 11.2 0.166666667 10.78 1.83333333"></polyline>
+        </g>
+    </g>
+</svg>

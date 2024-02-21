@@ -1,0 +1,16 @@
+// Overwrite dialog when double clicking on cke_widget_image
+.cke_dialog_container {
+    top: 20% !important;
+    left: 35% !important;
+
+    .cke_dialog_footer {
+        a.cke_dialog_ui_button_ok {
+            background: $primary !important;
+            border: 0.0625rem solid $primary !important;
+        }
+    }
+
+    .cke_dialog_ui_html {
+        margin-top: 2.0625rem !important;
+    }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <g data-name="rating-star-circle" transform="translate(.5 .5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+    <circle cx="9.5" cy="9.5" r="9.5"/>
+    <path d="M10.03 5.315l1.154 2.68h2.245a.552.552 0 0 1 .387.963L11.867 10.7l1.079 2.482a.589.589 0 0 1-.837.737L9.5 12.447l-2.607 1.472a.589.589 0 0 1-.84-.737L7.135 10.7 5.186 8.959a.552.552 0 0 1 .386-.965h2.249l1.155-2.679a.6.6 0 0 1 1.055 0z"/>
+  </g>
+</svg>

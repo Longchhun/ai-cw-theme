@@ -1,0 +1,13 @@
+.quick-access-wrapper {
+    .file-info {
+        max-width: 21rem;
+
+        @include media-breakpoint-down(md) {
+            max-width: 10rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            max-width: 14.0625rem;
+        }
+    }
+}

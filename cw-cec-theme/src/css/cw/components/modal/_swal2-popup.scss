@@ -1,0 +1,198 @@
+//SweetAlert2
+.swal2 {
+    @include media-breakpoint-down(xs) {
+        &-container {
+            &.sweetalert-mobile-fullscreen {
+                padding: 0;
+                display: block;
+                .swal2-popup {
+                    border-radius: 0;
+                    min-height: 100vh;
+                    max-width: 100%;
+                    justify-content: unset;
+                    margin: 0 !important;
+
+                    .swal2-header {
+                        padding-top: 0.625rem;
+                        padding-bottom: 1.875rem;
+                    }
+
+                    .button-holder {
+                        width: calc(100% - 2.5rem);
+                        position: absolute;
+                        bottom: 3.125rem;
+                        left: 1.25rem;
+                        right: 2.5rem;
+                    }
+
+                    .swal2-close {
+                        right: 0.625rem;
+                        margin-top: 0.125rem;
+                    }
+
+                    .cw-dropzone-drop-area {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &-popup {
+        @media (min-width: $screen-sm-min) {
+            padding: $padding-desktop-base;
+        }
+        &.cec-left-content {
+            .swal2 {
+                &-header {
+                    align-items: flex-start;
+                    border-bottom: 2px solid $border-color-base;
+                }
+                &-title {
+                    margin: 0 0 0 0.625rem;
+                }
+                &-content {
+                    justify-content: flex-start;
+                    margin-top: 1.25rem;
+                    text-align: left;
+                }
+                &-actions {
+                    @media (min-width: $screen-xs-min) {
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
+        &.cec-toast-content {
+            .swal2 {
+                &-header {
+                    margin-top: 10.3125rem;
+                }
+                &-icon {
+                    width: 9.375rem;
+                    height: 9.375rem;
+                    color: $white;
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                    display: flex;
+                    svg {
+                        width: 6.25rem;
+                    }
+                    &.success {
+                        background-color: $success;
+                    }
+                    &.warning {
+                        background-color: $swal2-warning;
+                    }
+                    &.error {
+                        background-color: $swal2-error;
+                    }
+                }
+            }
+        }
+        &.cec-confirm-dialog {
+            .swal2 {
+                &-header {
+                    align-items: flex-start;
+                }
+                &-icon {
+                    svg {
+                        width: 3.3125rem;
+                        height: 3.3125rem;
+                    }
+                }
+                &-title {
+                    font-family: $font-family;
+                    font-size: $header-font-size;
+                    color: $black-light;
+                    padding: 0 0.5rem 0 2.4rem;
+                    text-align: left;
+                    font-weight: $font-weight-normal;
+                }
+                &-content {
+                    text-align: left;
+                    padding: 0 2.38rem 0 4.25rem;
+                    margin-top: -0.75rem;
+
+                    .warning-text {
+                        color: $color-danger;
+                    }
+                }
+                &-actions {
+                    margin-top: 3.5rem;
+                    justify-content: flex-start;
+                }
+            }
+        }
+
+        &.remove-course-sharing-dialog {
+            .swal2-actions {
+                z-index: auto;
+            }
+        }
+    }
+    &-header {
+        padding: 0 $padding-desktop-base $padding-base $padding-desktop-base;
+    }
+    &-icon {
+        border-width: 0;
+        left: $swal2-icon-gap;
+        position: absolute;
+        top: $swal2-icon-gap;
+        border-radius: 0;
+        @media (min-width: $screen-sm-min) {
+            top: $swal2-icon-gap + 10;
+            left: $swal2-icon-gap + 10;
+        }
+
+        &.primary {
+            color: $primary;
+        }
+
+        &.error {
+            color: $danger;
+        }
+
+        &.info {
+            color: $primary;
+        }
+    }
+    &-title {
+        display: block !important;
+        font-weight: $font-weight-normal;
+        color: $black-light;
+    }
+    &-content {
+        font-weight: $font-weight-normal;
+    }
+    &-close {
+        @media (min-width: $screen-sm-min) {
+            top: $swal2-close-button-gap + 2;
+            right: $swal2-close-button-gap + 2;
+        }
+        .close-area {
+            line-height: 0;
+            padding: 0.6rem;
+        }
+    }
+    &-actions {
+        @media (min-width: $screen-xs-min) {
+            flex-direction: row-reverse;
+        }
+    }
+    &-cancel,
+    &-confirm {
+        @media (max-width: $screen-xs-min) {
+            width: 100% !important;
+        }
+    }
+    &-cancel {
+        @media (min-width: $screen-xs-min) {
+            margin-right: 1.25rem;
+        }
+        @media (max-width: $screen-xs-min) {
+            margin-top: 1.25rem;
+        }
+    }
+}

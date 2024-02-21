@@ -1,0 +1,76 @@
+@import 'tab/card_tab';
+
+.nav-tabs {
+    > li {
+        > a {
+            color: $black;
+        }
+    }
+}
+
+.tab-wrapper {
+    .nav-tabs-scroll {
+        .nav-tabs-scrollbar {
+            @media (max-width: $screen-sm-max) {
+                overflow-x: auto;
+            }
+        }
+
+        .nav-tabs {
+            align-items: center;
+            border-bottom: 1px solid $border-color-base;
+            display: flex;
+            justify-content: space-between;
+            padding: $padding-base $padding-base 0 $padding-base;
+            width: 100%;
+
+            @media (min-width: $screen-sm-min) {
+                padding: $padding-desktop-base $padding-desktop-base 0 $padding-desktop-base;
+            }
+
+            > li {
+                align-items: flex-start;
+                display: inline-flex;
+                flex: 1;
+
+                .cw-icon {
+                    margin-right: 6px;
+                }
+
+                > a {
+                    border: none;
+                    padding: 0 0 $padding-base 0;
+                }
+
+                &.active > a {
+                    &,
+                    &:hover,
+                    &:focus {
+                        background-color: transparent;
+                        border-bottom: 2px solid $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-content{
+        padding: $padding-base $padding-base 10px $padding-base;
+
+        @media (min-width: $screen-sm-min) {
+            padding: $padding-base $padding-desktop-base 10px $padding-desktop-base;
+        }
+
+        textarea {
+            border: 0;
+            height: auto;
+            overflow-y: hidden;
+            resize: none;
+            padding: 0;
+        }
+
+        .button-holder {
+            margin-bottom: 30px;
+        }
+    }
+}

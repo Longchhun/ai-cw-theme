@@ -1,0 +1,25 @@
+.image {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    &.loaded {
+      .image {
+        &__item {
+          visibility: visible;
+          opacity: 1;
+          border: 0;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  &__item {
+    width: 100%;
+    transition: opacity 1.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+}

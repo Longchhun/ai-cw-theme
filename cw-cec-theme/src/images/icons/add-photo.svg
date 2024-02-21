@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="Mini-Post" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-5" transform="translate(0.543000, 0.543000)" stroke="currentColor">
+            <path d="M14,14 L11.372,7.429 C11.172,6.918 10.814,6.91 10.587,7.411 L8.5,12 L6.641,9.769 C6.5066481,9.57082343 6.27638466,9.45985963 6.03766721,9.4782543 C5.79894977,9.49664898 5.58840462,9.64157986 5.486,9.858 L3,14" id="Shape"></path>
+            <rect id="Rectangle-path" x="0" y="0" width="17" height="17" rx="1"></rect>
+            <path d="M19.008,5.881 L20.008,5.972 C20.5556558,6.0242553 20.9582495,6.50906573 20.909,7.057 L19.728,20.005 C19.675251,20.5531068 19.1893243,20.955438 18.641,20.905 L4.7,19.637" id="Shape"></path>
+            <line x1="0" y1="14" x2="17" y2="14" id="Shape"></line>
+            <circle id="Oval" cx="4.5" cy="4.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

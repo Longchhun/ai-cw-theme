@@ -1,0 +1,8 @@
+.warning-message {
+    background-color: $yellow-light;
+    @include media-breakpoint-down(sm) {
+        svg {
+            width: 15%;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.otp-input {
+    width: 215px;
+    height: 48px;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    &.error {
+      border: 1px solid red !important;
+    }
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    -moz-appearance: textfield !important;
+}

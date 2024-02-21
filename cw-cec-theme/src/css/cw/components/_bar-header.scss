@@ -1,0 +1,5 @@
+.bar-header {
+    background-color: $black-lignter-alt1;
+    height: 3.125rem;
+    @include border-top-radius($border-radius);
+}

@@ -1,0 +1,50 @@
+.training-report-wrapper {
+    .search-box-wrapper {
+        width: 14.625rem;
+
+        .has-search {
+            .form-control {
+                height: 3.4rem;
+                padding-right: 1.2rem;
+                padding-left: 1.2rem;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            border-left: none !important;
+        }
+    }
+
+    .manage-column-popup-wrapper {
+        .cec-popup-container {
+            background: transparent !important;
+
+            .body-wrapper {
+                max-height: 15.5rem;
+                overflow-y: auto;
+            }
+        }
+    }
+
+    .tabulator-responsive-collapse-toggle {
+        span {
+            color: $white !important;
+        }
+    }
+
+    .tabulator-placeholder {
+        position: relative !important;
+        width: 100% !important;
+        margin-top: 2rem;
+        justify-content: center;
+        color: $gray-darker;
+        font-weight: $font-weight-light;
+    }
+}
+
+.course-or-course-instance {
+    .tabulator {
+        max-width: 60.4375rem !important;
+    }
+}

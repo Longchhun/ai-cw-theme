@@ -1,0 +1,49 @@
+.icon-dot {
+    background-color: $gray-darker;
+    margin-right: 0.125rem;
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    pointer-events: none;
+}
+
+.dropdown-three-dots.dropdown.arrow-indicator {
+    .three-dots-icon {
+        text-align: center;
+        padding: 1.0625rem 0.625rem;
+        cursor: pointer;
+        display: block;
+        font-size: 0.3125rem;
+        width: fit-content;
+
+        &--vertical {
+            display: flex;
+            flex-direction: column;
+            padding: 0.25rem 0.75rem 0.375rem 0.75rem;
+            border-radius: 0.3125rem;
+            margin-right: -0.75rem;
+
+            .icon-dot {
+                margin-right: 0 !important;
+                margin-top: 2px;
+            }
+        }
+
+        &--horizontal {
+            display: flex;
+            padding: 0.75rem 0.375rem 0.75rem 0.25rem;
+            border-radius: 0.3125rem;
+
+            .icon-dot {
+                margin-right: 0 !important;
+                margin-left: 0.125rem;
+            }
+        }
+
+        &:hover {
+            background-color: $gray-lighter;
+        }
+    }
+}

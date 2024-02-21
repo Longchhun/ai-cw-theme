@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>08B89E73-2A1F-4C3A-A905-5204AB32DF3F</title>
+    <g id="Iteration-2---July-2023" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Mailing-list-admin-" transform="translate(-91, -303)" stroke="#656565">
+            <g id="newsletter" transform="translate(91, 303)">
+                <path d="M16.5217391,7.17391304 L20,9.56521739 L20,18.6956522 C20,19.4160236 19.4160236,20 18.6956522,20 L1.30434783,20 C0.583976413,20 0,19.4160236 0,18.6956522 L0,9.56521739 L3.47826087,7.17391304" id="Path"></path>
+                <polyline id="Path" points="2.60869565 17.3913043 6.95652174 13.9130435 13.0434783 13.9130435 17.3913043 17.3913043"></polyline>
+                <line x1="20" y1="9.56521739" x2="14.7826087" y2="13.0434783" id="Path"></line>
+                <line x1="0" y1="9.56521739" x2="5.2173913" y2="13.0434783" id="Path"></line>
+                <path d="M16.5217391,11.7391304 L16.5217391,0.869565217 C16.5217391,0.389317609 16.1324215,0 15.6521739,0 L4.34782609,0 C3.86757848,0 3.47826087,0.389317609 3.47826087,0.869565217 L3.47826087,11.7391304" id="Path"></path>
+                <line x1="6.08695652" y1="2.60869565" x2="7.82608696" y2="2.60869565" id="Path"></line>
+                <line x1="7.82608696" y1="5.2173913" x2="13.9130435" y2="5.2173913" id="Path"></line>
+                <line x1="6.08695652" y1="7.82608696" x2="13.9130435" y2="7.82608696" id="Path"></line>
+                <line x1="6.08695652" y1="10.4347826" x2="13.9130435" y2="10.4347826" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

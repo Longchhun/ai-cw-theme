@@ -1,0 +1,15 @@
+.object-fit {
+    &-cover {
+        object-fit: cover;
+    }
+
+    &-contain {
+        object-fit: contain;
+    }
+}
+
+.cke_widget_image, .cw-editor-display {
+    img {
+        height: auto;
+    }
+}

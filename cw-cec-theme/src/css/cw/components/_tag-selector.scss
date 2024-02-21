@@ -1,0 +1,13 @@
+.lfr-tag-selector-popup {
+  .lfr-tags-selector-list {
+    ul {
+      a {
+        color: $primary;
+        &:hover {
+          cursor: pointer;
+          color: $primary;
+        }
+      }
+    }
+  }
+}

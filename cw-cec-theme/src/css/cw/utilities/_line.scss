@@ -1,0 +1,17 @@
+.line {
+    &-height {
+        &-sm-1 {
+            @include media-breakpoint-down(sm) {
+                line-height: 1 !important;
+            }
+        }
+    }
+
+    &-clamp {
+        &-sm-2 {
+            @include media-breakpoint-down(sm) {
+                -webkit-line-clamp: 2;
+            }
+        }
+    }
+}

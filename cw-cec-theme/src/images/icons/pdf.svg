@@ -1,0 +1,15 @@
+<svg height="24" width="20" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Group 167" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path
+            d="M18.5 23.5a1 1 0 0 0 1-1V6.473A5.975 5.975 0 0 0 13.525.5H1.5a1 1 0 0 0-1 1v21a1 1 0 0 0 1 1z"
+            data-name="Shape 1093"/>
+        <path d="M14.5.58v3.921a1 1 0 0 0 1 1h3.92" data-name="Shape 1094"/>
+        <path d="M6.479 15a1.5 1.5 0 0 1-1.5 1.5h-1.5v-3h1.5a1.5 1.5 0 0 1 1.5 1.5z"
+            data-name="Shape 1095"/>
+        <path d="M3.479 19.5v-3" data-name="Shape 1096"/>
+        <path d="M8.479 13.5a3 3 0 0 1 0 6z" data-name="Shape 1097"/>
+        <path d="M13.479 19.5v-5a1 1 0 0 1 1-1h2" data-name="Shape 1098"/>
+        <path d="M13.479 16.5h2" data-name="Shape 1099"/>
+    </g>
+</svg>

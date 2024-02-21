@@ -1,0 +1,13 @@
+.bg {
+    &-gray-lighter-alt1 {
+        background: $gray-lighter-alt1;
+    }
+}
+.cw-bg {
+    &-danger {
+        background: $cw-color-danger !important;
+    }
+    &-warning {
+        background: $cw-color-warning !important;
+    }
+}

@@ -1,0 +1,21 @@
+.cursor {
+    &-pointer {
+        cursor: pointer;
+    }
+
+    &-auto {
+        cursor: auto !important;
+    }
+
+    &-default {
+        cursor: default !important;
+    }
+
+    &-not-allowed {
+        cursor: not-allowed;
+    }
+
+    &-text {
+        cursor: text;
+    }
+}

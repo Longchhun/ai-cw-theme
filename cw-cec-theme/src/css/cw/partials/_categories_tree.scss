@@ -1,0 +1,40 @@
+.learning-path-category-tree {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 1.0em;
+
+        li {
+            margin-left: -5px;
+            border-left: thin dotted $gray-lighter;
+        }
+
+        ul {
+            li {
+                margin-left: 18px;
+            }
+        }
+        li:before {
+            width: 0.9em;
+            height: 0.6em;
+            margin-right: 12px;
+            vertical-align: top;
+            content: "";
+            display: inline-block;
+        }
+    }
+
+    .category-collapse-expend {
+        padding-left: 10px;
+
+        span {
+            cursor: pointer;
+            font-size: 10px;
+        }
+    }
+}

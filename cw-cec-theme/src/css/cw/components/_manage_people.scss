@@ -1,0 +1,70 @@
+.manage-people {
+    .course-search-box {
+        display: flex;
+        flex: 1 1 auto;
+        padding: 0 1rem 0 1.875rem;
+        align-items: center;
+
+        .search-box {
+            height: 3.5rem;
+            border: 0;
+        }
+    }
+    .course-nav-bar-item {
+        cursor: pointer;
+        padding: 1.3rem 1rem;
+        border-right: 1px solid $border-color-base;
+
+        &:first-child {
+            border-left: 1px solid $border-color-base;
+        }
+        &:last-child {
+            border: 0;
+        }
+    }
+    .table-responsive {
+        .cec-table {
+            border-top: 0;
+
+            thead {
+                border-bottom: 1px dashed $border-color-base;
+
+                tr > th {
+                    border-bottom: 0;
+                }
+            }
+            tbody > tr {
+                &:first-child {
+                    td {
+                        border-top: 0;
+                    }
+                }
+                td {
+                    border-top: 1px dashed $border-color-base;
+                    border-bottom: 1px dashed $border-color-base;
+
+                    &:last-child {
+                        width: 2rem;
+                    }
+                }
+            }
+            .check-box {
+                width: 2rem;
+            }
+        }
+    }
+    .btn-assign-admin {
+        width: 14.5rem;
+    }
+    .disabled {
+        opacity: .5;
+        cursor: not-allowed;
+    }
+    .table-wrapper {
+        position: relative;
+        min-height: 10rem;
+    }
+    .admin-title {
+        padding-bottom: 1rem !important;
+    }
+}

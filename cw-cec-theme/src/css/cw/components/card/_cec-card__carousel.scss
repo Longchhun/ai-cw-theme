@@ -1,0 +1,32 @@
+//todo:remove from _my-story.scss;
+//this carousel element is now used in both aboutus and mystory timeline modules
+//Carousel
+&__carousel {
+    margin-top: 10px;
+    text-align: center;
+}
+
+&__carousel--hero {
+    padding-bottom: 0;
+}
+
+&__carousel--main {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+&__carousel--slidebar {
+    height: 80px;
+    margin-top: 10px;
+    width: 100%;
+
+    .img {
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+        width: 100%;
+    }
+}

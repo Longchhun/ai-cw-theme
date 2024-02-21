@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>branding</title>
+    <g id="Org-Admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Org-Management-Settings" transform="translate(-125.000000, -272.000000)">
+            <g id="branding" transform="translate(126.000000, 273.000000)">
+                <rect id="Rectangle-path" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="21.0833333" height="21.0833333" rx="1"></rect>
+                <path d="M3.20833333,3.20833333 L3.20833333,13.2916667 L13.2916667,13.2916667 L13.2916667,3.20833333 L3.20833333,3.20833333 Z M3.20833333,2.29166667 L13.2916667,2.29166667 C13.7979277,2.29166667 14.2083333,2.70207231 14.2083333,3.20833333 L14.2083333,13.2916667 C14.2083333,13.7979277 13.7979277,14.2083333 13.2916667,14.2083333 L3.20833333,14.2083333 C2.70207231,14.2083333 2.29166667,13.7979277 2.29166667,13.2916667 L2.29166667,3.20833333 C2.29166667,2.70207231 2.70207231,2.29166667 3.20833333,2.29166667 Z" id="Rectangle-path" fill-rule="nonzero"></path>
+                <line x1="2.88475" y1="2.88475" x2="13.61525" y2="13.61525" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="2.88475" y1="13.61525" x2="13.61525" y2="2.88475" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <circle id="Oval" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round" cx="8.25" cy="8.25" r="3.66666667"></circle>
+                <line x1="17.4166667" y1="2.75" x2="19.25" y2="2.75" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="17.4166667" y1="4.58333333" x2="19.25" y2="4.58333333" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="17.4166667" y1="6.41666667" x2="19.25" y2="6.41666667" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="17.4166667" y1="11.9166667" x2="19.25" y2="11.9166667" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="17.4166667" y1="13.75" x2="19.25" y2="13.75" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <rect id="Rectangle-path" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round" x="16.5" y="16.5" width="2.75" height="2.75" rx="0.5"></rect>
+                <rect id="Rectangle-path" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round" x="11.9166667" y="16.5" width="2.75" height="2.75" rx="0.5"></rect>
+                <line x1="2.75" y1="16.5" x2="9.16666667" y2="16.5" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="2.75" y1="19.25" x2="7.33333333" y2="19.25" id="Shape" stroke="#339BB2" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

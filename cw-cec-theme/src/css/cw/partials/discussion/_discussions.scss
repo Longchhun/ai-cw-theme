@@ -1,0 +1,27 @@
+@mixin displayFlexColumn {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.course-instance-wrapper {
+    .cec-card__main-content {
+        @include displayFlexColumn;
+        .course-instance-body-wrapper {
+            height: 100%;
+            .forum-wrapper {
+                height: 100%;
+                @include displayFlexColumn;
+                .row.no-gutters {
+                    height: 100%;
+                }
+                .create-thread-wrapper, .create-category-wrapper {
+                    .row.no-gutters {
+                        div.col-12 {
+                            @include displayFlexColumn;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

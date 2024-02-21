@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>070B6522-4EF1-44E4-9D98-A5513825630C</title>
+    <g id="Iteration-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Emoji-Picker" transform="translate(-410.000000, -296.000000)" stroke="currentColor">
+            <g id="bulb" transform="translate(410.000000, 297.000000)">
+                <line x1="8" y1="14.6666667" x2="8" y2="15.6666667" id="Shape"></line>
+                <path d="M10,11.5233333 L10,13.3333333 C10,14.284 9.2,14.6666667 8,14.6666667 C6.8,14.6666667 6,14.284 6,13.3333333 L6,11.5233333" id="Shape"></path>
+                <polyline id="Shape" points="8 11.4646667 8 8.66666667 6.66666667 7.33333333"></polyline>
+                <path d="M9.66666667,11.6666667 C11.3016083,11.0185099 12.3638585,9.42513468 12.3333333,7.66666667 C12.2909962,5.29119036 10.3754763,3.37567048 8,3.33333333 C5.62452369,3.37567048 3.70900381,5.29119036 3.66666667,7.66666667 C3.63614155,9.42513468 4.69839166,11.0185099 6.33333333,11.6666667 L9.66666667,11.6666667 Z" id="Shape"></path>
+                <line x1="6" y1="13" x2="10" y2="13" id="Shape"></line>
+                <line x1="8" y1="0.333333333" x2="8" y2="1.66666667" id="Shape"></line>
+                <line x1="0.666666667" y1="7" x2="2.194" y2="7" id="Shape"></line>
+                <line x1="2.33333333" y1="2" x2="3.66666667" y2="3.33333333" id="Shape"></line>
+                <line x1="15.3333333" y1="7" x2="13.806" y2="7" id="Shape"></line>
+                <line x1="13.6666667" y1="2" x2="12.3333333" y2="3.33333333" id="Shape"></line>
+                <line x1="8" y1="8.66666667" x2="9.33333333" y2="7.33333333" id="Shape"></line>
+            </g>
+        </g>
+    </g>
+</svg>

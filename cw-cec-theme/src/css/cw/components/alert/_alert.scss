@@ -1,0 +1,33 @@
+/**
+ *
+ * @atom Alert Success
+ * @section Alert
+ * @modifiers
+ *   .alert-fade-in-out  show and hide alert in 2s
+ * @markup
+ *    <div class="pull-left alert alert-success alert-dismissible opacity-1">
+ *      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+ *          Unsubscribe Successful
+ *    </div>
+*/
+
+.alert-success {
+    background-color: $green-lighter;
+    border: solid 1px $gray-lighter;
+    color: $white-dark;
+    opacity: 0;
+    margin-left: -6.25rem;
+    margin-right: -6.25rem;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    position: fixed;
+    z-index: 100;
+}
+
+.alert-fade-in-out {
+    -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+    background-color: $green-lighter;
+}
+

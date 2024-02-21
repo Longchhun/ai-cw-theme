@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-93.5, -424.5)" stroke="currentColor">
+            <g transform="translate(94, 304)">
+                <g transform="translate(0, 120.6251)">
+                    <g transform="translate(0, 0.3749)">
+                        <circle cx="10" cy="10" r="10"></circle>
+                        <polyline points="12.2537667 11.9529879 8.92 11.9529879 8.92 6.95233786"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

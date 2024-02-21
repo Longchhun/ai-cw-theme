@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 19" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Group 76</title>
+    <g id="Course-Instance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-76" transform="translate(0.500000, 1.000000)" stroke="#000000">
+            <path d="M20,14 C20,15.6568542 18.6568542,17 17,17 L6,17 C4.34314575,17 3,15.6568542 3,14 L3,6" id="Shape"></path>
+            <path d="M3,3 C3,1.34314575 4.34314575,0 6,0 L17,0 C18.6568542,0 20,1.34314575 20,3 L20,11" id="Shape"></path>
+            <polyline id="Shape" points="0 7.998 3 5.998 6 7.998"></polyline>
+            <polyline id="Shape" points="17 8.998 20 10.998 23 8.998"></polyline>
+        </g>
+    </g>
+</svg>

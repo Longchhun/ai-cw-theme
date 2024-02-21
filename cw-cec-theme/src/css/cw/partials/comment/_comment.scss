@@ -1,0 +1,33 @@
+
+.comment {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.sub-comment {
+    animation: slideInSubComment 0.5s ease-in-out;
+    .sub-comment {
+        margin-left: 1.875rem !important;
+    }
+}
+
+@keyframes slideInSubComment {
+    from {
+        opacity: 0;
+        transform: translateX(3px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-3px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

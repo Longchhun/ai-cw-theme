@@ -1,0 +1,27 @@
+&__body {
+    padding: $padding-base;
+
+    @media (min-width: $screen-sm-min) {
+        padding: $padding-desktop-base;
+    }
+
+    &--sm {
+        padding: 1rem $padding-base $padding-base $padding-base !important;
+    }
+
+    &--full-width {
+        padding: $padding-base 0;
+
+        @media (min-width: $screen-sm-min) {
+            padding: $padding-desktop-base 0;
+        }
+
+        &.table-last-child {
+            padding-bottom: 0.125rem;
+
+            @media (min-width: $screen-sm-min) {
+                padding-bottom: 0.75rem;
+            }
+        }
+    }
+}

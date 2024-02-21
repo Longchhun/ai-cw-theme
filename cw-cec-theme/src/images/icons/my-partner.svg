@@ -1,0 +1,8 @@
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+  <g data-name="Group 357" transform="translate(-6710.167 -1826.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+    <path d="M6728.667 1847.087a.927.927 0 0 1-.941.913h-15.059v-21h15.059a.927.927 0 0 1 .941.913z"/>
+    <path data-name="Shape" d="M6713.667 1827h-2a.959.959 0 0 0-1 .913v19.174a.959.959 0 0 0 1 .913h2M6728.667 1829h1a2.006 2.006 0 0 1 2 2v3h-3"/>
+    <path data-name="Shape" d="M6728.667 1833h3v5h-3M6728.667 1838h3v5h-3M6728.667 1843h3v3a2.006 2.006 0 0 1-2 2h-1M6724.667 1843a4.77 4.77 0 0 0-4.5-5 4.77 4.77 0 0 0-4.5 5z"/>
+    <ellipse cx="3" cy="2.5" rx="3" ry="2.5" transform="translate(6717.667 1832)"/>
+  </g>
+</svg>

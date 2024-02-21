@@ -1,0 +1,10 @@
+.panel {
+    box-shadow: none;
+    border-radius: $border-radius;
+    border-width: 1px;
+    border-color: #E9E9E9;
+    &-heading {
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+    }
+}

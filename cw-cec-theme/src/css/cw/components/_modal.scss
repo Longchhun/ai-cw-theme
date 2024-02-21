@@ -1,0 +1,163 @@
+@import './modal/cec-popup';
+@import './modal/quick-post-popup';
+@import './modal/swal2-popup';
+@import './modal/lf-popup';
+
+.cec-modal {
+    .modal {
+        &-body {
+            padding: 0;
+        }
+        &-header {
+            border-bottom-width: 2px;
+            margin: 0 $padding-base;
+            padding: $padding-base 0;
+
+            @media (min-width: $screen-sm-min) {
+                margin: 0 $padding-desktop-base;
+                padding: $padding-desktop-base 0 $padding-base 0;
+            }
+        }
+    }
+    &-sm {
+        .modal {
+            &-body {
+                padding: 0;
+            }
+            &-header {
+                border-bottom-width: 2px;
+                margin: 0 $padding-base;
+                padding: $padding-base 0;
+            }
+        }
+    }
+    &-dialog {
+        .modal {
+            &-content {
+                > .modal-header {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.dialog {
+    &-with-footer {
+        .dialog-body,
+        .export-dialog-tree,
+        .lfr-dynamic-uploader,
+        .lfr-form-content,
+        .portlet-configuration-body-content,
+        .roles-selector-body {
+            bottom: 101px;
+        }
+
+        .button-holder {
+            &.dialog-footer {
+                @media only screen and (min-width: $screen-xs-min) {
+                    box-shadow: none;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                @media only screen and (max-width: $screen-xs-min) {
+                    padding: $padding-base;
+                }
+
+                &.row-reverse {
+                    @media only screen and (min-width: $screen-xs-min) {
+                        flex-direction: row-reverse;
+                        justify-content: flex-start;
+                        .btn {
+                            &:first-child {
+                                @media only screen and (min-width: $screen-xs-min) {
+                                    margin-left: 20px;
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .btn {
+                    &:first-child {
+                        @media only screen and (min-width: $screen-xs-min) {
+                            margin-right: 20px;
+                        }
+                        @media only screen and (max-width: $screen-xs-min) {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    @media only screen and (max-width: $screen-xs-min) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &-iframe-popup {
+        background-color: $white;
+        fieldset {
+            background-color: $white;
+        }
+
+        .modal-header {
+            border-bottom-width: 2px;
+            margin: 0 $padding-base;
+            padding: $padding-base 0;
+            &.md {
+                margin: 0 $padding-desktop-base;
+                padding: $padding-desktop-base 0 $padding-base 0;
+            }
+            @media (min-width: $screen-sm-min) {
+                margin: 0 $padding-desktop-base;
+                padding: $padding-desktop-base 0 $padding-base 0;
+            }
+        }
+
+        .lfr-form-content,
+        .cec-form-content {
+            padding: $padding-base;
+            &.md {
+                padding: $padding-base $padding-desktop-base 0 $padding-desktop-base;
+                font-size: $font-size-desktop-base;
+            }
+            @media (min-width: $screen-sm-min) {
+                padding: $padding-base $padding-desktop-base 0 $padding-desktop-base;
+            }
+            .cec-button-holder {
+                padding-top: 5px;
+                @media (min-width: $screen-sm-min) {
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+.dialog-with-footer {
+    .lfr-form-content {
+        left: 0;
+        overflow: auto;
+        padding: 20px 30px 0 30px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .button-holder {
+        &.dialog-footer {
+            border-top: none;
+            padding: 0 30px 30px 0;
+            position: absolute;
+        }
+    }
+
+    #main-content, #wrapper {
+        @include media-breakpoint-up(md) {
+            height: 100%;
+        }
+    }
+}

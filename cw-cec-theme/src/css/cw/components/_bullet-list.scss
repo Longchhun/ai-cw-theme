@@ -1,0 +1,28 @@
+.bullet-list {
+    .bullet-item {
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .bullet {
+            align-items: center;
+            border: 1px solid $gray;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            margin-right: 10px;
+            min-width: 35px;
+            padding: 5px;
+            vertical-align: middle;
+
+            &:before {
+                content:'';
+                float: left;
+                padding-bottom: 100%;
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 17">
+    <g transform="translate(-1058.461 -8192)">
+        <circle cx="3.5" cy="3.5" r="3.5" transform="translate(1066.999 8195.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path d="M22.875,6.172C21.712,4.852,17.061,0,11.5,0S1.286,4.852.123,6.172a.5.5,0,0,0,0,.656C1.286,8.148,5.937,13,11.5,13S21.712,8.148,22.875,6.828A.5.5,0,0,0,22.875,6.172Z" transform="translate(1059 8192.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+</svg>

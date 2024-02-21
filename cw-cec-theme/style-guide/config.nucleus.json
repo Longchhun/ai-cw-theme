@@ -1,0 +1,24 @@
+{
+  "title": "Nucleus",
+  "files": [
+    "../src/css/cw/**/*.scss",
+    "../src/css/cw/components/_button.scss"
+  ],
+  "scripts": [
+    "https://code.jquery.com/jquery-3.5.1.min.js",
+    "scripts/index.js"
+  ],
+  "target": "styleguide",
+  "css": [
+    "../css/font-awesome.css",
+    "../../build/css/main.css",
+    "../../build/css/clay.css",
+    "../css/sg.css",
+    "../font/fontawesome-alloy.woff"
+  ],
+  "namespace": "page",
+  "verbose": 3,
+  "counterCSS": null,
+  "staticLipsum": false,
+  "placeholderService": false
+}

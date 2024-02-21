@@ -1,0 +1,68 @@
+.re-order-wrapper {
+    .dragdrop {
+        position: absolute;
+        width: 2.3rem;
+        height: 4.0rem;
+        top: 0;
+        left: 0;
+    }
+
+    .draggable-icon {
+        height: 1.1875rem;
+        width: 1.1875rem;
+    }
+
+    .thumbnail-wrapper {
+
+        img,
+        .edit-post-video-thumbnail {
+            width: 7.8125rem;
+            height: 5rem;
+            object-fit: cover;
+        }
+
+        .edit-post-video-thumbnail {
+            background-color: $black;
+        }
+
+        .blob-image {
+            background-position: center;
+            background-size: cover;
+            width: 7.8125rem;
+            height: 5rem;
+        }
+    }
+}
+
+.item-re-order {
+    &.gu-mirror {
+        border: 0.125rem solid $primary;
+        border-radius: 0.25rem;
+
+        img {
+            width: 7.8125rem;
+            height: 5rem;
+            object-fit: cover;
+        }
+    }
+
+    .accordion-body {
+        &.course-activity-view {
+            padding-left: 2.25rem;
+            padding-right: 4.15rem;
+
+            @include media-breakpoint-down(sm) {
+                padding-right: 0;
+                padding-left: 0
+            }
+        }
+        &.instance-activity-view {
+            padding-left: 0rem;
+            padding-right: 2.3rem;
+
+            @include media-breakpoint-down(sm) {
+                padding-right: 0;
+            }
+        }
+    }
+}

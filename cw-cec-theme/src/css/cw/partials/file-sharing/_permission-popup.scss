@@ -1,0 +1,11 @@
+@import 'cw/mixins/custom-multi-select';
+
+.set-permission-popup {
+    @include custom-multi-select;
+
+    .radio-container {
+        span {
+            font-weight: $font-weight-normal;
+        }
+    }
+}

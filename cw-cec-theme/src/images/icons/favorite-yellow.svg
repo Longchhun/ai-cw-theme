@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <g transform="translate(.5 .5)">
+    <circle data-name="Oval" cx="9.5" cy="9.5" r="9.5" stroke="#f5a623" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#f5a623"/>
+    <circle data-name="Oval" cx="9.5" cy="9.5" r="9.5" fill="none"/>
+  </g>
+  <path d="M10.53 5.815l1.154 2.68h2.245a.552.552 0 0 1 .387.963L12.367 11.2l1.079 2.482a.589.589 0 0 1-.837.737L10 12.947l-2.607 1.472a.589.589 0 0 1-.84-.737L7.635 11.2 5.686 9.459a.552.552 0 0 1 .386-.965h2.249l1.155-2.679a.6.6 0 0 1 1.055 0z" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+</svg>

@@ -1,0 +1,19 @@
+.tabs {
+    label {
+        .lexicon-icon {
+            height: inherit;
+            width: inherit;
+        }
+    }
+
+    input[type="radio"] {
+        display: none;
+
+        &:checked {
+            & + label {
+                box-shadow: 0 0 0 1px $primary;
+                border: 1px solid $primary;
+            }
+        }
+    }
+}

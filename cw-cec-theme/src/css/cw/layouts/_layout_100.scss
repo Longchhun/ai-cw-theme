@@ -1,0 +1,26 @@
+.cec {
+    &-layout-100 {
+        background-color: $white;
+        border-radius: $layout-border-radius-width $layout-border-radius-width $layout-border-radius-width  $layout-border-radius-width;
+
+        .cec-layout-min-height {
+            min-height: $layout-min-height;
+        }
+
+        .cec-sidebar {
+            min-height: $layout-header-min-height;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-left: -0.5rem;
+            float: left;
+            border-radius: 0;
+            min-height: auto;
+        }
+
+        @include media-breakpoint-down(xs) {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}

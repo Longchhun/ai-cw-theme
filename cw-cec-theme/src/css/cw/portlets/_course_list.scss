@@ -1,0 +1,52 @@
+.portlet-manage-courses-wrapper,
+.member-management-wrapper {
+    @import '../partials/discussion/discussions';
+    .cw-top-header {
+        height: auto;
+
+        .cw-top-header__btn,
+        .cw-top-header__search-input {
+            @include media-breakpoint-down(xs) {
+                height: 3.5rem;
+            }
+        }
+
+        .btn-group {
+            &-filter-course {
+                max-width: 18.125rem;
+            }
+            &-search-course {
+                max-width: 27.9375rem;
+            }
+            &-lesson-studio {
+                max-width: 10.4375rem;
+            }
+        }
+
+        a[disabled] {
+            cursor: not-allowed !important;
+            opacity: 0.5;
+        }
+    }
+
+    .badge-shared-course {
+        min-width: 5.5rem;
+        height: 1.25rem;
+    }
+
+    .badge-not-duplicate,
+    .badge-suggested-course {
+        min-width: 6.375rem;
+        height: 1.25rem;
+    }
+
+    .cw-pagination-wrapper {
+        height: 6.25rem;
+    }
+
+    .course-image-thumbnail {
+        width: 10.6875rem;
+        height: 4.5625rem !important;
+        object-fit: cover;
+    }
+}

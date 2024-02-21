@@ -1,0 +1,42 @@
+.management-bar {
+    .navbar-nav>.nav-item>.dropdown>.nav-btn {
+        min-width: 2rem;
+        min-height: auto;
+    }
+
+    &.management-bar-default {
+        .management-bar-collapse {
+            .accordion {
+                min-width: 17.4375rem;
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            .management-bar-collapse {
+                background-color: $white;
+                border-color: $gray-lighter;
+                padding: 0 15px;
+                left: 0;
+                right: 0;
+                z-index: 2;
+
+                .dropdown {
+                    a {
+                        padding: 12.50px 15px;
+
+                        .management-bar-item-title {
+                            font-size: $font-size-base;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-nav {
+        >li {
+            &.dropdown {
+                margin-top: 12px;
+            }
+        }
+    }
+}

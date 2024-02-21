@@ -1,0 +1,14 @@
+.overflow {
+
+    &-x-hidden {
+        overflow-x: hidden;
+    }
+
+    &-unset {
+        overflow: unset;
+    }
+
+    &-y-auto {
+        overflow-y: auto;
+    }
+}

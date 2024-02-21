@@ -1,0 +1,12 @@
+.e-timepicker {
+    li.e-list-item {
+        color: $black !important;
+        &.e-hover {
+            color: $black !important;
+        }
+        &.e-active {
+            background-color: $primary !important;
+            color: $white !important;
+        }
+    }
+}

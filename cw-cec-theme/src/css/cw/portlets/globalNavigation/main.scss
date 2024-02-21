@@ -1,0 +1,26 @@
+@import 'header';
+@import 'search-box';
+@import 'web-notification';
+@import 'mobile_navigation';
+
+.portlet-global-navigation-wrapper {
+    #global-navigation {
+        top: 4.25rem;
+    }
+
+    .cw-navigation-header {
+        height: 4.375rem;
+    }
+
+    .cw-header {
+        border-bottom: 0.125rem solid $color-grey-light-alt1;
+        position: fixed;
+        width: 100%;
+        transform: translate3d(0, 0, 0);
+        transition: 0.1s all ease-out;
+
+        &.navbar--hidden {
+            transform: translate3d(0, -100%, 0);
+        }
+    }
+}

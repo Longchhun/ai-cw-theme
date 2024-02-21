@@ -1,0 +1,203 @@
+#homeTooltip {
+    position: absolute;
+    width: 350px;
+    z-index: 10;
+
+    a {
+        color: $primary;
+    }
+
+    .swal2-container {
+        padding: 12px 3px;
+
+        &:before {
+            border-bottom: 12px solid $white;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            content: "";
+            display: block;
+            filter: drop-shadow(0px -2px 1px  rgba(0, 0, 0, 0.1));
+            left: 50px;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+        }
+
+        &.left {
+            &:before {
+                left: auto;
+                right: 50px;
+            }
+        }
+
+        &.swal2-shown {
+            background-color: transparent !important;
+            border-radius: $border-radius-base;
+
+            .swal2-popup {
+                box-shadow: 0 0 5px 0 rgba(74, 74, 74, 0.4);
+            }
+        }
+    }
+
+}
+
+.cec-tooltips {
+    &-overlay {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        opacity: 0.6;
+        box-sizing: content-box;
+        z-index: 1028;
+        background-color: $gray;
+        -ms-filter: "alpha(opacity=60)";
+        filter: alpha(opacity=60);
+    }
+
+    &-wrapper {
+        box-sizing: content-box;
+        position: absolute !important;
+        visibility: hidden;
+        z-index: 1029 !important;
+        background-color: transparent;
+    }
+
+    &-show {
+        box-sizing: content-box;
+        position: absolute;
+        visibility: visible;
+        max-width: 350px;
+
+        .swal2-close {
+            font-size: 24px;
+            top: 24px;
+        }
+    }
+}
+
+.date-tooltip-wrapper,
+.cw-tooltip-wrapper,
+.language-tooltip-wrapper,
+.change-log-moodle-tooltip-wrapper,
+.cw-tooltip-validation-wrapper {
+    width: fit-content;
+    .tooltip {
+        &-body {
+            padding: 0.438rem 0.938rem;
+            top: 2rem;
+            background-color: $black;
+            color: $white;
+            visibility: hidden;
+            margin-left: 1.125rem;
+            border-radius: 0.313rem;
+            z-index: 1028;
+            transform: translateX(-60%);
+            &::before {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 0;
+                left: 51%;
+                top: 0.6rem;
+                border: 0.938rem solid transparent;
+                border-top: 0;
+                border-bottom: 0.938rem solid $black;
+                transform: translate(-50%, calc(-100% - 5px));
+            }
+            @include media-breakpoint-between(lg, lg) {
+                width: 100%;
+            }
+        }
+        &-body-wrapper {
+            transform: translateX(-40%);
+        }
+    }
+    &:hover .tooltip-text {
+        visibility: visible;
+    }
+}
+
+.date-tooltip-wrapper, .cw-tooltip-wrapper {
+    .tooltip {
+        &-body {
+            left: 50%;
+            min-width: 12.938rem;
+        }
+    }
+}
+
+.language-tooltip-wrapper {
+    &:hover {
+        svg {
+            color: $primary;
+        }
+    }
+    .tooltip {
+        &-body {
+            left: 20%;
+            min-width: 8rem;
+
+            @include media-breakpoint-down(sm) {
+                left: -140%;
+
+                &::before {
+                    left: 76%;
+                }
+            }
+        }
+    }
+}
+
+.change-log-moodle-tooltip-wrapper {
+    margin-top: .08rem;
+
+    &.edit-from-moodle-site {
+        .tooltip-body {
+            transform: translate(1.1rem,-3.25rem);
+
+            &::before {
+                transform: rotate(-.25turn) translate(-37%,-7.8rem);
+            }
+        }
+    }
+    .tooltip-body {
+        min-width: 12.938rem;
+        transform: translate(1.1rem, -3.8rem);
+
+        &::before {
+            transform: rotate(-.25turn) translate(-67%, -7.8rem);
+        }
+    }
+    @include media-breakpoint-down(md) {
+        &.edit-from-moodle-site .tooltip-body, .tooltip-body {
+            transform: translateX(-88%);
+
+            &::before {
+                transform: translate(172%, calc(-100% - 5px));
+            }
+        }
+    }
+    &:hover {
+        color: $primary !important;
+    }
+}
+
+.overflow-x-unset-md {
+    @include media-breakpoint-up(md) {
+        overflow-x: unset !important;
+    }
+}
+
+.width-auto {
+    width: auto !important;
+}
+
+.width-fit-content {
+    width: fit-content !important;
+}
+
+@import 'tooltips/cw-tooltips';
+

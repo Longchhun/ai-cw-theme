@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-978.000000, -500.000000)" stroke="currentColor">
+            <g transform="translate(978.000000, 500.000000)">
+                <path d="M23.5,23.5 L20.5,19.5 L20.5,14.941 C20.5,13.247 18.419,11.641 16.5,10" id="Path"></path>
+                <path d="M17.5,16.5 L15.25,14.25 C14.8357088,13.835974 14.1642912,13.835974 13.75,14.25 C13.4159985,14.6942215 13.4159985,15.3057785 13.75,15.75 L16.5,19 L16.5,20 C16.5,21 18.5,23.5 18.5,23.5" id="Path"></path>
+                <line x1="16.5" y1="9.5" x2="16.5" y2="15.5" id="Path"></line>
+                <line x1="7" y1="3.5" x2="12" y2="3.5" id="Path"></line>
+                <line x1="5.5" y1="10.5" x2="5.5" y2="8" id="Path"></line>
+                <path d="M16.5,19.5 L16.5,21.5 C16.5,22.6045695 15.6045695,23.5 14.5,23.5 L7.5,23.5 C6.3954305,23.5 5.5,22.6045695 5.5,21.5 L5.5,18" id="Path"></path>
+                <line x1="16.5" y1="19.5" x2="5.5" y2="19.5" id="Path"></line>
+                <path d="M11,21.25 C11.1380712,21.25 11.25,21.3619288 11.25,21.5 L11.25,21.5 C11.25,21.6380712 11.1380712,21.75 11,21.75 L11,21.75 C10.8619288,21.75 10.75,21.6380712 10.75,21.5 L10.75,21.5 C10.75,21.3619288 10.8619288,21.25 11,21.25" id="Path"></path>
+                <line x1="11" y1="21.25" x2="11" y2="21.25" id="Path"></line>
+                <circle id="Oval" cx="2.5" cy="15" r="2"></circle>
+                <circle id="Oval" cx="2.5" cy="2.5" r="2"></circle>
+                <circle id="Oval" cx="17" cy="4.5" r="3"></circle>
+                <line x1="4.142" y1="3.642" x2="8.305" y2="7.805" id="Path"></line>
+                <line x1="14.625" y1="6.333" x2="12.813" y2="8.75" id="Path"></line>
+                <line x1="4.295" y1="14.117" x2="8.391" y2="11.777" id="Path"></line>
+                <circle id="Oval" cx="10.25" cy="9.75" r="2.75"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

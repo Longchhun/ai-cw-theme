@@ -1,0 +1,49 @@
+@import 'dropdown/dropdown-menu';
+@import 'dropdown/cw-multi-select';
+@import 'dropdown/language_dropdown';
+@import 'dropdown/cw-dropdown';
+@import 'dropdown/cw-split-dropdown';
+@import 'dropdown/dropdown_up_down_caret';
+@import 'dropdown/dropdown_three_dots';
+
+.open {
+    > .btn-default {
+        &.dropdown-toggle,
+        &.dropdown-toggle:hover,
+        &.dropdown-toggle:focus {
+            color: $white;
+        }
+    }
+}
+
+.cw-learning-dropdown {
+    &__wrapper {
+        width: 14.8125rem;
+
+        @include media-breakpoint-down(xs) {
+            width: 100% !important;
+        }
+
+        .show {
+            .caret-icon {
+                transform: rotate(180deg);
+            }
+
+            .dropdown-button {
+                color: $primary;
+
+                i {
+                    color: $primary !important;
+                }
+            }
+        }
+
+        .dropdown-button {
+            color: $black-lignter-alt1;
+        }
+
+        i {
+            font-size: 0.875rem;
+        }
+    }
+}

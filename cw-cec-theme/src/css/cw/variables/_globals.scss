@@ -1,0 +1,330 @@
+$atlas-theme:                   false;
+
+/**
+* @color white
+* @section White Group
+*/
+$white:                         #FFFFFF;
+/**
+* @color white Dark
+* @section White Group
+*/
+$white-dark:                    #F7F8F9;
+/**
+* @color white Darker
+* @section White Group
+*/
+$white-darker:                  #F5F5F5;
+/**
+* @color white Darker alt 1
+* @section White Group
+*/
+$white-darker-alt1:             #F3F3F3;
+
+/**
+* @color black
+* @section Black Group
+*/
+$black:                         #4A4A4A;
+/**
+* @color black darker
+* @section Black Group
+*/
+$black-darker:                  #000000;
+/**
+* @color black alt 1
+* @section Black Group
+*/
+$black-alt-1:                   #242a37;
+/**
+* @color black light
+* @section Black Group
+*/
+$black-light:                   #484848;
+/**
+* @color black lighter
+* @section Black Group
+*/
+$black-lighter:                 #717073;
+/**
+* @color black lignter alt1
+* @section Black Group
+*/
+$black-lignter-alt1:            #333333;
+
+/**
+* @color blue
+* @section Blue Group
+*/
+$blue:                          #007FB2;
+
+/**
+* @color teal
+* @section Teal Group
+*/
+$teal:                          #339BB2;
+/**
+* @color teal alt 1
+* @section Teal Group
+*/
+$teal-alt-1:                    #246E7F;
+/**
+* @color teal Alt 2
+* @section Teal Group
+*/
+$teal-alt-2:                    #34247F;
+/**
+* @color teal alt 3
+* @section Teal Group
+*/
+$teal-alt-3:                    #1C5663;
+/**
+* @color teal dark
+* @section Teal Group
+*/
+$teal-dark:                     #2A8194;
+/**
+* @color teal darker
+* @section Teal Group
+*/
+$teal-darker:                   #276F7F;
+
+/**
+* @color green
+* @section Green Group
+*/
+$green:                         #417505;
+/**
+* @color green light
+* @section Green Group
+*/
+$green-light:                   #00B2A9;
+/**
+* @color green lighter
+* @section Green Group
+*/
+$green-lighter:                 #379202;
+/**
+* @color green dark
+* @section Green Group
+*/
+$green-dark:                    #264403;
+/**
+* @color green alt 1
+* @section Green Group
+*/
+$green-alt-1:                    #247F54;
+/**
+* @color green alt 2
+* @section Green Group
+*/
+$green-alt-2:                    #4B9A00;
+/**
+* @color yellow
+* @section Yellow Group
+*/
+$yellow:                        #F5A623;
+
+/**
+* @color yellow alt 1
+* @section Yellow Group
+*/
+$yellow-alt-1:                  #FB8333;
+/**
+* @color yellow light
+* @section Yellow Group
+*/
+$yellow-alt-2:                  #FBF033;
+/**
+* @color yellow dark
+* @section Yellow Group
+*/
+$yellow-dark:                   #DB8C0A;
+
+/**
+* @color red
+* @section Red Group
+*/
+$red:                           #D0021B;
+/**
+* @color red dark
+* @section Red Group
+*/
+$red-dark:                      #9E0010;
+
+$red-alt-1:                     #D93434;
+
+/**
+* @color gray
+* @section Gray Group
+*/
+$gray:                          #898989;
+/**
+* @color gray darker
+* @section Gray Group
+*/
+$gray-darker:                   #656565;
+$gray-base:                     $black;
+/**
+* @color gray light
+* @section Gray Group
+*/
+$gray-light:                    #9B9B9B;
+/**
+* @color gray lighter
+* @section Gray Group
+*/
+$gray-lighter:                  #E3E3E7;
+/**
+* @color gray lighter alt1
+* @section Gray Group
+*/
+$gray-lighter-alt1:             #F1F1F1;
+/**
+* @color gray lighter alt2
+* @section Gray Group
+*/
+$gray-lighter-alt2:             #DEDEDE;
+/**
+* @color gray lighter alt3
+* @section Gray Group
+*/
+$gray-lignter-alt3:             #F2F2F2;
+/**
+* @color gray lighter alt4
+* @section Gray Group
+*/
+$gray-lignter-alt4:             #3F3F3F;
+/**
+* @color gray lighter alt5
+* @section Gray Group
+*/
+$gray-lignter-alt5:             #BCBCBC;
+/**
+* @color gray lighter alt6
+* @section Gray Group
+*/
+$gray-lignter-alt6:             #F7F7F7;
+/**
+* @color gray lighter alt7
+* @section Gray Group
+*/
+$gray-lighter-alt7:             #EEEEEE;
+/**
+* @color gray lighter alt8
+* @section Gray Group
+*/
+$gray-lignter-alt8:             #CFCFCF;
+/**
+* @color gray lighter alt9
+* @section Gray Group
+*/
+$gray-lignter-alt9:             #E2E2E2;
+/**
+* @color gray lighter alt11
+* @section Gray Group
+*/
+$gray-lignter-alt11:             #858585;
+/**
+* @color gray lighter alt12
+* @section Gray Group
+*/
+$gray-lighter-alt12:             #E1E1E1;
+/**
+* @color gray lighter alt13
+* @section Gray Group
+*/
+$gray-lighter-alt13:             #F3F3F3;
+/**
+* @color yellow light
+* @section Yellow Group
+*/
+$yellow-light:                   #FEFDB8;
+
+/**
+* @color orange
+* @section Orange Group
+*/
+$orange:                        #FA6400;
+
+// BRANDING
+/**
+* @nuclide primary
+* @section Branding
+*/
+$primary:                       $teal;
+/**
+* @nuclide
+* @section Branding
+*/
+$secondary:                     $gray;
+/**
+* @nuclide
+* @section Branding
+*/
+$success:                       $green;
+$warning:                       $yellow;
+$danger:                        $red;
+$light:                         $gray-lighter;
+
+$font-color:                    $gray-darker;
+$font-color-dark:               $black;
+$link-hover-color:              $primary;
+$headings-color:                $font-color-dark;
+$headings-margin-base:          1.375rem;
+
+
+// SPACING
+$padding-base:                  1.25rem;                    // 20px
+$padding-base-vertical:         0.5rem;
+$padding-base-horizontal:       0.75rem;
+$padding-desktop-base:          $padding-base + 0.625rem;   // 30px
+
+$cec-spacing:                   1.25rem;
+$spacer:                        1rem;
+
+// BOX SHADOW
+$box-shadow-default-y:          0.75rem;
+$box-shadow-default-blur:       1.5rem;
+$box-shadow-default-spread:     0;
+$box-shadow-default-bg:         rgba($black, .4);
+
+// STATES
+$state-warning-bg:              #FFFDB8;
+$state-warning-border:          $gray-lighter;
+$state-warning-text:            $yellow;
+
+// ALERTS
+$alert-border-width:            0.063rem;
+
+$alert-warning-bg:              $state-warning-bg;
+$alert-warning-border:          $state-warning-border;
+$alert-warning-text:            $state-warning-text;
+
+// Navbar
+$navbar-padding-y:              0;
+$navbar-padding-x:              0;
+
+// Buttons
+$btn-font-size:                 $font-size-regular;
+$btn-focus-box-shadow:          none;
+$btn-focus-width:               0;
+
+// Form
+$input-height:                  2.5rem;
+$input-focus-border-color:      $primary;
+$input-focus-box-shadow:        none;
+
+// Body
+$body-color:                    $font-color;
+$body-bg:                       $white-dark;
+
+// Dropdown
+$dropdown-font-size:            $font-size-regular;
+
+// Sheet
+$sheet-bg:                      $white;
+$sheet-border-radius:           none;
+
+$enable-scaling-components:     true;
+$line-height-base:              1.43;

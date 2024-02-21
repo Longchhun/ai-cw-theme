@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>29F776F9-38E2-4D76-8490-6C95B7ADDCBA</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Cop-request-selected" transform="translate(-961, -244)" stroke="#656565">
+            <g id="Group-9" transform="translate(962, 243)">
+                <g id="approve" transform="translate(0, 2)">
+                    <circle id="Oval" cx="14.6878665" cy="14.7869152" r="5.21308484"></circle>
+                    <path d="M17.0111647,13.2716452 L14.4871628,16.6366914 C14.3739143,16.7880915 14.2004917,16.8828403 14.0119054,16.8963465 C13.8233191,16.9098527 13.6381642,16.8407845 13.5044963,16.7070681 L12.2012251,15.4037969" id="Path"></path>
+                    <path d="M7.81962726,12.1638646 L1.30327121,12.1638646 C0.583494396,12.1638646 0,11.5803702 0,10.8605934 L0,1.30327121 C0,0.583494396 0.583494396,0 1.30327121,0 L16.9425257,0 C17.6623026,0 18.245797,0.583494396 18.245797,1.30327121 L18.245797,7.81962726" id="Path"></path>
+                    <polyline id="Path" points="17.869586 0.387505973 9.12289848 7.38520353 0.375342109 0.387505973"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

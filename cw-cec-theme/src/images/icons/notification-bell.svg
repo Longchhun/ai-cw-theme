@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 36</title>
+    <g id="Notification-Desktop" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-36" transform="translate(1.000000, 1.000000)" stroke="currentColor">
+            <path d="M20,16.9768392 L20,10.4768392 C19.9961019,6.92709648 17.7867122,3.75356594 14.459,2.51783924 C14.2226209,1.06621058 12.9687484,1.13686838e-13 11.498,1.13686838e-13 C10.0272516,1.13686838e-13 8.77337905,1.06621058 8.537,2.51783924 C5.20955907,3.75319959 3.00124514,6.92747637 3,10.4768392 L3,16.9768392 C3,18.6336935 1.65685425,19.9768392 0,19.9768392 L23,19.9768392 C21.3431458,19.9768392 20,18.6336935 20,16.9768392 Z" id="Shape"></path>
+            <path d="M14.5,19.9768392 C14.5,21.6336935 13.1568542,22.9768392 11.5,22.9768392 C9.84314575,22.9768392 8.5,21.6336935 8.5,19.9768392" id="Shape"></path>
+        </g>
+    </g>
+</svg>

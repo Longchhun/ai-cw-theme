@@ -1,0 +1,41 @@
+.consent-form {
+    .consent-form-body {
+        .consent-items-wrapper {
+            .item {
+                .circle-number {
+                    width: 2rem;
+                    height: 2rem;
+                    min-width: 2rem;
+                    min-height: 2rem;
+                    border-radius: 50%;
+                    border: 1px solid $black;
+                }
+            }
+        }
+    }
+
+    .cec-card__header-action {
+        right: 1rem !important;
+        top: auto !important;
+    }
+    .form-size-container {
+        width: 6.5625rem;
+        height: 4.6875rem;
+        border: 1px solid $border-color-base;
+        border-radius: .25rem;
+
+        &:hover {
+            cursor: pointer;
+            border: .125rem solid $color-primary;
+        }
+
+        &.active {
+            border: .125rem solid $color-primary;
+        }
+
+        .form-size-icon {
+            top: .25rem;
+            right: .325rem;
+        }
+    }
+}

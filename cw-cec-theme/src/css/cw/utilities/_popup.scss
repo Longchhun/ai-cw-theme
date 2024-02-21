@@ -1,0 +1,46 @@
+.cec-popup--width {
+
+    &-300 {
+        width: 18.75rem !important;
+    }
+
+    &-400 {
+        width: 25rem !important;
+    }
+
+    &-450 {
+        width: 28.125rem !important;
+    }
+
+    &-500 {
+        width: 31.25rem !important;
+    }
+
+    &-650 {
+        width: 40.625rem !important;
+        &.cec-popup--fullscreen {
+            @include media-breakpoint-down(sm) {
+                @include orientation(landscape) {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    &-700 {
+        width: 43.75rem !important;
+    }
+
+    &-800 {
+        width: 50rem !important;
+    }
+
+    &-850 {
+        width: 52.5rem !important;
+    }
+}
+
+.popup-rounded-10 {
+    border-radius: $modal-border-radius-10;
+}
+

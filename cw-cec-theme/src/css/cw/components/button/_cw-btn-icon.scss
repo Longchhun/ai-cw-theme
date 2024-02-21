@@ -1,0 +1,18 @@
+.cw-btn-icon {
+    padding: 1.1rem;
+    svg {
+        color: inherit !important;
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 0.75rem;
+    }
+
+    &.disabled,
+    &[disabled] {
+        @extend .link-state-disabled;
+    }
+
+    &:hover {
+        color: $primary !important;
+    }
+}

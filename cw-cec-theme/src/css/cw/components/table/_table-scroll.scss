@@ -1,0 +1,8 @@
+.table-scroll {
+    overflow: hidden;
+    overflow-y: scroll;
+
+    &--3-rows {
+        height: 13.5rem;
+    }
+} 

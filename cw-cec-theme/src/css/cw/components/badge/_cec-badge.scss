@@ -1,0 +1,45 @@
+.cec-badge {
+    align-items: center;
+    border: 0.0625rem solid transparent;
+    border-radius: 10rem;
+    display: inline-flex;
+    font-size: 0.875rem;
+    font-weight: normal;
+    height: 1.25rem;
+    justify-content: center;
+    line-height: 0;
+    max-width: 100%;
+    text-align: center;
+
+    &--fixed-width {
+        width: 50px;
+    }
+
+    &--default {
+        background: $color-black-alt1;
+        color: $white;
+    }
+
+    &--primary {
+        background: $primary;
+        color: $white;
+    }
+
+    &--darker {
+        color: $black-alt-1 !important;
+        line-height: 1.25rem;
+    }
+
+    &--secondary {
+        border-radius: 0.1875rem;
+        padding: 0.3125rem;
+    }
+
+    &--green {
+        background-color: $green-lighter;
+    }
+
+    &__item {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,96 @@
+#portlet_manageMemberTrainingReportPortlet, #portlet_com_khalibre_training_reports, #portlet_com_khalibre_training_reports, #portlet_com_khalibre_training_reports_omf  {
+
+    .group-filter-button {
+        display: table;
+        width: 100%;
+        margin: 1px 0px 5px 0px;
+    }
+    .report-result-title {
+        bottom: -0.4em;
+        margin-left: 3px;
+    }
+    .customer-view-bottom {
+        bottom: -0.6em;
+    }
+    .btn-footer {
+        margin: 0 2px;
+        padding: 2px 5px;
+        color: $font-color-regular;
+    }
+    .overflow-auto-and-padding-left-5 {
+        overflow:auto;
+        padding-left: 5px;
+    }
+    .search-criteria {
+        text-align:left;
+        box-shadow: none;
+        border: 1px solid $color-grey-light-alt4;
+    }
+    .search-criteria li {
+        border:none;
+    }
+    .margin-right-1 {
+        margin-right: 1em;
+    }
+    .tabulator-cell a {
+        color: $color-dark-blue;
+    }
+    span.select2 {
+        min-width: 100%;
+    }
+    .portlet-content .form .form-group {
+        margin-bottom: 0px;
+    }
+    .portlet-title-text {
+        display: none;
+    }
+    form .tabulator .tabulator-header .tabulator-col {
+        height: 100% !important;
+    }
+    .tabulator-tableHolder .tabulator-table {
+        min-height: 100% !important;
+    }
+    .portlet-content .form .form-group {
+        margin-bottom: 0px;
+    }
+    .btn {
+        margin-top: 5px;
+        margin-left: 0px;
+        height: 40px;
+    }
+    .input-group .form-control:last-child{
+        height: 35px;
+    }
+    .advance-filter {
+        margin-top: -1.34em;
+        width: fit-content;
+        background-color: $color-white;
+        color: $color-grey-dark-alt1;
+    }
+    .no-padding-and-no-background {
+        padding: 0;
+        background: none;
+    }
+    .loading-style {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        margin: 2% 45%;
+    }
+    .date-picker .input-text-wrapper, .flex-nowrap .input-select-wrapper {
+        width: 100%;
+    }
+    .select2-selection {
+        height: 2.5rem;
+        overflow-y: auto;
+    }
+}
+#portlet_manageMemberTrainingReportPortlet
+, #portlet_com_khalibre_training_reports {
+    .input-group{
+        margin-bottom: 0;
+    }
+}
+#_manageMemberTrainingReportPortlet_txtSearch{
+    max-width: 200px;
+}

@@ -1,0 +1,39 @@
+.cec-video-player {
+    height: 22.25rem;
+    @include media-breakpoint-up(sm) {
+        height: 31.4375rem;
+    }
+
+    &--dummy {
+        @include media-breakpoint-down(xs) {
+            height: 9.625rem;
+        }
+    }
+
+    iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__img {
+        height: auto;
+        background: transparent;
+        justify-content: center;
+
+        .cec-video-player__btn {
+            position: absolute;
+        }
+    }
+
+    .image__wrapper {
+        width: 100%;
+    }
+
+    .btn-play--sm {
+        @include media-breakpoint-down(xs) {
+            min-width: auto !important;
+            min-height: auto !important;
+        }
+    }
+}

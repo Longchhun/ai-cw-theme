@@ -1,0 +1,21 @@
+<svg viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Interface-Essential / Move / direction-button-2">
+        <g data-name="Group 720" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M10.5 12.209a1.71 1.71 0 1 0-1.71-1.71 1.709 1.709 0 0 0 1.71 1.71z"
+                data-name="Oval 417"/>
+            <path
+                d="M16.224 13.494a.428.428 0 0 0 .714.318l3.42-2.993a.427.427 0 0 0 0-.636l-3.42-2.993a.427.427 0 0 0-.714.318z"
+                data-name="Shape 3402"/>
+            <path
+                d="M4.776 7.509a.428.428 0 0 0-.714-.318l-3.42 2.993a.427.427 0 0 0 0 .636l3.42 2.993a.428.428 0 0 0 .714-.318z"
+                data-name="Shape 3403"/>
+            <path
+                d="M13.493 4.776a.428.428 0 0 0 .318-.714L10.818.642a.427.427 0 0 0-.636 0l-2.993 3.42a.427.427 0 0 0 .318.714z"
+                data-name="Shape 3404"/>
+            <path
+                d="M7.507 16.224a.427.427 0 0 0-.318.714l2.993 3.42a.428.428 0 0 0 .636 0l2.993-3.42a.428.428 0 0 0-.318-.714z"
+                data-name="Shape 3405"/>
+        </g>
+    </g>
+</svg>

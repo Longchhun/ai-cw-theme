@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g transform="translate(-2147.25 9526)">
+        <circle cx="11.25" cy="11.25" r="11.25" transform="translate(2148 -9525.25)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" />
+        <path d="M2.539,21.842C1.017,19.61,0,15.554,0,10.921S1.017,2.232,2.539,0" transform="translate(2154 -9524.921)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" />
+        <path d="M0,.5H22.5" transform="translate(2148 -9514.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" />
+        <path d="M0,.5H19.036" transform="translate(2149.732 -9508.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" />
+        <path d="M0,.5H19.036" transform="translate(2149.732 -9520.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" />
+        <path d="M0,0C1.522,2.232,2.539,6.288,2.539,10.921S1.522,19.61,0,21.842" transform="translate(2161.961 -9524.921)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" />
+    </g>
+</svg>

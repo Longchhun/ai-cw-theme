@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Posting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mini-Post" transform="translate(-334.000000, -1051.000000)" fill="currentColor">
+            <path d="M340,1051 C343.313708,1051 346,1053.68629 346,1057 C346,1060.31371 343.313708,1063 340,1063 C336.686292,1063 334,1060.31371 334,1057 C334,1053.68629 336.686292,1051 340,1051 Z M342.12,1053.47 L340,1055.59 L337.87,1053.47 L336.46,1054.88 L338.59,1057 L336.47,1059.12 L337.88,1060.53 L340,1058.41 L342.12,1060.53 L343.53,1059.12 L341.41,1057 L343.53,1054.88 L342.12,1053.47 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <g data-name="Group 11">
+    <g data-name="Oval 3" fill="#fff" stroke="#d8d8d8" stroke-miterlimit="10">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.5" fill="none"/>
+    </g>
+    <g data-name="Group 10" transform="translate(-170 -592)" fill="#d8d8d8">
+      <path data-name="Intersection 1" d="M183.5 661.294a29.527 29.527 0 0 1 27-17.3 29.545 29.545 0 0 1 26.7 16.647A39.366 39.366 0 0 1 210 671.5a39.347 39.347 0 0 1-26.5-10.206z"/>
+      <ellipse cx="17.5" cy="18" rx="17.5" ry="18" transform="translate(193 604)"/>
+    </g>
+  </g>
+</svg>

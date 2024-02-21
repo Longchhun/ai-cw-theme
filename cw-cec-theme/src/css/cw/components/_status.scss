@@ -1,0 +1,34 @@
+.cec-status {
+    border-radius: 50%;
+    display: none;
+    height: 5px;
+    left: -10px;
+    position: absolute;
+    transform: translatey(-50%);
+    top: 50%;
+    width: 5px;
+
+    &--unread {
+        background: $primary;
+        display: block;
+    }
+
+    &__online {
+        background-color: $gray;
+        border-radius: 50%;
+        border: 1px solid $white;
+        height: 12px;
+        position: absolute;
+        width: 12px;
+
+        &.online {
+            background-color: $green;
+        }
+        &.away {
+            background-color: $yellow;
+        }
+        &.busy {
+            background-color: $red;
+        }
+    }
+}

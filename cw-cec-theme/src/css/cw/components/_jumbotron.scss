@@ -1,0 +1,17 @@
+.cec-jumbotron {
+    background-color: $white-dark;
+    border-radius: $border-radius-base;
+    border: 1px solid $border-color-base;
+    padding: $padding-base;
+
+    @media (min-width: $screen-sm-min) {
+        padding: $padding-desktop-base;
+    }
+}
+
+.jumbotron {
+    &.cec-detail-panel {
+        padding: 2rem;
+        color: $font-color-dark;
+    }
+}

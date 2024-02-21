@@ -1,0 +1,182 @@
+.sf-query-builder-wrapper {
+    .querybuilder-control {
+        .e-query-builder {
+            border: none;
+
+            .e-group-container {
+                padding-right: 0;
+
+                .e-group-header {
+                    .e-lib {
+                        box-shadow: none;
+
+                        .e-btngroup-and-lbl,
+                        .e-btngroup-or-lbl {
+                            width: 5rem;
+                            padding: 0.3rem;
+                            text-transform: none;
+                            border: 1px solid $border-color-base;
+                        }
+                        input:checked + label.e-btn {
+                            background: $primary;
+                            border-color: $primary;
+                            color: $white;
+                        }
+                        .e-btngroup-or-lbl {
+                            margin-left: -0.125rem;
+                            border-left: 0;
+                            border-top-left-radius: 0;
+                            border-bottom-left-radius: 0;
+
+                            @include media-breakpoint-down(md) {
+                                margin-left: 0 !important;
+                            }
+                        }
+                        .e-btngroup-and-lbl {
+                            border-right: 0;
+                            border-top-right-radius: 0;
+                            border-bottom-right-radius: 0;
+                        }
+                    }
+                    .e-group-action {
+                        display: none;
+                    }
+                }
+                .e-group-body {
+                    .e-rule-list {
+                        .e-rule-container {
+                            border: 0;
+                            box-shadow: none;
+                            padding: 0;
+
+                            &::before {
+                                width: 1.5rem;
+                            }
+
+                            .e-rule-field {
+                                @include media-breakpoint-up(md) {
+                                    display: flex;
+                                }
+                                .e-input-group {
+                                    padding: .375rem .75rem;
+                                    border: 1px solid $border-color-base !important;
+                                    border-radius: 0.24rem;
+
+                                    &.e-input-focus {
+                                        &::before,
+                                        &::after {
+                                            content: none;
+                                        }
+                                    }
+                                }
+
+                                .e-rule-filter {
+                                    @include media-breakpoint-up(xl) {
+                                        width: 39%;
+                                    }
+                                }
+                                .e-rule-operator {
+                                    @include media-breakpoint-up(xl) {
+                                        width: 15%;
+                                    }
+                                    .e-input-group {
+
+                                    }
+                                }
+                                .e-rule-value {
+                                    @include media-breakpoint-up(xl) {
+                                        width: 39% !important;
+                                    }
+                                    .e-input-group {
+                                        max-width: 100%;
+                                        .e-multi-select-wrapper {
+                                            max-width: 100%;
+                                        }
+                                    }
+
+                                }
+                                .e-rule-value-delete {
+                                    @include media-breakpoint-up(md) {
+                                        margin-top: 1.5rem;
+                                    }
+                                    .e-rule-delete {
+                                        position: relative;
+                                        border: 1px solid $black;
+                                        border-radius: 0.25rem;
+                                        width: 1.5rem;
+                                        height: 1.5rem;
+                                        margin-left: 1.25rem;
+
+                                        .e-delete-icon::before {
+                                            position: absolute;
+                                            left: 0.31rem;
+                                            top: -0.156rem;
+                                        }
+                                        @include media-breakpoint-down(lg) {
+                                            color: transparent;
+
+                                            //Note: here is X close icon from raw css
+                                            &:before, &:after {
+                                              position: absolute;
+                                              top: 0.187rem;
+                                              left: 0.625rem;
+                                              content: '';
+                                              height: 1rem;
+                                              width: 0.125rem;
+                                              background-color: $black;
+                                            }
+                                            &:before {
+                                              transform: rotate(45deg);
+                                            }
+                                            &:after {
+                                              transform: rotate(-45deg);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .e-rule-disable {
+                                pointer-events: none;
+                                opacity: 0.5;
+                                .e-multi-select-wrapper {
+                                    overflow: hidden;
+                                }
+                                .e-rule-margin-right {
+                                    margin-right: -0.19rem !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .add-query-condition {
+        cursor: pointer;
+        color: $black;
+        display: flex;
+        align-items: center;
+        max-width: 11rem;
+        padding-left: .75rem;
+
+        @include media-breakpoint-down(sm) {
+            max-width: 100% !important;
+        }
+
+        .btn-query-condition-add {
+            padding: 0.24rem;
+            border: 1px solid;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 0.25rem;
+            position: relative;
+
+            .cw-icon-tn {
+                position: absolute;
+                top: .32rem;
+                left: .32rem;
+            }
+        }
+    }
+}

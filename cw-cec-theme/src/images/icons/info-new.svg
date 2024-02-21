@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>info new</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="File-Sharing---Vault" transform="translate(-296.000000, -532.000000)" stroke="currentColor">
+            <g id="Group-18" transform="translate(89.000000, 532.498957)">
+                <g id="info-new" transform="translate(208.000000, 0.000000)">
+                    <circle id="Oval" cx="11" cy="11" r="11"></circle>
+                    <path d="M13.5,16.004 L12,16.004 C11.4477153,16.004 11,15.5562847 11,15.004 L11,8.504 C11,8.22785763 10.7761424,8.004 10.5,8.004 L9,8.004" id="Path"></path>
+                    <line x1="10.745" y1="5.503" x2="10.745" y2="5.503" id="Path"></line>
+                    <path d="M10.745,5.499 C10.6069288,5.499 10.495,5.61092881 10.495,5.749 C10.495,5.88707119 10.6069288,5.999 10.745,5.999 C10.8830712,5.999 10.995,5.88707119 10.995,5.749 C10.995,5.61092881 10.8830712,5.499 10.745,5.499" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

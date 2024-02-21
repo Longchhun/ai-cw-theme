@@ -1,0 +1,134 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        .border#{$infix}-top {      border-top: $border-width solid $border-color !important; }
+        .border#{$infix}-right {    border-right: $border-width solid $border-color !important; }
+        .border#{$infix}-bottom {   border-bottom: $border-width solid $border-color !important; }
+        .border#{$infix}-left {     border-left: $border-width solid $border-color !important; }
+
+        .border#{$infix}-top-0 {    border-top: 0 !important; }
+        .border#{$infix}-right-0 {  border-right: 0 !important; }
+        .border#{$infix}-bottom-0 { border-bottom: 0 !important; }
+        .border#{$infix}-left-0 {   border-left: 0 !important; }
+
+        .border#{$infix}-0 {
+            border-top: 0 !important;
+            border-right: 0 !important;
+            border-bottom: 0 !important;
+            border-left: 0 !important;
+        }
+
+        .border#{$infix}-x {
+            border-left: $border-width solid $border-color !important;
+            border-right: $border-width solid $border-color !important;
+        }
+
+        .border#{$infix}-y {
+            border-top: $border-width solid $border-color !important;
+            border-bottom: $border-width solid $border-color !important;
+        }
+
+        .border#{$infix}-dash-y {
+            border-top: $border-width dashed $border-color !important;
+            border-bottom: $border-width dashed $border-color !important;
+        }
+    }
+}
+
+.border {
+    &-spacing-0 {
+        border-spacing: 0;
+    }
+    &-style-dash {
+        border-style: dashed !important;
+    }
+    &-bottom-style-dash {
+        border-bottom-style: dashed !important;
+        &-list {
+            &:not(:last-child) {
+                border-bottom: 0.063rem dashed $color-border !important;
+            }
+        }
+    }
+    &-top-style-dash {
+        border-top-style: dashed !important;
+    }
+    &-top-radius-none {
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+
+    &-1 {
+        border-width: 0.063rem !important;
+    }
+
+    &-2 {
+        border-width: 0.125rem !important;
+    }
+
+    &-3 {
+        border-width: 0.188rem !important;
+    }
+
+    &-rounded {
+        border-radius: 0.5rem !important;
+        &--top-left {
+            border-top-left-radius: 0.5rem !important;
+        }
+        &--top-right {
+            border-top-right-radius: 0.5rem !important;
+        }
+        &--bottom-left {
+            border-bottom-left-radius: 0.5rem !important;
+        }
+    }
+
+    &-color-danger {
+        border-color: $red !important;
+    }
+
+    &-color-gray-darker {
+        border-color: $gray-darker !important;
+    }
+
+    &-gray-lignter-alt9 {
+        border-color: $gray-lignter-alt9 !important;
+    }
+
+    &-bottom-card-thick {
+        border-bottom: .6rem solid $gray-lighter-alt2 !important;
+    }
+
+    &-bottom-primary {
+        border-bottom: .063rem solid $primary !important;
+    }
+
+    &-active {
+          border: .125rem solid $primary !important;
+    }
+
+    &-bottom-active {
+          border-bottom: .125rem solid $primary !important;
+    }
+
+    &-last-child-none {
+        div:last-child {
+            border-bottom: none !important;
+        }
+    }
+
+    &-bottom-sm-down {
+        @include media-breakpoint-down(sm) {
+            border-left: none !important;
+            border-top: none !important;
+            border-right: none !important;
+        }
+    }
+
+    &-xs-none {
+        @include media-breakpoint-down(xs) {
+            border: 0 !important;
+        }
+    }
+}

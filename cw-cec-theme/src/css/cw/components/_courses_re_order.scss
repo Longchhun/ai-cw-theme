@@ -1,0 +1,41 @@
+.courses-re-order-wrapper {
+    .courses-re-order {
+        display: block;
+        min-height: auto;
+        @include media-breakpoint-down(xs) {
+            min-height: auto;
+        }
+        & > div {
+            cursor: move;
+            padding: 0;
+            & > div {
+                border: 1px solid $color-grey-light;
+                border-radius: 0.094rem;
+                display: flex;
+                font-size: $font-size-regular;
+                margin-bottom: 0.625rem;
+                padding: 0.625rem 0.75rem;
+
+                span {
+                    color: $color-black-alt1;
+                    font-weight: bold;
+                    padding-left: 1.25rem;
+                }
+
+                &:hover {
+                    background-color: $color-grey-light;
+                    color: $color-grey;
+                        span {
+                            color: $color-grey;
+                    }
+                 }
+            }
+        }
+    }
+}
+
+.courses-re-order-footer {
+    padding-top: 1.25rem;
+    border-top: 0.125rem solid $gray-lighter;
+}
+

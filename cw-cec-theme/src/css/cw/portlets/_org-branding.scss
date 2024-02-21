@@ -1,0 +1,15 @@
+.portlet-org-branding-wrapper {
+    position: relative;
+    left: calc(-50vw + 50% + 0.625rem);
+    width: calc(100vw - 1.25rem);
+    border-bottom: 0.0625rem solid $gray-lignter-alt9;
+
+    @include media-breakpoint-down(sm) {
+        border-bottom: none;
+        .tab-menu:nth-child(2),
+        .tab-menu:nth-child(3),
+        .tab-menu:first-child {
+            display: none;
+        }
+    }
+}

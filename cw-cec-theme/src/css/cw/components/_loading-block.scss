@@ -1,0 +1,23 @@
+/**
+* @atom .loading-block
+* @section Loading
+* @modifiers
+*  .cec-loading-overlay add this class show overlay on entire screen
+*  Example https://github.com/Khalibre/crosswired-common/pull/7896
+* @markup
+*    <div class="pt-3 position-fixed rounded-lg" role="alertdialog">
+*        <div class="loading-block shadow d-flex justify-content-center">
+*            <div class="my-auto">
+*                @{include:.cw-icon-loading}
+*                <div class="text-center text-black">
+*                    <strong class="font-size-26">Duplicating Instance</strong>
+*                </div>
+*            </div>
+*        </div>
+*    </div>
+*/
+.loading-block {
+    background-color: $white;
+    width: 31.25rem;
+    height: 25rem;
+}

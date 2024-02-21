@@ -1,0 +1,44 @@
+.navigation-bar {
+    &.navigation-bar-light {
+        background-color: $white;
+        border-color: $border-color-base;
+    }
+
+    &.navbar-underline.navbar-expand-md .navbar-nav .nav-link.active:after {
+        color: $primary;
+        height: 0.15rem;
+    }
+
+    &.navigation-bar-secondary {
+        background-color: transparent;
+        border-width: 0 0 2px 0;
+        border-color: $color-grey-light;
+
+        .nav-link {
+            color: $gray;
+
+            &.active, &:hover {
+                color: $primary;
+            }
+        }
+
+        .navbar-toggler-link {
+            color: $primary;
+        }
+
+        .container-fluid {
+            margin: 0;
+        }
+
+         @include media-breakpoint-down(xs) {
+            .navbar-collapse {
+                background-color: transparent !important;
+            }
+
+            .navbar-nav {
+                background-color: $white;
+                border: 1px solid $color-grey-light
+            }
+        }
+    }
+}

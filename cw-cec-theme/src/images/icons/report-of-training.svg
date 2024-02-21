@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 85</title>
+    <g id="LEARNING-ADMIN" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-85" transform="translate(1.004000, 0.500000)" stroke="currentColor">
+            <rect id="Rectangle" x="0" y="2" width="22" height="16" rx="1"></rect>
+            <path d="M2.496,11 L4.385,9.115 C4.57256826,8.92722296 4.82709075,8.82171334 5.0925,8.82171334 C5.35790925,8.82171334 5.61243174,8.92722296 5.8,9.115 L6.978,10.293 C7.36849985,10.6833819 8.00150015,10.6833819 8.392,10.293 L11.192,7.493 C11.5824999,7.10261806 12.2155001,7.10261806 12.606,7.493 L14.757,9.644 C15.1474999,10.0343819 15.7805001,10.0343819 16.171,9.644 L19.996,5.815" id="Path"></path>
+            <line x1="17" y1="13" x2="20" y2="13" id="Path"></line>
+            <line x1="20" y1="15" x2="15" y2="15" id="Path"></line>
+            <line x1="11" y1="0" x2="11" y2="2" id="Path"></line>
+            <line x1="11" y1="18" x2="11" y2="20.5" id="Path"></line>
+            <line x1="11" y1="20.5" x2="7.5" y2="23" id="Path"></line>
+            <line x1="11" y1="20.5" x2="14.5" y2="23" id="Path"></line>
+        </g>
+    </g>
+</svg>

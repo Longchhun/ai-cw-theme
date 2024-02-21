@@ -1,0 +1,58 @@
+@import 'card/cec-card';
+@import 'card/cec-simple-card';
+@import 'card/cec-card--navlist';
+@import 'card/cec-card--radio';
+@import 'card/cec-card--green-style';
+@import 'card/cec-card-two-columns';
+@import 'card/cec-card-two-columns-small-left-side';
+
+
+.color-card {
+    background-image: url(../images/request-to-join.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    padding: 130px 30px 55px 30px;
+    border-radius: 10px;
+
+    h1 {
+        color: $white;
+        font-size: 26px;
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .btn-color {
+        border: 1px solid $white;
+        border-radius: 1.25rem;
+        background: linear-gradient(45.01deg, #6796DE 0%, #796CC8 52.85%, #9230A6 100%);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 14px 40px;
+
+        @media (max-width: $screen-xs-max) {
+            font-size: 14px;
+            padding: 10px 30px;
+        }
+
+        &:hover,
+        &:focus {
+            box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+.form-check-middle-left {
+    .card-horizontal {
+        > .card-body {
+            padding-left: 50px;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@mixin connection-card {
+    .there-dot-position {
+        right: 1.25rem;
+        top: 0.5rem;
+        position: absolute;
+        z-index: 1;
+    }
+    @content;
+}
+.user-profile-wrapper {
+    @include connection-card {
+        .dropdown-three-dots.dropdown.arrow-indicator .three-dots-icon {
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
+.connection-card {
+    @include connection-card;
+    .user-card-v {
+        .card {
+            cursor: pointer;
+
+            .card-row-padded {
+                padding: 0.9375rem 1.25rem 1.25rem;
+
+                .card-col-content {
+                        min-width: -webkit-fill-available;
+                }
+            }
+        }
+
+        .user-card-profile {
+            margin: 0 auto;
+            max-width: 7.5rem;
+            padding-top: 1.25rem;
+            position: relative;
+
+            .user-status-bullet {
+                background-color: $gray;
+                border: 1px solid $color-white;
+                border-radius: 0.4375rem;
+                bottom: 0.25rem;
+                height: 0.875rem;
+                position: absolute;
+                right: 1rem;
+                width: 0.875rem;
+
+                &.online {
+                    background-color: $green;
+                }
+
+                &.away {
+                    background-color: $yellow;
+                }
+
+                &.busy {
+                    background-color: $red;
+                }
+            }
+        }
+
+        .user-card-title {
+            margin: 0;
+            color: $black;
+
+            span:first-child {
+                font-weight: bold;
+            }
+        }
+
+        .user-card-content {
+            height: 13rem;
+            font-size: 0.8125rem;
+            color: $gray;
+            p {
+                margin: 0.625rem 0;
+                span {
+                    display: block;
+                }
+            }
+            a {
+                color: $primary;
+            }
+
+            @include media-breakpoint-down(sm) {
+                height: auto;
+            }
+
+            .headline {
+                background: $color-grey-light;
+                border-radius: 0.25rem;
+                padding: 0.5rem;
+            }
+        }
+
+        .user-card-footer {
+            margin-bottom: 0;
+        }
+    }
+}

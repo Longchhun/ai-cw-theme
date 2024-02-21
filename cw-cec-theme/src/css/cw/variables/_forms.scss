@@ -1,0 +1,50 @@
+$form-group-margin-bottom:          1rem;
+
+$input-font-size:                   0.875rem;
+$input-desktop-font-size:           0.875rem;
+$input-help-block-font-size:        0.875rem;
+$input-padding-vertical:            0.5rem;
+$input-padding-horizontal:          0.75rem;
+
+$input-color:                       $black;
+$input-color-focus:                 $black;
+$input-color-disabled:              $black;
+$input-color-placeholder:           $gray-light;
+$input-color-placeholder-focus:     $gray-light;
+
+$input-bg:                          $white;
+$input-bg-disabled:                 $gray-lighter;
+
+$input-textarea-height:             auto;
+
+$input-border-bottom-width:         0.063rem;
+$input-border-left-width:           0.063rem;
+$input-border-right-width:          0.063rem;
+$input-border-top-width:            0.063rem;
+$input-border:                      $border-color-base;
+$input-border-focus:                $primary;
+$input-border-radius:               $border-radius-base;
+$input-border-disabled:             $border-color-base;
+
+$input-label-font-size:             0.875rem;
+$input-label-font-weight:           $font-weight-bold;
+$input-label-color:                 $gray;
+$input-label-margin-bottom:         0.625rem;
+$input-label-reference-mark-spacer: 0;
+$input-danger-label-color:          $danger;
+
+
+$input-group-addon-bg:              $primary;
+$input-group-addon-border-color:    $primary;
+$input-group-addon-color:           $white;
+
+$input-select-bg-position:          right 0.5em center;
+$input-select-bg-size:              1.5em auto;
+$input-select-padding-right:        2em;
+$input-select-icon-color:           $gray;
+$caret-bottom-l:                    url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline'%20d='M165.2%20223.7l81.5%2085c5.4%205.6%2014.2%205.6%2019.6%200l81.5-85c8.7-9.1%202.5-24.7-9.8-24.7H175c-12.3.1-18.5%2015.6-9.8%2024.7z'%20fill='%23898989'/%3E%3C/svg%3E");
+$input-select-icon:                 $caret-bottom-l;
+$input-select-icon-focus-color:     $input-select-icon-color;
+$input-select-icon-focus:           $caret-bottom-l;
+$input-select-icon-disabled-color:  $gray;
+$input-select-icon-disabled:        $caret-bottom-l;

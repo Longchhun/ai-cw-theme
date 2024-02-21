@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-131.000000, -310.000000)" fill="#E2574C" fill-rule="nonzero">
+            <path d="M151,310 C162.0456,310 171,318.9544 171,330 C171,341.0456 162.0456,350 151,350 C139.9544,350 131,341.0456 131,330 C131,318.9544 139.9544,310 151,310 Z M147,323 L147,338 L160.392857,330.5 L147,323 Z" id="Video-activity"></path>
+        </g>
+    </g>
+</svg>

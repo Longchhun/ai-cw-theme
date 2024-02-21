@@ -1,0 +1,47 @@
+
+/**
+* @atom Link Icon
+* @section Button
+* @markup
+*  <button class="btn link-icon ml-auto">
+*     @{include:.cw-icon-add-photo}
+*     Delete
+*  </button>
+*/
+.link-icon {
+    display: flex;
+    align-items: center;
+    color: $gray-darker;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+    &.active {
+        color: $primary;
+    }
+    svg {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-right: 0.625rem;
+    }
+    &.btn {
+        background-color: transparent;
+        border-width: 0;
+        color: $gray-darker;
+        font-weight: $font-weight-normal;
+        min-width: 0;
+        padding: 0;
+        &:hover,
+        &:focus {
+            background-color: transparent !important;
+            color: $primary !important;
+        }
+        &:active {
+            color: $gray-darker;
+        }
+        i[class^='icon-'] {
+            font-size: 1.25rem;
+            margin-right: 0.5rem;
+        }
+    }
+}

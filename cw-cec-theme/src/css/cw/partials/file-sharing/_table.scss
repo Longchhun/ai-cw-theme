@@ -1,0 +1,14 @@
+.cw-table-wrapper {
+    min-height: 31.25rem;
+
+    .file-name {
+        max-width: 23.75rem;
+        @include media-breakpoint-down(sm) {
+            max-width: 15.75rem;
+        }
+    }
+
+    .thead--light th:first-child a.sort-column {
+        margin-left: -0.1875rem;
+    }
+}

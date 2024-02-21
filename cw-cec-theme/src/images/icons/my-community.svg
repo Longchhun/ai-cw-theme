@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g data-name="Group 601" transform="translate(-5283.997 -8784.825)" fill="none" stroke="currentColor"
+       stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path d="M5295.496 8808.495a5.779 5.779 0 016-6 5.779 5.779 0 016 6z"/>
+        <circle cx="4" cy="4" r="4" transform="translate(5297.502 8793)"/>
+        <path data-name="Path"
+              d="M5305.5 8796.816a4.411 4.411 0 01-2.385.684 5.527 5.527 0 01-4.661-3.107M5285.736 8799.5h9.775M5286.134 8789.5h15.247M5296.011 8794.5h-11.509"/>
+        <path data-name="Path"
+              d="M5293.011 8804a9.052 9.052 0 01-8.513-9.244 9.263 9.263 0 0117.93-3.256M5292.982 8785.531c-4.8 5.228-4.791 12.043.029 18.469M5294.541 8785.533a12.974 12.974 0 013.339 6.967"/>
+    </g>
+</svg>

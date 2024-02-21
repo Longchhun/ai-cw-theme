@@ -1,0 +1,158 @@
+/**
+* @molecule Popup
+* @markup
+*
+* <div class="cec-popup-wrapper quick-post-popup">
+*      <button class="btn btn-primary" id="showPost" onclick="showPopup()">
+*          Show popup
+*     </button>
+*     <div class="cec-popup-container" id="quickPost">
+*         <div class="cec-popup position-relative mw-100 border-0">
+*             <div class="cec-popup__header d-flex">
+*                 <span class="font-size-24 font-weight-lighter">Edit Post</span>
+*                 <a class="btn link-icon" onclick="hidePopup()">
+*                     Close
+*                 </a>
+*             </div>
+*             <div class="cec-popup__body">
+*                 @{include:.btn-example}
+*                 <ul class="list-unstyled">
+*                     <li>Apple</li>
+*                     <li>Banna</li>
+*                      <img src="@{image:400:300}" />
+*                  </ul>
+*                 </div>
+*             <div class="cec-popup__footer d-flex">
+*                 <button class="btn btn-primary">
+*                     Post
+*                 </button>
+*             </div>
+*        </div>
+*    </div>
+* </div>
+*/
+
+.cec-popup-container {
+    display: flex;
+    position: fixed;
+    z-index: 1060;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .625em;
+    overflow-x: hidden;
+    transition: background-color .1s;
+    background: rgba(250, 250, 250, .9) !important;
+}
+
+.cec-popup {
+    box-shadow: 0.125rem 0.125rem 0.75rem 0 $gray-lighter;
+    padding: 1.875rem;
+    border: 0;
+    border-radius: $modal-border-radius-4;
+    background: $white;
+    width: 37.3125rem;
+
+    &__header {
+        align-items: flex-start;
+
+        &.justify-content-between {
+            margin-top: -0.5rem;
+        }
+
+        .btn-close {
+            position: absolute;
+            right: 1.25rem;
+            top: 1.25rem;
+            line-height: 0;
+            padding: 0.6rem;
+
+            &:hover {
+                background: $color-grey-light-alt1;
+                color: $black !important;
+            }
+        }
+
+        .btn {
+            position: absolute;
+            right: 0.875rem;
+            top: 1.5rem;
+        }
+    }
+
+    &__footer {
+        padding-top: 1.875rem;
+        border-top: 0.125rem solid $gray-lighter;
+
+        .is-loading {
+            top: 45%;
+        }
+    }
+
+    &-shadow--darker {
+        box-shadow: $dialog-shadow;
+    }
+
+    &--fullscreen {
+        @include media-breakpoint-down(sm) {
+            position: absolute !important;
+            top: 0;
+            border-radius: 0;
+            height: 100% !important;
+        }
+
+        .cec-popup__body {
+            @include media-breakpoint-down(sm) {
+                @include orientation(landscape) {
+                    height: 60vh;
+                }
+                overflow-y: auto;
+                height: 70vh;
+                overflow-x: hidden;
+            }
+        }
+
+        .cec-popup__footer {
+            @include media-breakpoint-down(xs) {
+                background-color: $white;
+                position: absolute;
+                width: calc(100% - 3.75rem);
+                bottom: 3.125rem;
+            }
+        }
+    }
+}
+
+.cec-popup-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.popup-overlay {
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.cec-popup-overlay {
+    &--darker {
+        background: rgba(84, 80, 80, 0.4) !important;
+    }
+
+    &--lighter {
+        background: rgba(250, 250, 250, .3) !important;
+    }
+
+    .cec-popup-wrapper {
+        .cec-popup-container {
+            .cec-popup {
+                opacity: 0.8;
+                pointer-events: none;
+            }
+        }
+    }
+}

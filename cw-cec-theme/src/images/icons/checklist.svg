@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>task list</title>
+    <g id="Kanban" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Column-Edit" transform="translate(-295.000000, -751.000000)" stroke="#000000">
+            <g id="Group-25" transform="translate(296.000000, 752.000000)">
+                <g id="app-window-layout">
+                    <rect id="Rectangle-path" x="0.35" y="0.0028" width="16.1" height="14" rx="1"></rect>
+                    <line x1="0.35" y1="3.5028" x2="16.45" y2="3.5028" id="Shape"></line>
+                    <path d="M2.8,1.5778 C2.89664983,1.5778 2.975,1.65615017 2.975,1.7528 C2.975,1.84944983 2.89664983,1.9278 2.8,1.9278 C2.70335017,1.9278 2.625,1.84944983 2.625,1.7528 C2.625,1.65615017 2.70335017,1.5778 2.8,1.5778" id="Shape"></path>
+                    <path d="M4.9,1.5778 C4.99664983,1.5778 5.075,1.65615017 5.075,1.7528 C5.075,1.84944983 4.99664983,1.9278 4.9,1.9278 C4.80335017,1.9278 4.725,1.84944983 4.725,1.7528 C4.725,1.65615017 4.80335017,1.5778 4.9,1.5778" id="Shape"></path>
+                    <path d="M7,1.5778 C7.09664983,1.5778 7.175,1.65615017 7.175,1.7528 C7.175,1.84944983 7.09664983,1.9278 7,1.9278 C6.90335017,1.9278 6.825,1.84944983 6.825,1.7528 C6.825,1.65615017 6.90335017,1.5778 7,1.5778" id="Shape"></path>
+                </g>
+                <line x1="6.65" y1="7.0028" x2="14.35" y2="7.0028" id="Shape"></line>
+                <line x1="6.65" y1="10.5028" x2="14.35" y2="10.5028" id="Shape"></line>
+                <g id="Group-2" transform="translate(2.450000, 5.950000)">
+                    <polyline id="Shape" points="0.525 1.4 1.10833333 1.98333333 2.275 0.816666667"></polyline>
+                </g>
+                <g id="Group-2-Copy" transform="translate(2.450000, 9.450000)">
+                    <polyline id="Shape" points="0.525 1.4 1.10833333 1.98333333 2.275 0.816666667"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

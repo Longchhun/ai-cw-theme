@@ -1,0 +1,106 @@
+.cw-top-header {
+    height: $layout-header-min-height;
+
+    &__title {
+        padding-top: 1.2rem;
+        padding-left: 1.875rem;
+    }
+
+    &__btn-delete {
+        width: 7rem;
+        align-items: center;
+        line-height: 4;
+        cursor: pointer;
+
+        &.disabled {
+            cursor: not-allowed;
+            opacity: 0.3;
+        }
+    }
+
+    &__status {
+        width: 14.875rem;
+
+        i {
+            font-size: 0.875rem;
+        }
+
+        .arrow {
+            position: absolute;
+            z-index: 2;
+            right: 0.625rem;
+            top: 0.9375rem;
+        }
+
+        .multiselect--active {
+            .arrow .cw-icon-collapse {
+                transform: rotate(0deg);
+                color: $primary;
+            }
+
+            .multiselect__single {
+                color: $primary !important;
+
+                i {
+                    color: $primary !important;
+                }
+            }
+
+            .multiselect__content {
+                font-weight: $font-weight-bold !important;
+                background: $white-darker;
+                border: 0.0625rem solid $border-color-base;
+                padding: 0.625rem 0;
+
+                .multiselect__option {
+                    color: $black !important;
+                }
+            }
+        }
+
+        .multiselect__option {
+            background: none !important;
+        }
+
+        .multiselect__tags {
+            border: none !important;
+            height: 100%;
+            padding-top: 1.125rem !important;
+        }
+    }
+
+    &__btn-new-post,
+    &__create-category {
+        .btn-primary {
+            min-width: 9.375rem !important;
+        }
+
+        .btn-create-category {
+            margin-bottom: .22rem;
+        }
+    }
+
+    &__create-category {
+        .category-name {
+            width: 12.5rem;
+        }
+    }
+
+    &__search {
+        &-input {
+            @include media-breakpoint-down(xs) {
+                width: 100% !important;
+            }
+        }
+        &-input--radius-right-5 {
+            input {
+                border-radius: 0 $layout-border-radius-width 0 0;
+                padding-left: 2.5rem;
+            }
+        }
+    }
+}
+
+.cw-top-header-training-report {
+    height: $layout-header-min-height !important;
+}

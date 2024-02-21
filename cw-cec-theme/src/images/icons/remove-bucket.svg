@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="Remove" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+        <g id="Children-Info" transform="translate(-563.000000, -759.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(563.000000, 759.000000)">
+                <path d="M13,4 L13,16 C13,17.1 12.1,18 11,18 L11,18 L3,18 C1.9,18 1,17.1 1,16 L1,16 L1,4 L13,4 Z M9.12,7.47 L7,9.59 L4.87,7.47 L3.46,8.88 L5.59,11 L3.47,13.12 L4.88,14.53 L7,12.41 L9.12,14.53 L10.53,13.12 L8.41,11 L10.53,8.88 L9.12,7.47 Z" id="Combined-Shape"></path>
+                <polygon id="Path" points="10.5 1 9.5 0 4.5 0 3.5 1 0 1 0 3 14 3 14 1"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

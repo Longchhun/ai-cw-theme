@@ -1,0 +1,12 @@
+.disabled {
+    opacity: .5;
+    cursor: not-allowed !important;
+}
+.cw-btn {
+    padding: 0 1.5rem;
+}
+.pointer-events {
+    &-none {
+        pointer-events: none;
+    }
+}

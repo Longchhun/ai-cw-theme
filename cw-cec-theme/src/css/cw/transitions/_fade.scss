@@ -1,0 +1,25 @@
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.25s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fading-up {
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent 12.5rem);
+    max-height: 13rem;
+    overflow-y: hidden;
+}
+
+@-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}

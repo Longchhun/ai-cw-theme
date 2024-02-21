@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-978.000000, -449.000000)" stroke="currentColor">
+            <g transform="translate(978.000000, 449.000000)">
+                <path d="M11,18.5 L1.5,18.5 C0.94771525,18.5 0.5,18.0522847 0.5,17.5 L0.5,1.5 C0.5,0.94771525 0.94771525,0.5 1.5,0.5 L16.5,0.5 C17.0522847,0.5 17.5,0.94771525 17.5,1.5 L17.5,11.5" id="Path"></path>
+                <path d="M15.7,22.3 L11.5,23.5 L12.7,19.3 L19.879,12.121 C20.4148984,11.5851016 21.1959873,11.3758095 21.9280381,11.5719619 C22.6600889,11.7681143 23.2318857,12.3399111 23.4280381,13.0719619 C23.6241905,13.8040127 23.4148984,14.5851016 22.879,15.121 L15.7,22.3 Z" id="Path"></path>
+                <line x1="18.979" y1="13.021" x2="21.979" y2="16.021" id="Path"></line>
+                <line x1="12.7" y1="19.3" x2="15.7" y2="22.3" id="Path"></line>
+                <line x1="6" y1="4.5" x2="13" y2="4.5" id="Path"></line>
+                <line x1="4" y1="7.5" x2="13" y2="7.5" id="Path"></line>
+                <line x1="4" y1="10.5" x2="13" y2="10.5" id="Path"></line>
+                <line x1="4" y1="13.5" x2="10.5" y2="13.5" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

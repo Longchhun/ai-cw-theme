@@ -1,0 +1,20 @@
+.popup-consent-form-wrapper {
+
+    .information-banner {
+        background-color: $white-darker-alt1;
+    }
+
+    .consent-item {
+        p {
+            display: inline
+        }
+    }
+}
+
+.consent-description-banner {
+    background-color: $white-darker-alt1;
+}
+
+.consent-item-optional {
+    min-width: 4rem;
+}

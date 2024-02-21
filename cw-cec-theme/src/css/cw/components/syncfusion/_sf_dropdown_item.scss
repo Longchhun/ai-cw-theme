@@ -1,0 +1,14 @@
+.e-ddl.e-popup.e-lib.e-control {
+    min-width: 11rem;
+}
+
+li.e-list-item {
+    color: $black !important;
+    &.e-hover {
+        color: $black !important;
+    }
+    &.e-active {
+        background-color: $primary !important;
+        color: $white !important;
+    }
+}

@@ -1,0 +1,19 @@
+&__header {
+    align-items: center;
+    border-bottom: 1px solid $border-color-base;
+    display: flex;
+    padding: $padding-base $padding-base 15px $padding-base;
+    position: relative;
+
+    @import 'cec-card__header-action';
+    @import 'cec-card__header--sm';
+
+    @media (min-width: $screen-sm-min) {
+        padding: $padding-desktop-base $padding-desktop-base 20px $padding-desktop-base;
+    }
+
+    svg {
+        margin-right: 10px;
+        color: $primary;
+    }
+}

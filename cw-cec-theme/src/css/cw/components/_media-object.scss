@@ -1,0 +1,43 @@
+.cec-media-object {
+    display: flex;
+
+    > div {
+        border: 1px solid $color-border;
+        padding: 20px;
+    }
+
+    a {
+        color: $color-black-alt1;
+    }
+
+    h5 {
+        margin-bottom: 10px;
+    }
+
+    &__thumbnail {
+        align-items: center;
+        background-color: $white-dark;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__thumbnail--icon {
+        flex-basis: 25%;
+    }
+
+    .img-fluid {
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-preview {
+        height: auto;
+        width: 50%;
+    }
+
+    .cw-icon-doc-and-media {
+        color: $color-grey-light;
+        height: 48px;
+        width: 48px;
+    }
+}

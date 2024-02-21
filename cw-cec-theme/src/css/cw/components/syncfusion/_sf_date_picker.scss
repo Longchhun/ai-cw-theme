@@ -1,0 +1,34 @@
+.e-datepicker {
+    .e-calendar {
+        table > tbody > tr {
+            .e-selected {
+                .e-day {
+                    background-color: $primary !important;
+                    color: $white !important;
+                }
+            }
+            .e-today {
+                .e-day {
+                    color: $primary;
+                    border: 1px solid $primary !important;
+                }
+            }
+            .e-cell > span {
+                color: $black;
+            }
+        }
+        .e-footer-container {
+            .e-btn.e-flat.e-primary {
+                color: $primary !important;
+                background-color: $gray-lighter-alt1 !important;
+
+                &:hover,
+                &:active,
+                &focus {
+                    background-color: $gray-lighter-alt1 !important;
+                    color: $primary !important;
+                }
+            }
+        }
+    }
+}

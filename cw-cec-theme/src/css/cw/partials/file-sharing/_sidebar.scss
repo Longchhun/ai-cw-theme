@@ -1,0 +1,24 @@
+.file-sharing {
+    &__sidebar {
+        .menu-navigation {
+            padding: 1.25rem 0;
+
+            @include media-breakpoint-down(sm) {
+                padding-top: 0.625rem !important;
+            }
+
+            .item-action {
+                padding: 0.625rem 1.75rem;
+
+                @include media-breakpoint-down(sm) {
+                    padding-left: 1.25rem !important;
+                }
+                &:hover,
+                &:focus,
+                &.active {
+                    background-color: $gray-lignter-alt6;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.cw-checkbox {
+
+    &--lighter {
+        span {
+            font-weight: $font-weight-normal;
+            color: $black;
+        }
+    }
+}

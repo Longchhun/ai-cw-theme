@@ -1,0 +1,104 @@
+// Overwrite vue2-datepicker
+.mx-datepicker {
+    width: 100% !important;
+
+    .mx-input {
+        border-color: $input-border !important;
+        min-height: 2.5rem;
+        font-style: italic;
+
+        &:hover,
+        &:focus {
+            border-color: $primary;
+        }
+    }
+
+    .mx-icon-calendar {
+        margin-left: 0.125rem;
+        font-size: 1.375rem;
+    }
+
+    &-popup {
+        .mx-calendar-content {
+            .cell {
+                &:hover {
+                    color: $white;
+                }
+
+                &.active,
+                &:hover {
+                    background-color: $primary;
+                }
+            }
+
+            .today {
+                color: $primary;
+            }
+        }
+    }
+
+    &-main {
+        color: $black !important;
+
+        .mx-btn {
+            color: $black !important;
+        }
+
+        .mx-btn-shortcut {
+            font-weight: bold !important;
+        }
+
+        li.mx-time-item {
+            color: $black;
+
+            &:hover {
+                color: $white;
+                background-color: $primary;
+            }
+
+            &.active {
+                color: $primary;
+
+                &:hover {
+                    background-color: $white;
+                }
+
+            }
+        }
+
+        ul[data-type="ampm"] {
+            .mx-time-item {
+                &.active {
+                    color: $white;
+                    background-color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.asd__wrapper--datepicker-open {
+    .asd__day--selected {
+        background-color: $primary !important;
+    }
+
+    .asd__action-buttons {
+        button:nth-child(1) {
+            // cancel button
+            color: $gray-darker !important;
+        }
+
+        button:nth-child(2) {
+            // apply button
+            color: $primary !important;
+        }
+    }
+
+    .asd__day--hovered {
+        color: $teal !important;
+    }
+
+    .asd__keyboard-shortcuts-trigger {
+        border-right-color: $primary !important;
+    }
+}

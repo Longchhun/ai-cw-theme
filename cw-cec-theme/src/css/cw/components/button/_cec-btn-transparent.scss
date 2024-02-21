@@ -1,0 +1,13 @@
+.cec-btn-transparent {
+    background-color: transparent;
+    color: $white;
+    border: 1px solid $white;
+    &:hover {
+        background-color: $white;
+        color: $black;
+        &.disabled {
+            background-color: transparent;
+            color: $white;
+        }
+    }
+}

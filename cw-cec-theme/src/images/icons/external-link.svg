@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>external link</title>
+    <g id="File-Sharing-Iteration-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="external-link" transform="translate(1.000000, 0.271239)" stroke="#656565">
+            <path d="M4.88740762,1.19440143 L1.50381773,1.19440143 C0.673282131,1.19440143 0,1.86768356 0,2.69821916 L0,13.2249433 C0,14.0554789 0.673282131,14.728761 1.50381773,14.728761 L12.0305418,14.728761 C12.8610774,14.728761 13.5343596,14.0554789 13.5343596,13.2249433 L13.5343596,9.08944451" id="Shape"></path>
+            <line x1="9.07168651" y1="13.9504022" x2="8.36457973" y2="-0.898840195" id="Shape" transform="translate(8.364048, 6.363961) rotate(45.000000) translate(-8.364048, -6.363961) "></line>
+            <polyline id="Path-2" points="8 1.22876099 13.5 1.22876099 13.5 6.22876099"></polyline>
+        </g>
+    </g>
+</svg>

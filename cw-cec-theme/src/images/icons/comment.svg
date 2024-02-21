@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>comment</title>
+    <g id="Kanban" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="v" transform="translate(-114.000000, -62.000000)" stroke="currentColor">
+            <path d="M131.5,68.5263158 C131.491069,71.5747204 129.014393,74.0437287 125.956522,74.0526316 L124.108696,74.0526316 L121.152174,77 L121.152174,74.0526316 L120.043478,74.0526316 C116.9819,74.0526316 114.5,71.5784157 114.5,68.5263158 C114.5,65.4742159 116.9819,63 120.043478,63 L125.956522,63 C129.014393,63.0089029 131.491069,65.4779112 131.5,68.5263158 Z" id="comment"></path>
+        </g>
+    </g>
+</svg>

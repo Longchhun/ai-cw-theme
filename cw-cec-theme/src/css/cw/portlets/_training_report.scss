@@ -1,0 +1,153 @@
+#portlet_com_khalibre_training_reports, .member-management-wrapper {
+
+    .training-report-header {
+        .header-title {
+            color: $black-lignter-alt1;
+        }
+
+        .wrapper-search {
+            flex: 1 1 0%;
+        }
+
+        .search-box-wrapper {
+            .form-control {
+                padding-right: 1.2rem;
+                padding-left: 1.2rem;
+            }
+        }
+
+        #exportExcelId {
+            color: $gray-darker;
+        }
+
+        .navigation-button {
+            padding-right: 1.0625rem;
+            border-top-right-radius: 0.5rem;
+            background-color: $gray-lighter;
+            width: 23%;
+            z-index: 1;
+
+            .btn-action {
+                color: $black;
+            }
+        }
+    }
+    .tabulator,
+    .tabulator-col,
+    .tabulator-footer {
+        background-color: $white;
+        border-color: $border-color-base;
+    }
+    .tabulator-header {
+        border-top: 0 !important;
+    }
+    .tabulator-placeholder {
+        position: relative;
+        width: 100% !important;
+        margin-top: 2rem;
+        justify-content: center;
+        color: $gray-darker;
+        font-weight: $font-weight-light;
+    }
+    .tabulator-paginator {
+        display: none;
+    }
+    #_com_khalibre_training_reports_txtSearch {
+        width: unset;
+    }
+    #_com_khalibre_training_reports_searchCriteria,
+    #_copMemberManagementPortlet_searchCriteria {
+        .has-error {
+            label {
+                color: $red;
+            }
+            .multiselect {
+                .multiselect__tags {
+                    border-color: $red;
+                }
+            }
+        }
+        .control-label {
+            color: $gray-darker;
+        }
+        .input-group {
+            .mx-datepicker {
+                .mx-input {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+            }
+
+            .multiselect {
+                .multiselect__content-wrapper, .multiselect__select {
+                    display: none;
+                }
+                .multiselect__tags {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    .multiselect__tags-wrap {
+                        display: none;
+                    }
+                }
+            }
+
+            .cw-multi-select {
+                width: 100%;
+                .dropdown-toggle {
+                    .dropdown-icon {
+                        width: 0.5rem;
+                        height: 0.375rem;
+                    }
+                }
+
+                .dropdown-menu {
+                    .lexicon-icon {
+                        transform: none;
+                    }
+                }
+            }
+
+            label {
+                color: $gray-darker;
+            }
+        }
+
+        .wrapper-advance-filter-bottom {
+            .advance-filter-button {
+                .btn-outline-primary {
+                    min-width: 9.375rem;
+                }
+            }
+        }
+    }
+    .cec-loading-overlay {
+        h3 {
+            font-family: inherit;
+        }
+    }
+
+    .manage-column-popup-wrapper {
+        .cec-popup-container {
+            background: transparent !important;
+
+            .cec-popup {
+                width: 22rem;
+                .body-wrapper {
+                    max-height: 15.5rem;
+                    overflow-y: auto;
+                    margin-bottom: 1.875rem;
+
+                    div:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#portlet_com_khalibre_training_reports {
+    .cec-card {
+        border-radius: 0.625rem;
+    }
+}

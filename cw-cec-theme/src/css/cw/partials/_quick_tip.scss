@@ -1,0 +1,43 @@
+.tip-wrapper {
+    background-color: $white;
+    grid-area: tip;
+    border: 1px solid $gray-lighter;
+    padding: 1.875rem;
+
+    .tip-head {
+        align-items: center;
+
+        .tip-icon {
+            margin-right: 0.8125rem;
+        }
+
+        .tip-header-title {
+            font-size: 1.25rem;
+            font-weight: $font-weight-light;
+            color: $black;
+        }
+    }
+
+    .tip-content {
+        margin-top: 1.875rem;
+    }
+
+    .tip-title {
+        color: $black;
+        font-size: $font-size-regular;
+        font-weight: $font-weight-bold;
+    }
+
+    .tip-description {
+        color: $body-color;
+        font-size: $font-size-regular;
+        margin-bottom: $cec-spacing;
+    }
+
+    .view-more-tips {
+        color: $primary;
+        font-size: $font-size-regular;
+        font-weight: $font-weight-bold;
+    }
+}
+

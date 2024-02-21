@@ -1,0 +1,16 @@
+.hooper-slideshow {
+    .hooper-slide {
+        .cec-media-gallery__hero {
+            padding-bottom: 0;
+        }
+    }
+    .pre-slide {
+        margin-left: 0.75rem;
+    }
+    .next-slide {
+        margin-right: 0.75rem;
+    }
+    .pre-slide, .next-slide {
+        cursor: pointer;
+    }
+}

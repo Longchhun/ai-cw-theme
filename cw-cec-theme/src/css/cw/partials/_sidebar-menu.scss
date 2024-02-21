@@ -1,0 +1,78 @@
+.sidebar-nav__container {
+    border-radius: $border-radius;
+    border: 1px solid $border-color-base;
+    background-color: $white;
+    padding: $padding-base;
+    margin-bottom: $padding-base;
+
+    @media (min-width: $screen-sm-min) {
+        padding: $padding-desktop-base;
+        margin-bottom: 0;
+    }
+
+    .navbar-default {
+        background-color: $white;
+        border-radius: $border-radius;
+        border-bottom-width: 0;
+    }
+
+    .navbar-nav {
+        margin-right: 0;
+        width: 100%;
+
+        > li {
+            width: 100%;
+
+            > a {
+                padding: 0 0 $padding-base 0;
+
+                &:hover,
+                &:focus {
+                    color: $primary;
+                }
+            }
+
+            &:first-child {
+                > a {
+                    padding-top: 0;
+                }
+            }
+
+            &:last-child {
+                > a {
+                    padding-bottom: 0;
+                }
+
+                span {
+                    border-width: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            &.active {
+                a {
+                    color: $gray;
+
+                    &:after {
+                        content: none;
+                    }
+
+                    &:focus {
+                        color: $gray;
+                    }
+                }
+            }
+        }
+
+        span {
+            border-bottom: 1px solid $border-color-base;
+            display: block;
+            line-height: 20px;
+            padding-bottom: $padding-base;
+
+            em {
+                color: $gray;
+            }
+        }
+    }
+}

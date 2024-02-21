@@ -1,0 +1,34 @@
+.cec-card--radio {
+    .cec-card__body {
+        align-items: center;
+        background: $color-grey-light-alt3;
+        cursor: pointer;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-bottom: 0;
+        font-weight: normal;
+
+        > ul {
+            color: $black;
+            padding-left: 20px;
+
+            > li {
+                font-size: 14px;
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    &.active {
+        border-color: $color-card-radio-border;
+
+        .cec-card__body {
+            background: $color-card-radio-bg;
+            border-radius: 5px;
+        }
+    }
+}

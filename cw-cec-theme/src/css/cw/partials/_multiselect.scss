@@ -1,0 +1,141 @@
+.multiselect {
+    font-size: $font-size-regular !important;
+
+    &__tags-border--none {
+        .multiselect__tags {
+            border: none !important;
+        }
+    }
+
+    &__option-background--none {
+        .multiselect__option {
+            background: none !important;
+        }
+    }
+
+    &__content-wrapper {
+        overflow-x: hidden !important;
+    }
+
+    &.multiselect--active {
+        z-index: 3;
+    }
+
+    &.multiselect {
+        &--disabled {
+            .multiselect__single {
+                background-color: $color-grey-light-alt4;
+            }
+    
+            .multiselect__tags {
+                background-color: $color-grey-light-alt4;
+            }
+        }
+    }
+
+    .multiselect__tag {
+        background: $primary;
+        margin-bottom: 3px;
+    }
+
+    .multiselect__tags {
+        border-radius: $border-radius;
+        color: $font-color-regular;
+        border: 1px solid $color-input-border;
+        padding-left: 12px;
+        padding-top: 8px;
+    }
+
+    .multiselect__clear + .multiselect__tags {
+        padding-right: 65px;
+    }
+
+    .multiselect__input, .multiselect__single {
+        font-size: 14px;
+        color: $font-input-color;
+        padding-left: 0;
+        line-height: 22px;
+    }
+
+    .multiselect__option--highlight {
+        background-color: $white-darker !important;
+        color: $font-color-regular !important;
+
+        &:after {
+            background: $green;
+        }
+
+        &.multiselect__option--selected {
+            background: $white-darker;
+        }
+    }
+
+    .multiselect__tag-icon:after {
+        color: $white;
+    }
+
+    .multiselect__input, .multiselect__single {
+        &::-moz-placeholder {
+            color: $gray-light;
+            opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+        }
+
+        &:-ms-input-placeholder {
+            color: $gray-light;
+        } // Internet Explorer 10+
+
+        &::-webkit-input-placeholder {
+            color: $gray-light;
+        } // Safari and Chrome
+    }
+
+    .multiselect__placeholder {
+        font-size: 14px;
+        margin-bottom: 0;
+        padding-top: 0;
+        color: $gray-light;
+        line-height: 22px;
+    }
+
+    .multiselect__clear {
+        position: absolute;
+        right: 41px;
+        height: 40px;
+        width: 40px;
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+
+        &:after,
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 3px;
+            height: 16px;
+            background: $gray;
+            top: 12px;
+            right: 4px;
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+    }
+}
+
+.has-error {
+    .multiselect {
+        .multiselect__tags {
+            border-color: $red-dark;
+        }
+    }
+}
+
+@media (max-width: $screen-sm-max) {
+    .management-bar .multiselect__content-wrapper {
+        position: static;
+    }
+}

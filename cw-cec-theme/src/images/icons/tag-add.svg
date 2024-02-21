@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g transform="translate(-819, -169)" stroke="currentColor">
+            <g id="Group-41" transform="translate(703, 169)">
+                <g id="Group-27-Copy" transform="translate(117.2037, 0)">
+                    <g id="tags-remove" transform="translate(0, 1)">
+                        <path d="M13.5528578,7.43565217 L15.1180752,5.83826087 C15.4826923,5.42396505 15.6971203,4.89892276 15.7267708,4.34782609 L15.7267708,0.869565217 C15.7267708,0.389317609 15.3374532,0 14.8572056,0 L11.1545969,0.00608695652 C10.6042272,0.0366553712 10.0806897,0.253799236 9.67024909,0.62173913 L0.254596916,10.0373913 C-0.0848656388,10.3769564 -0.0848656388,10.9273914 0.254596916,11.2669565 L4.45981431,15.4721739 C4.62230828,15.6346674 4.84302497,15.7254485 5.07282296,15.7243159 C5.30262095,15.7231619 5.52242345,15.6301892 5.68329257,15.466087 L6.59633605,14.533913" id="Path" stroke-linecap="round"></path>
+                        <circle id="Oval" stroke-linecap="round" cx="12.6832926" cy="3.04347826" r="1.30434783"></circle>
+                        <circle id="Oval" cx="13.9876404" cy="14.7826087" r="5.2173913"></circle>
+                        <g id="Group-39" transform="translate(13.9876, 14.7826) rotate(44) translate(-13.9876, -14.7826)translate(12.1433, 12.9383)" stroke-linecap="round">
+                            <line x1="3.68869565" y1="0" x2="0" y2="3.68869565" id="Path"></line>
+                            <line x1="3.68869565" y1="3.68869565" x2="0" y2="0" id="Path"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

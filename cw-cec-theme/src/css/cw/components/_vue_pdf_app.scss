@@ -1,0 +1,62 @@
+.vue-pdf-app-icon::before,
+.vue-pdf-app-icon::after {
+    font-family: 'fontawesome-alloy';
+    font-size: 1.1rem;
+}
+
+.vue-pdf-app-icon {
+
+    &.zoom-out::before {
+        content: "\f010";
+    }
+
+    &.zoom-in::before {
+        content: "\f00e";
+    }
+
+    &.print::before {
+        content: "\f02f"
+    }
+
+    &.download::before {
+        content: "\f019"
+    }
+
+    &.page-up::before {
+        content: "\f062"
+    }
+
+    &.page-down::before {
+        content: "\f063"
+    }
+}
+
+#vuePdfApp {
+    #toolbarContainer, #viewerContainer {
+        background: $black-alt-1;
+    }
+
+    #toolbarViewer {
+        .sidebar-toggle,
+        .view-find,
+        .presentation-mode,
+        .open-file,
+        .bookmark-button,
+        .secondary-toolbar-toggle {
+            display: none;
+        }
+
+        #toolbarViewerRight {
+            padding-right: 2.5rem;
+
+            .hiddenSmallView {
+                display: none;
+            }
+        }
+    }
+    .textLayer {
+        span {
+            color: transparent !important;
+        }
+    }
+}

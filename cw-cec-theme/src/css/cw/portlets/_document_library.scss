@@ -1,0 +1,134 @@
+.portlet-document-library {
+
+    .management-bar.management-bar-light,
+    .management-bar.management-bar-primary,
+    .tbar.subnav-tbar,
+    .navbar-overlay,
+    .splitter.splitter-spaced {
+        background-color: $white;
+    }
+
+    .management-bar.management-bar-light,
+    .management-bar.management-bar-primary,
+    .tbar.subnav-tbar,
+    .navbar-overlay {
+        margin-bottom: 0;
+    }
+
+    .management-bar.management-bar-light,
+    .management-bar.management-bar-primary,
+    .tbar.subnav-tbar,
+    .splitter.splitter-spaced {
+        border: 1px solid $border-color-base;
+        border-radius: $border-radius-base;
+        color: inherit;
+    }
+
+    .container-fluid.container-fluid-max-xl {
+        max-width: none;
+    }
+
+    .tbar.subnav-tbar {
+        margin: 0;
+
+        .component-link {
+            color: $primary;
+        }
+    }
+
+    .btn.btn-unstyled:not(:disabled),
+    .navbar-nav .nav-link:not(:disabled) {
+        color: $primary;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    .navbar-nav .nav-link {
+
+        &.order-arrow-down-active,
+        &.order-arrow-up-active,
+        &.order-arrow-arrow-down {
+            color: $secondary;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+
+    .sidenav-container {
+        .document-library-breadcrumb .breadcrumb {
+            background-color: transparent;
+        }
+    }
+
+    .bulk-status-container {
+        display: none;
+    }
+
+    .document-container {
+        table.table thead tr {
+            border: 1px solid $border-color-base;
+            border-top-left-radius: $border-radius-base;
+            border-top-right-radius: $border-radius-base;
+        }
+
+        .lfr-search-container-wrapper {
+            .lfr-title-column a {
+                color: $primary;
+                padding: 0 $padding-base-horizontal;
+            }
+
+            .dropdown-toggle {
+                color: $primary;
+            }
+
+            .entry-card.lfr-asset-folder {
+                .card-row {
+                    padding-left: $padding-base-horizontal;
+                }
+
+                .custom-control-input {
+                    position: absolute;
+                }
+
+                .lexicon-icon-folder {
+                    height: $font-size-base;
+                    width: $font-size-base;
+                }
+            }
+
+            .list-group .list-group-item {
+                .h5 {
+                    margin-top: 0;
+                }
+
+                .h5 a {
+                    color: $primary;
+                }
+
+                .autofit-col-expand>span {
+                    color: $secondary;
+                }
+
+                &.active {
+                    background-color: $table-hover-bg;
+                }
+            }
+        }
+    }
+
+    .lfr-asset-folder {
+        .card-body {
+            .autofit-col-expand {
+                display: block;
+                overflow: hidden;
+                padding-top: 5px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+}

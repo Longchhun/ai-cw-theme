@@ -1,0 +1,44 @@
+.toast-notification-full-width {
+    z-index: 10000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+
+    .toast {
+        border-radius: 0;
+        max-width: none;
+        padding: 0.85rem;
+        box-shadow: 0 0.1875rem 0.375rem #00000029;
+        font-size: $font-size-regular;
+        background-color: $black;
+        background-clip: border-box;
+        color: $white;
+        margin-bottom: 1rem;
+        justify-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        @include media-breakpoint-down(lg) {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .close {
+            color: $white;
+            opacity: 1;
+            font-size: $font-size-title !important;
+            font-weight: $font-weight-light;
+            margin-right: 2rem;
+            padding-bottom: 0.6rem;
+
+            &:hover {
+                color: $white;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

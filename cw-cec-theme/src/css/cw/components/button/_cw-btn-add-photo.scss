@@ -1,0 +1,27 @@
+/**
+* @atom cw-btn-add-photo
+* @section Cw-Button
+* @markup
+*  <button class="btn cw-btn-add-photo mr-sm-3 d-flex text-black px-0 align-items-center">
+*     <input type="file" accept="image/*" name="" id="" class="d-none">
+*     @{include:.cw-icon-add-photo}
+*     <span class="mr-2 d-sm-flex">Add Photo</span>
+*  </button>
+*/
+.cw-btn {
+    &-add-photo {
+        width: fit-content;
+        min-width: 0 !important;
+        background: $gray-lighter-alt1;
+
+        &:not(:disabled):not(.disabled):hover {
+            background: $gray-lighter-alt2;
+        }
+    }
+
+    &-post {
+        @include media-breakpoint-down(sm) {
+            width: 82%
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.cec-detail-panel {
+    &.table-panel {
+        .cw-table {
+            .thead--transparent {
+                background-color: transparent;
+
+                th {
+                    padding-bottom: 0.625rem;
+                    font-style: italic;
+                    font-weight: $font-weight-light !important;
+                    border-bottom: 0.0625rem dashed;
+                    padding-left: 0 !important;
+                    background-color: transparent;
+                    border-color: $gray-darker !important;
+                }
+            }
+        }
+
+        tbody td  {
+            padding-bottom: 0.625rem;
+            border-color: $gray-darker !important;
+            padding-left: 0;
+            background-color: transparent;
+        }
+    }
+}

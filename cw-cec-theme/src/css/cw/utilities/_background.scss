@@ -1,0 +1,50 @@
+.bg {
+    &-light-gray {
+        background-color: $gray-lignter-alt3 !important;
+    }
+    &-gray-lighter {
+        background-color: $gray-lighter;
+    }
+    &-gray-lighter-alt7 {
+        background-color: $gray-lighter-alt7;
+    }
+    &-gray-lighter-alt8 {
+        background-color: $gray-lignter-alt8;
+    }
+    &-gray-lighter-alt13 {
+        background-color: $gray-lighter-alt13;
+    }
+    &-primary-opacity-10 {
+        background-color: rgba(0, 127, 178, 0.1);
+    }
+    &-orange {
+        background-color: $orange;
+    }
+    &-white-darker-alt1 {
+        background-color: $white-darker-alt1;
+    }
+    &-size-100-100 {
+        background-size: 100% 100%;
+    }
+    &-teal-alt-3 {
+        background-color: $teal-alt-3;
+    }
+    &-warning-circle {
+        background-color: $yellow-alt-2;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+    }
+    &-yellow-light {
+        background-color: $yellow-light;
+    }
+}
+.bg-hover {
+    &-gray-lighter-alt6 {
+        &:hover,
+        &:focus,
+        &.active {
+            background-color: $gray-lignter-alt6;
+        }
+    }
+}

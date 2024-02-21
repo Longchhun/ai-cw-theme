@@ -1,0 +1,35 @@
+@include media-breakpoint-down(xs) {
+    &.swal2-container {
+        padding: 0;
+        display: block;
+        .swal2-popup {
+            border-radius: 0;
+            height: 100vh;
+            max-width: 100%;
+            justify-content: unset;
+            margin: 0 !important;
+
+            .swal2-header {
+                padding-top: 0.625rem;
+                padding-bottom: 1.875rem;
+            }
+
+            .button-holder {
+                width: calc(100% - 2.5rem);
+                position: absolute;
+                bottom: 3.125rem;
+                left: 1.25rem;
+                right: 2.5rem;
+            }
+
+            .swal2-close {
+                right: 0.625rem;
+                margin-top: 0.125rem;
+            }
+
+            .cw-dropzone-drop-area {
+                height: 100%;
+            }
+        }
+    }
+}

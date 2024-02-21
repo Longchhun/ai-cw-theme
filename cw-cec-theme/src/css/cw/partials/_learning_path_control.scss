@@ -1,0 +1,113 @@
+.learning-path-control {
+    background-color: $color-white;
+    border-bottom: 1px solid $border-color-base;
+
+    .input-group {
+        width: auto;
+    }
+
+    button {
+        border-color: $border-color-base;
+        border: none;
+        border-radius: 0;
+        color: $black;
+        height: 55px;
+        background-color: $color-white;
+        padding: 0;
+
+        &.btn-outline-primary {
+            &:not(:disabled):not(.disabled).active,
+            &:not(:disabled):not(.disabled):active {
+                border-color: $gray-lighter;
+                border-bottom: solid 2px $primary;
+                background: $white;
+                color: $black;
+            }
+        }
+        &:focus,
+        &:hover {
+            outline: none;
+            color: $color-link-hover;
+            font-weight: bold;
+            background: $white;
+        }
+    }
+
+    .btn-group {
+        height: 55px;
+    }
+
+    button {
+        &.dropdown-toggle {
+            font-weight: normal !important;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $body-bg;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-top: 0;
+        min-width: 100%;
+
+        li {
+            a {
+                color: $black;
+            }
+        }
+    }
+
+    .input-group-addon {
+        background-color: $white;
+        border: none;
+        color: $black;
+        height: 55px;
+        width: 55px;
+    }
+}
+
+.learning-path-mobile-control {
+    a {
+        color: $black;
+    }
+
+    .btn-outline-primary {
+        color: $black;
+        border-color: $gray-lighter;
+
+        &:not(:disabled):not(.disabled):active,
+        &:hover {
+            color: $black;
+            border-color: $gray-lighter;
+            background-color: $white;
+        }
+    }
+    .mobile-control-container {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        margin: 1px;
+    }
+    .navbar-toggle-page-name {
+        height: 65px;
+        width: 65px;
+    }
+    .new-learning-path {
+        &:focus{
+            background-color: $primary;
+        }
+        color: $color-white;
+    }
+
+    .navbar-toggle:focus {
+        outline: none;
+    }
+
+    .btn-group {
+        .dropdown-menu {
+            min-width: 100%;
+        }
+    }
+
+    .selected-learning-path {
+        padding-top: 20px;
+    }
+}

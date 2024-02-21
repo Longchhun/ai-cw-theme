@@ -1,0 +1,84 @@
+@mixin multi-line-text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    -webkit-line-clamp: 5;
+    word-break: break-word;
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        @include media-breakpoint-down($breakpoint) {
+            &-#{$breakpoint}-none {
+               -webkit-line-clamp: initial !important;
+            }
+        }
+    }
+}
+
+.section-header {
+    color: $black;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.multi-line-text-ellipsis {
+    @include multi-line-text-ellipsis;
+
+    &-two {
+       @include multi-line-text-ellipsis;
+       -webkit-line-clamp: 2;
+       word-break: break-word;
+    }
+
+    &-three {
+        @include multi-line-text-ellipsis;
+        -webkit-line-clamp: 3;
+        word-break: break-word;
+    }
+
+    &-four {
+        @include multi-line-text-ellipsis;
+        -webkit-line-clamp: 4;
+    }
+
+    &-five {
+        @include multi-line-text-ellipsis;
+        -webkit-line-clamp: 5;
+    }
+}
+
+.text-ellipsis {
+    @include multi-line-text-ellipsis;
+    -webkit-line-clamp: 1;
+
+    &-four {
+        -webkit-line-clamp: 4;
+    }
+}
+
+.text-ellipsis-navbar {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 20.375rem;
+    @include media-breakpoint-down(lg) {
+        max-width: 12.375rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        max-width: 9.375rem;
+    }
+
+    @include media-breakpoint-down(xs) {
+        max-width: 5rem;
+    }
+}
+
+.user-select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

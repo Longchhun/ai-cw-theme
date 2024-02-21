@@ -1,0 +1,31 @@
+.cec-list-group {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    &__list-group-item {
+        display: flex;
+        margin: 0 $cec-spacing;
+        padding: $cec-spacing 0;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid $color-border;
+        }
+    }
+
+    &__datetime {
+        font-size: $font-size-small;
+        font-style: italic;
+        margin-left: auto;
+        margin-top: 8px;
+        white-space: nowrap;
+    }
+
+    &__headline {
+        h5 {
+            margin: 8px 0;
+        }
+    }
+}

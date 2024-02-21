@@ -1,0 +1,17 @@
+.cw-slot-tooltips {
+    &.cw-tooltip-wrapper {
+        @include media-breakpoint-down(sm) {
+            width: auto !important;
+        }
+
+        .tooltip-body {
+            top: 3rem;
+        }
+
+        .cw-split-dropdown {
+            @include media-breakpoint-down(sm) {
+                width: 100% !important;
+            }
+        }
+    }
+}

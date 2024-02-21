@@ -1,0 +1,49 @@
+{
+  "version": "1.0.110",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "autoprefixer": "9.5.1",
+    "basename": "^0.1.2",
+    "compass-mixins": "0.12.10",
+    "gulp": "4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-header-comment": "^0.10.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-svgstore": "7.0.1",
+    "gulp-uglify-es": "^2.0.0",
+    "http-server": "^14.0.0",
+    "liferay-frontend-theme-styled": "6.0.10",
+    "liferay-frontend-theme-unstyled": "6.0.12",
+    "liferay-theme-tasks": "^11.2.2",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^2.2.1",
+    "sweetalert2": "^8.15.2",
+    "gulp4-run-sequence": "^1.0.0",
+    "vue-tabulator": "^1.2.2",
+    "del": "^6.0.0",
+    "liferay-frontend-css-common": "6.0.4"
+  },
+  "keywords": [
+    "liferay-theme"
+  ],
+  "liferayTheme": {
+    "baseTheme": "styled",
+    "screenshot": "",
+    "templateLanguage": "ftl",
+    "version": "7.4"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild node-sass",
+    "installSg": "cd style-guide && npm install",
+    "buildSg": "cd style-guide && npm run styleguide",
+    "startSg": "npm run open",
+    "open": "http-server -a localhost -p 1234 -o /style-guide/styleguide"
+  },
+  "main": "package.json",
+  "name": "cw-cec-theme",
+  "dependencies": {
+    "@liferay/bs3-bs4-compat": "*"
+  }
+}

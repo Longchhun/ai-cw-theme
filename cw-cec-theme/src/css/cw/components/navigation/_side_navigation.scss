@@ -1,0 +1,8 @@
+.cw--sidebar-nav.sidebar-nav .nav-item {
+    &.active, &:hover {
+        > .nav-item-label {
+            font-weight: $font-weight-bold;
+            color: $primary;
+        }
+    }
+}

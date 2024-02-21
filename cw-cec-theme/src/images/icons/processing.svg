@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 34 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>processing</title>
+    <g id="-Iteation-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="processing" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF">
+            <polyline id="Shape" points="0 9.71949516 3.95233243 15.6026299 8.49439596 10.1617935"></polyline>
+            <polyline id="Shape" points="32 15.8152733 28.0519204 9.93213858 23.505604 15.3758102"></polyline>
+            <path d="M27.9980508,9.98742587 C28.9922904,16.2871097 24.9746138,22.2920175 18.7721614,23.7766431 C14.7312681,24.7343749 10.4820537,23.5422804 7.52899482,20.6224323" id="Shape"></path>
+            <path d="M3.95800292,15.5671893 C3.14640342,12.3159433 3.66950872,8.8751225 5.4106752,6.01197155 C7.15184169,3.1488206 9.96628104,1.10142754 13.2264209,0.326326328 C17.5495883,-0.700969066 22.0870283,0.737930827 25.028131,4.06885058" id="Shape"></path>
+        </g>
+    </g>
+</svg>

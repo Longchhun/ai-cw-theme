@@ -1,0 +1,70 @@
+// TODO: Remove this file after new front-end merged https://khalibre.atlassian.net/browse/CW-14068
+@use '../mixins/skeleton/space';
+@use '../mixins/skeleton/border';
+
+@mixin skeleton {
+  background-color: $black !important;
+  color: transparent !important;
+  opacity: .33;
+}
+
+@mixin shine {
+  background: $black;
+  background: linear-gradient(110deg, $black 8%, $gray-darker 18%, $black 33%);
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+
+  @keyframes shine {
+    to {
+      background-position-x: -200%;
+    }
+  }
+}
+
+.cw--skeleton-item {
+  @include skeleton;
+  @include shine;
+}
+
+.cw--skeleton-width-xxs { width: space.size(xxs) }
+.cw--skeleton-width-xs { width: space.size(xs) }
+.cw--skeleton-width-sm { width: space.size(sm) }
+.cw--skeleton-width-md { width: space.size(md) }
+.cw--skeleton-width-lg { width: space.size(lg) }
+.cw--skeleton-width-xl { width: space.size(xl) }
+
+.cw--skeleton-height-xxs { height: space.size(xxs) }
+.cw--skeleton-height-xs { height: space.size(xs) }
+.cw--skeleton-height-sm { height: space.size(sm) }
+.cw--skeleton-height-md { height: space.size(md) }
+.cw--skeleton-height-lg { height: space.size(lg) }
+.cw--skeleton-height-xl { height: space.size(xl) }
+.cw--skeleton-height-xxl { height: space.size(xxl) }
+
+.cw--border-radius-md { @include border.radius(md) }
+.cw--border-radius-lg { @include border.radius(lg) }
+.cw--border-radius-xl { @include border.radius(xl) }
+.cw--border-radius-pill { @include border.radius(pill) }
+
+.cw--skeleton-heading {
+  height: space.size(md);
+}
+
+.cw--skeleton-input {
+  width: 100%;
+  line-height: 22rem;
+  padding-left: space.size(md);
+  padding-right: space.size(md);
+}
+
+.cw--skeleton-rounded,
+.cw--skeleton-avatar,
+.cw--skeleton-icon {
+  aspect-ratio: 1 / 1;
+  border-radius: 50% !important;
+  display: flex;
+}
+
+.cw--skeleton-paragraph {
+  height: space.size(xs);
+}

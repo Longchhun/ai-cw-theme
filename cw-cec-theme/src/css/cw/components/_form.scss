@@ -1,0 +1,418 @@
+.form-inline {
+    label,
+    .control-label {
+        margin-right: 8px;
+        margin-bottom: 0;
+    }
+    @include media-breakpoint-down(sm) {
+        &.input-select-wrapper {
+            .control-label {
+                margin-bottom: .625rem;
+            }
+        }
+    }
+}
+
+.control-label {
+    .lexicon-icon {
+        height: 7px;
+        width: 7px;
+    }
+}
+
+label {
+    color: $gray-darker;
+    .lexicon-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .delete-button {
+        .lexicon-icon {
+            height: 7px;
+            width: 7px;
+        }
+    }
+}
+
+input[type="checkbox"] {
+    top: 6px;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    background-color: $white;
+    border-radius: 0.25rem;
+    border: 0.0625rem solid $gray-lighter-alt2;
+    margin: 0 6px 0 0;
+    position: relative;
+    -webkit-appearance: none;
+
+    &:focus {
+        outline: none;
+        outline-offset: 0;
+    }
+    &:checked {
+        &:after {
+            display: block;
+        }
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 6px;
+        top: 2px;
+        width: 6px;
+        height: 11px;
+        border: solid $primary;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+    &[disabled], &.disabled {
+        background-color: $input-bg-disabled;
+    }
+}
+
+.checkbox,
+.input-checkbox-wrapper {
+    label,
+    .control-label {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+.checkbox {
+    input[type="checkbox"],
+    &-inline input[type="checkbox"] {
+        margin-left: -30px;
+
+        @media (-webkit-min-device-pixel-ratio: 0) {
+            height: 20px;
+            margin-left: -30px;
+            width: 20px;
+        }
+    }
+
+    input[class^=" select-file"]{
+        margin-left: 0;
+        margin-top: -12px;
+    }
+
+    label {
+        padding-left: 30px;
+
+        @media (-webkit-min-device-pixel-ratio: 0) {
+            padding-left: 30px;
+        }
+    }
+}
+
+.form-group {
+    .invalid-feedback {
+        font-size: $font-size-regular;
+        display: none;
+        margin-top: 5px;
+    }
+    &.has-success,
+    &.has-warning,
+    &.has-error {
+        .invalid-feedback {
+            display: block;
+        }
+    }
+}
+
+.form-control {
+    min-height: $input-height;
+
+    &:disabled {
+        background-color: $white-darker-alt1;
+        opacity: 0.5;
+    }
+
+    &-no-border {
+        border-width: 0;
+        padding: 0;
+        overflow-y: hidden;
+        resize: none;
+    }
+
+    &-feedback {
+        position: absolute;
+        width: 50px;
+        line-height: 40px;
+        z-index: 2;
+        display: block;
+        text-align: center;
+        pointer-events: none;
+    }
+
+    &::-webkit-input-placeholder {
+        font-style: italic;
+        font-size: $font-size-regular
+    }
+    &:-moz-placeholder {
+        font-style: italic;
+        font-size: $font-size-regular
+    }
+    &::-moz-placeholder {
+        font-style: italic;
+        font-size: $font-size-regular
+    }
+    &:-ms-input-placeholder {
+       font-style: italic;
+        font-size: $font-size-regular
+    }
+}
+
+select {
+    &.form-control {
+        background-image: lx-icon(caret-bottom, $font-color-regular);
+        background-position: right .5rem center;
+        background-size: 1.25rem auto;
+        min-width: 150px;
+        &:focus {
+            background-image: lx-icon(caret-bottom, $font-color-regular);
+        }
+        padding-right: 30px;
+    }
+    option {
+        &[disabled]
+        .disabled {
+            color: $gray-light;
+        }
+    }
+}
+
+.radio-container {
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;
+    padding-left: 30px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    input {
+        cursor: pointer;
+        opacity: 0;
+        position: absolute;
+        visibility: hidden;
+
+        &:checked {
+            & ~ .radio-checkmark {
+                background-color: $white;
+
+                &:after {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        input {
+            & ~ .radio-checkmark {
+                background-color: $white;
+            }
+        }
+    }
+
+    .radio-checkmark {
+        background-color: $white;
+        border-radius: 50%;
+        border: 1px solid $border-color-base;
+        height: 20px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 20px;
+        &:after {
+            background: $primary;
+            border-radius: 50%;
+            content: '';
+            display: none;
+            height: 10px;
+            left: 4px;
+            position: absolute;
+            top: 4px;
+            width: 10px;
+        }
+    }
+
+    &[disabled],
+    &.disabled {
+        cursor: not-allowed;
+        opacity: .5;
+        .radio-checkmark {
+            background-color: $gray-lighter !important;
+        }
+        &:hover {
+            .radio-checkmark {
+                background-color: $gray-lighter;
+            }
+        }
+    }
+}
+
+.help-block {
+    color: $gray-light;
+}
+
+.has-feedback {
+    &.left {
+        position: relative;
+        .form-control {
+            padding-left: 40px;
+            padding-right: $padding-base-horizontal;
+            &-feedback {
+                right: initial;
+                left: 0;
+            }
+        }
+    }
+}
+
+.has-success {
+    .form-control {
+        &:focus {
+            border-color: $green-dark;
+        }
+    }
+    .invalid-feedback {
+        color: $green;
+    }
+}
+
+.has-warning {
+    .form-control {
+        &:focus {
+            border-color: $yellow-dark;
+        }
+    }
+    .invalid-feedback {
+        color: $yellow;
+    }
+}
+
+.has-error {
+    .form-control {
+        &:focus {
+            border-color: $red-dark;
+        }
+    }
+    .invalid-feedback {
+        color: $red;
+    }
+}
+.input-group {
+    width: 100%;
+
+    .input-group-btn {
+        .btn {
+            min-width: 40px !important;
+        }
+
+        &:first-child {
+            > .btn {
+                border-right: none;
+                margin-right: 0;
+            }
+        }
+
+        .logo-with-text {
+            float: left;
+
+            @media (min-width: $screen-sm-min) {
+                width: 135px;
+            }
+        }
+
+        .dropdown-menu {
+            li {
+                a {
+                    color: $font-color-regular;
+                }
+            }
+        }
+
+        .caret {
+            position: absolute;
+            right: 12%;
+            top: 49%;
+
+            @media (max-width: $screen-sm-max) {
+                right: 18%;
+            }
+        }
+    }
+}
+
+.basic-search {
+    &.input-group {
+        .input-group-btn {
+            .btn {
+                min-width: 0;
+            }
+        }
+    }
+}
+
+input[type="date"] {
+    &.form-control {
+        line-height: $line-height-base;
+    }
+}
+
+.search-box-wrapper {
+    .has-search {
+        .form-control {
+            padding-right: 15px;
+            padding-left: 50px;
+        }
+
+        .form-control-feedback {
+            color: $gray;
+            left: 0;
+            right: initial;
+            width: 50px;
+            line-height: 40px;
+        }
+    }
+    &.search-box-sm {
+        min-width: 13.125rem;
+    }
+
+    &.search-box-lg {
+        min-width: 21.875rem;
+        @include media-breakpoint-down(md) {
+            min-width: auto;
+        }
+    }
+
+    &.search-box-xl {
+        min-width: 31.25rem;
+    }
+}
+
+.custom-checkbox {
+    .custom-control-label {
+        &::before {
+            border-radius: 0;
+            height: 20px;
+            width: 20px;
+        }
+
+        &::after {
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    .custom-control-input {
+        position: absolute;
+    }
+}

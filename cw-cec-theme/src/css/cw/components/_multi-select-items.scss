@@ -1,0 +1,19 @@
+.item-selection {
+    .item {
+        border-radius: 0.625rem;
+        border: 0.125rem solid $color-grey-light-alt1;
+        height: 1.875rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+
+        &-active {
+            border-color: $color-primary;
+        }
+    }
+    .add-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1.5px solid $color-grey-dark;
+        border-radius: 0.25rem;
+    }
+}

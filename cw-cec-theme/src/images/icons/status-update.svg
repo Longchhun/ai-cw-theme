@@ -1,0 +1,19 @@
+<svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Content / Content-Creation / content-browser-edit" fill="none"
+        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path
+            d="M24.501 11.237v10.737a2.338 2.338 0 0 1-2.087 2.526H2.588a2.338 2.338 0 0 1-2.087-2.526V3.026A2.339 2.339 0 0 1 2.588.5h19.826a2.339 2.339 0 0 1 2.087 2.526"/>
+        <path d="M.501 6.816h16.642" data-name="Shape 2"/>
+        <path d="M4.527 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268" data-name="Shape 3"/>
+        <path d="M7.547 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268" data-name="Shape 4"/>
+        <path d="M10.676 2.647a.268.268 0 1 1-.268.268.269.269 0 0 1 .268-.268"
+            data-name="Shape 5"/>
+        <path d="M17.522 14.589l-3.758 1.074 1.074-3.758 6.426-6.422a1.9 1.9 0 0 1 2.684 2.684z"
+            data-name="Shape 6"/>
+        <path d="M20.695 6.297l2.445 2.4" data-name="Shape 7"/>
+        <path d="M15.058 12.773l1.811 1.811" data-name="Shape 8"/>
+        <path d="M3.722 11.868h4.831" data-name="Shape 9"/>
+        <path d="M3.722 15.658h8.052" data-name="Shape 10"/>
+        <path d="M3.722 19.447H20.9" data-name="Shape 11"/>
+    </g>
+</svg>

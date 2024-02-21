@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>car-dashboard-gear</title>
+    <g id="Create-Segment" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="PD-KANBAN-00" transform="translate(-383.000000, -343.000000)" stroke="currentColor">
+            <g id="car-dashboard-gear" transform="translate(384.000000, 344.000000)">
+                <circle id="Oval" cx="1.30434783" cy="1.30434783" r="1.30434783"></circle>
+                <circle id="Oval" cx="7.82608696" cy="1.30434783" r="1.30434783"></circle>
+                <circle id="Oval" cx="13.6956522" cy="1.30434783" r="1.30434783"></circle>
+                <circle id="Oval" cx="7.82608696" cy="7.17391304" r="1.30434783"></circle>
+                <line x1="2.60869565" y1="1.30434783" x2="6.52173913" y2="1.30434783" id="Path"></line>
+                <circle id="Oval" cx="1.30434783" cy="13.0434783" r="1.30434783"></circle>
+                <line x1="2.60869565" y1="13.0434783" x2="6.52173913" y2="13.0434783" id="Path"></line>
+                <line x1="7.82608696" y1="2.60869565" x2="7.82608696" y2="5.86956522" id="Path"></line>
+                <circle id="Oval" cx="7.82608696" cy="13.0434783" r="1.30434783"></circle>
+                <line x1="7.82608696" y1="8.47826087" x2="7.82608696" y2="11.7391304" id="Path"></line>
+                <polyline id="Path" points="9.13043478 7.17391304 13.6956522 7.17391304 13.6956522 2.60869565"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

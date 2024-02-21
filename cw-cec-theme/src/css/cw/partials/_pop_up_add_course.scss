@@ -1,0 +1,8 @@
+.popup-add-course-wrapper {
+    @include media-breakpoint-down(sm) {
+        .image__item {
+            width: 7rem;
+            margin-left: 2.5rem;
+        }
+    }
+}

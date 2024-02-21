@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g transform="translate(-7180 9157)">
+        <circle cx="11.5" cy="11.5" r="11.5" transform="translate(7180.5 -9156.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+        <path d="M3.389,8.128A2,2,0,0,1,.561,5.3C1.342,4.519,8.693,0,8.693,0S4.175,7.347,3.389,8.128Z" transform="translate(7190.024 -9151.714)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+        <path d="M0,.5H1.5" transform="translate(7183.5 -9145.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+        <path d="M0,0,1.06,1.06" transform="translate(7185.99 -9151.01)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+        <path d="M.5,0V1.5" transform="translate(7191.5 -9153.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+        <path d="M1.5.5H0" transform="translate(7199 -9145.5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+        <path d="M17.266,2.6A14.708,14.708,0,0,0,8.633,0,14.708,14.708,0,0,0,0,2.6" transform="translate(7183.367 -9140.003)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+.user-icon {
+    border: 1px solid $border-color-base;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+
+    &:hover,
+    &:focus {
+        border-color: $link-hover-color;
+    }
+}
+
+.cw-header__group-item {
+    a {
+        color: $gray;
+
+        &:hover,
+        &:focus {
+            color: $link-hover-color;
+        }
+
+        .panel-notifications-count {
+            border-radius: 10rem;
+            height: 1.25rem;
+            min-width: 2rem;
+            right: -1.3rem !important;
+        }
+    }
+
+    &.open {
+        .user-icon {
+            border-color: $link-hover-color;
+        }
+    }
+}
+

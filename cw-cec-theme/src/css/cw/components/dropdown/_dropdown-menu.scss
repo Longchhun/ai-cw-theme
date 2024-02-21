@@ -1,0 +1,80 @@
+.dropdown-menu {
+    box-shadow: none;
+    border: 1px solid $border-color-base;
+
+    &-shadow {
+        box-shadow: $dropdown-menu-shadow-lg;
+    }
+    &--darker {
+        background-color: $body-bg;
+        min-width: auto;
+
+        .dropdown-item {
+            &:active {
+                background-color: transparent;
+            }
+        }
+    }
+
+    .divider {
+        margin: 9px 20px;
+        background-color: $color-grey-light-alt1;
+        height: 2px;
+    }
+
+    .state-active {
+        background-color: $white;
+        color: $primary;
+    }
+
+    li {
+        cursor: pointer;
+
+        &.disabled {
+            cursor: not-allowed !important;
+            pointer-events: unset;
+
+            span {
+                pointer-events: none;
+            }
+
+            a {
+                padding-left: 1.25rem !important;
+                padding-right: 1.25rem !important;
+            }
+        }
+    }
+
+    > li > a {
+        padding: 8px 20px;
+        color: $black;
+        white-space: nowrap;
+
+        &:hover,
+        &:focus {
+            color: $color-link-hover;
+        }
+
+        &:active {
+            background-color: $white;
+            color: $primary;
+        }
+    }
+
+    .dropdown-item {
+        &.active {
+            background-color: $white;
+            color: $primary;
+
+            &:active {
+                @extend .state-active;
+            }
+        }
+        &:active {
+            @extend .state-active;
+        }
+        &:focus {
+            @extend .state-active;
+        }
+    }
+}

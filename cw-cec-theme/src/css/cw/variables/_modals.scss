@@ -1,0 +1,60 @@
+$modal-content-border-color:            $border-color-base;
+$modal-content-fallback-border-color:   $border-color-base;
+
+$modal-header-bg:                       $white;
+$modal-header-border-color:             $border-color-base;
+$modal-header-color:                    $gray;
+
+$modal-title-line-height:               1.2;
+$modal-title-padding:                   $padding-base;
+
+$modal-body-bg:                         $white;
+
+$modal-footer-bg:                       $white;
+
+$modal-border-radius-4:                   0.25rem;
+$modal-border-radius-10:                   0.625rem;
+
+$dialog-desktop-footer-bg:              $white;
+$dialog-footer-box-shadow:              0 -1px 24px 0 rgba(74, 74, 74, 0.15);
+$dialog-footer-padding:                 0 $padding-desktop-base $padding-desktop-base 0;
+$dialog-shadow:                         0 .5rem 1rem 0.4375rem rgba(74,74,74,.15) !important;
+
+// SweetAlert2
+$swal2-black:                           $black;
+$swal2-error:                           $red;
+$swal2-success:                         $green;
+$swal2-success-border:                  $green;
+$swal2-warning:                         $yellow;
+
+$swal2-show-animation:                  none;
+$swal2-hide-animation:                  none;
+
+$swal2-font-size:                       $font-size-regular;
+
+$swal2-border-radius:                   $border-radius-base;
+$swal2-box-shadow:                      $black;
+$swal2-box-shadow-lg:                   0 0.75rem 1.5rem 0 rgba(74, 74, 74, 0.2);
+$swal2-padding:                         $padding-base;
+$swal2-width:                           600px;
+
+$swal2-title-font-size:                 24px;
+$swal2-title-color:                     $gray;
+$swal2-title-margin:                    0;
+
+$swal2-content-color:                   $gray;
+$swal2-content-font-size:               $font-size-regular;
+
+$swal2-icon-size:                       27px;
+$swal2-icon-gap:                        20px;
+$swal2-icon-margin:                     0;
+
+$swal2-close-button-gap:                20px;
+$swal2-close-button-width:              44px;
+$swal2-close-button-height:             44px;
+$swal2-close-button-color:              $black;
+$swal2-close-button-hover-color:        $primary;
+
+$swal2-actions-margin:                  20px 0 0 0;
+
+$swal2-toast-border:                    1px solid $border-color-base;

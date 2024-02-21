@@ -1,0 +1,12 @@
+<svg viewBox="0 0 24.01 19" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="Group 832" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path
+            d="M15.505 4.5a1 1 0 00-1 1v8.793a.5.5 0 00.854.353L17.005 13l1.646 1.646a.5.5 0 00.854-.353V5.5a1 1 0 00-1-1z"
+            data-name="Shape 344"/>
+        <path
+            d="M14.505 6.5h-4.3a1 1 0 01-.981-.8l-.278-1.4a1 1 0 00-.981-.8h-6.46a1 1 0 00-.981 1.2l2.6 13a1 1 0 00.981.8h16.9a1 1 0 00.981-.8l1.5-10a1 1 0 00-.981-1.2h-3"
+            data-name="Shape 345"/>
+        <path d="M2.505 1.5a1 1 0 011-1h18a1 1 0 011 1v3" data-name="Shape 346"/>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+:focus {
+    outline: none !important;
+}
+
+h5,
+.h5 {
+    @media (min-width: $screen-sm-min) {
+        font-size: $font-size-regular;
+    }
+}
+
+h6,
+.h6 {
+    @media (min-width: $screen-sm-min) {
+        font-size: $font-size-small;
+    }
+}
+
+a {
+    &.btn {
+        padding-top: 9px;
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+}
+
+fieldset {
+    &[disabled] {
+        .btn {
+            opacity: 0.2;
+        }
+    }
+}

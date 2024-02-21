@@ -1,0 +1,32 @@
+.crm-management-wrapper {
+    .cec-card {
+        &__main-content {
+            .cec-card__header {
+                padding-right: 0 !important;
+            }
+            .cw-table-wrapper {
+                min-height: 14rem;
+            }
+        }
+        .cec-card__header {
+            .cec-card__title {
+                width: 100%;
+            }
+        }
+        .cec-card__right-content {
+            .cw-split-dropdown--width-220 {
+                min-width : 15rem;
+            }
+        }
+    }
+
+    .back-btn {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+}
+
+.delete-contact-title {
+    height: 2.7rem;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 -3 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-93.5, -384.1251)" stroke="currentColor">
+            <g transform="translate(94, 304)">
+                <g transform="translate(0, 80.6251)">
+                    <path d="M10.4347826,12.173913 L1.30434783,12.173913 C0.583976413,12.173913 0,11.5899366 0,10.8695652 L0,1.30434783 C0,0.583976413 0.583976413,0 1.30434783,0 L16.9565217,0 C17.6768932,0 18.2608696,0.583976413 18.2608696,1.30434783 L18.2608696,9.56521739" id="Path"></path>
+                    <polyline points="17.8852174 0.387826087 9.13043478 7.39130435 0.376521739 0.387826087"></polyline>
+                    <circle cx="15.6521739" cy="15.6521739" r="4.34782609"></circle>
+                    <line x1="17.3913043" y1="15.6521739" x2="13.9130435" y2="15.6521739"></line>
+                    <polyline points="15.6521739 13.9130435 17.3913043 15.6521739 15.6521739 17.3913043"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+.lfr-upload-container.cw-hide-checkboxes {
+    input[type="checkbox"] {
+        &.select-file,
+        &.select-all-files {
+            display: none;
+        }
+    }
+
+    li.checkbox > label {
+        display: block;
+        padding: 0;
+    }
+
+    .upload-complete {
+        padding-left: 0;
+    }
+}

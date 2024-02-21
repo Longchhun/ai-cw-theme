@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AC74CD37-C1CE-4EF1-8E1F-E312D1BC5D68</title>
+    <g id="Iteration-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Emoji-Picker" transform="translate(-409.000000, -226.000000)" stroke="currentColor">
+            <g id="Light" transform="translate(410.000000, 227.000000)">
+                <path d="M8,0.333333333 C3.76581692,0.333333333 0.333333333,3.76581692 0.333333333,8 C0.333333333,12.2341831 3.76581692,15.6666667 8,15.6666667 C12.2341831,15.6666667 15.6666667,12.2341831 15.6666667,8 C15.6666667,3.76581692 12.2341831,0.333333333 8,0.333333333 Z" id="Shape"></path>
+                <polygon id="Shape" points="5.90333333 11.2393333 4.6 7.21866667 8.00866667 4.73466667 11.4173333 7.21866667 10.116 11.2393333"></polygon>
+                <polyline id="Shape" points="10.94 0.917333333 8.00866667 2.16933333 5.07866667 0.917333333"></polyline>
+                <polyline id="Shape" points="2.21 2.97466667 2.494 6.18933333 0.36 8.64533333"></polyline>
+                <polyline id="Shape" points="1.44333333 11.9666667 4.60066667 12.694 6.25866667 15.468"></polyline>
+                <polyline id="Shape" points="9.76466667 15.4626667 11.4173333 12.6926667 14.5606667 11.9686667"></polyline>
+                <polyline id="Shape" points="15.6413333 8.626 13.5226667 6.18733333 13.8053333 2.99266667"></polyline>
+                <line x1="8.00866667" y1="2.16933333" x2="8.00866667" y2="4.73466667" id="Shape"></line>
+                <line x1="11.4173333" y1="7.21866667" x2="13.5226667" y2="6.18733333" id="Shape"></line>
+                <line x1="10.116" y1="11.2393333" x2="11.4173333" y2="12.6926667" id="Shape"></line>
+                <line x1="5.90333333" y1="11.2393333" x2="4.60066667" y2="12.694" id="Shape"></line>
+                <line x1="2.494" y1="6.18933333" x2="4.6" y2="7.21866667" id="Shape"></line>
+            </g>
+        </g>
+    </g>
+</svg>

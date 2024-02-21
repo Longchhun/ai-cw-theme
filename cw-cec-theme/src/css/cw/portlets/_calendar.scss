@@ -1,0 +1,9 @@
+.calendar-portlet {
+    .btn:not(.btn-unstyled):not(.btn-icon-only):not(.link-icon):not(.btn-square) {
+        min-width: auto;
+    }
+
+    .hidden {
+        display: none;
+    }
+}

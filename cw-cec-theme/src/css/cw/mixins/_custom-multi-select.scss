@@ -1,0 +1,130 @@
+@mixin custom-multi-select {
+    .multiselect {
+        .multiselect__select {
+            &::before {
+                top: 66% !important;
+                border-color: $black transparent transparent;
+            }
+        }
+
+        .multiselect__tags {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+
+            @media (max-width: $screen-xs-max) {
+                border-radius: $border-radius-base;
+            }
+
+            &:focus-within {
+                border-color: $primary;
+            }
+
+            &.has-error {
+                border-color: $danger;
+            }
+        }
+
+        &__tag {
+            display: none;
+        }
+
+        .multiselect__option {
+            font-size: $font-size-regular;
+
+            &--highlight {
+                background-color: $white-darker;
+                color: $black;
+            }
+
+            &--selected {
+                background-color: $white-darker;
+            }
+        }
+
+        &__placeholder {
+            font-style: italic;
+        }
+
+        &__input {
+// TODO: fix 7.3
+//             @include placeholder {
+//                 font-style: italic;
+//                 font-size: $font-size-regular;
+//             }
+
+            &:-moz-placeholder {
+                font-style: italic;
+                font-size: $font-size-regular;
+            }
+
+            &::-moz-placeholder {
+                font-style: italic;
+                font-size: $font-size-regular;
+            }
+
+            &:-ms-input-placeholder {
+                font-style: italic;
+                font-size: $font-size-regular;
+            }
+        }
+    }
+}
+
+@mixin custom_search_box_multi_select {
+    .multiselect {
+        .multiselect__tags {
+            padding-left: 2.75rem !important;
+            &.pl-12-px {
+                padding-left: 0.75rem !important;
+            }
+        }
+        .multi-select-icon {
+            right: 0.75rem;
+            top: 0.788rem;
+            font-size: 0.688rem;
+            z-index: 10;
+            color: $gray !important;
+            left: 1.25rem;
+        }
+        .multiselect__input {
+            width: auto !important;
+            margin-bottom: 0.375rem;
+            font-size: $font-size-base;
+            font-weight: $font-weight-normal;
+            color: $black !important;
+            z-index: 10;
+            &::-webkit-input-placeholder {
+                font-style: italic;
+                color: $gray-lignter-alt11 !important;
+                font-size: $font-size-regular;
+                font-family: $font-family-lato;
+            }
+
+            &:-ms-input-placeholder {
+                font-style: italic;
+                color: $gray-lignter-alt11 !important;
+                font-size: $font-size-regular;
+                font-family: $font-family-lato;
+            }
+
+            &::-ms-input-placeholder {
+                font-style: italic;
+                color: $gray-lignter-alt11 !important;
+                font-size: $font-size-regular;
+                font-family: $font-family-lato;
+            }
+
+            &::placeholder {
+                font-style: italic;
+                color: $gray-lignter-alt11 !important;
+                font-size: $font-size-regular;
+                font-family: $font-family-lato;
+            }
+        }
+        .vertical-centering-item {
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+    }
+}

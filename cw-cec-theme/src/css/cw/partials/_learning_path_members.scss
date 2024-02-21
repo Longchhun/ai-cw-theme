@@ -1,0 +1,30 @@
+.learning-path-members-wrapper {
+    .cec-card {
+        &__header {
+            border-bottom: .0625rem dashed $gray-lighter !important;
+        }
+        &__title {
+            font-weight: $font-weight-light;
+            font-size: $h1-font-size;
+            color: $black-lignter-alt1;
+        }
+        &__body {
+            .table-responsive {
+                min-height: 6.5rem;
+            }
+            .table {
+                th,td {
+                    padding-top: 0.625rem;
+                    padding-bottom: 0.625rem;
+                }
+                td {
+                    border-style: dashed !important;
+                }
+            }
+            @include media-breakpoint-down(sm) {
+                border-bottom: .0625rem dashed $gray-lighter;
+            }
+        }
+    }
+
+}

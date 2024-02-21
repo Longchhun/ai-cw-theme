@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>86F2E452-1819-4831-A47F-A12A62D456B4</title>
+    <g id="Desktop-Course-Certificate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Learning-Admin-Setting-Certificate-Disabled" transform="translate(-91.000000, -322.000000)" stroke="#656565">
+            <g id="certificate-copy" transform="translate(92.000000, 323.003252)">
+                <path d="M6.08695652,13.9130435 L0.869565217,13.9130435 C0.389317609,13.9130435 0,13.5237259 0,13.0434783 L0,0.869565217 C0,0.389317609 0.389317609,0 0.869565217,0 L19.1304348,0 C19.6106824,0 20,0.389317609 20,0.869565217 L20,13.0434783 C20,13.5237259 19.6106824,13.9130435 19.1304348,13.9130435 L13.9130435,13.9130435" id="Path"></path>
+                <line x1="0" y1="4.7826087" x2="4.7826087" y2="0" id="Path"></line>
+                <line x1="15.2173913" y1="13.9130435" x2="20" y2="9.13043478" id="Path"></line>
+                <path d="M10,14.7826087 C9.18173135,14.7837789 8.39772491,14.4541826 7.82608696,13.8686957 L7.82608696,19.1304348 L10,16.5217391 L12.173913,19.1304348 L12.173913,13.8686957 C11.6022751,14.4541826 10.8182687,14.7837789 10,14.7826087 L10,14.7826087 Z" id="Path"></path>
+                <circle id="Oval" cx="10" cy="11.7391304" r="3.04347826"></circle>
+                <circle id="Oval" cx="10" cy="11.7391304" r="1.30434783"></circle>
+                <line x1="7.82608696" y1="2.60869565" x2="12.173913" y2="2.60869565" id="Path"></line>
+                <line x1="5.65217391" y1="5.2173913" x2="14.3478261" y2="5.2173913" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

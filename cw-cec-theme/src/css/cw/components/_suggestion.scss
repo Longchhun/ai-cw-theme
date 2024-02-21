@@ -1,0 +1,18 @@
+.cw-suggestion {
+    .dropdown-menu {
+        .dropdown-item {
+            &.active {
+                background-color: $primary;
+                color: $white;
+
+                a {
+                    color: inherit;
+                    &:hover {
+                        background-color: $primary;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

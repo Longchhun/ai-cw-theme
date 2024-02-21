@@ -1,0 +1,26 @@
+
+/**
+ * @atom Cec Alert
+ * @section Alert
+ * @markup
+ *    <div class="d-flex align-items-sm-center alert alert-warning cec-alert-warning">
+ *       <i class="icon-lightbulb"></i>&nbsp;
+ *       <p class="text-black">@{lipsum:1:paragraphs}</p>
+ *    </div>
+*/
+.cec-alert {
+    &-warning {
+        .icon-lightbulb {
+            padding-top: 2px;
+            @media (min-width: $screen-sm-min) {
+                padding-top: 0;
+                padding-right: 5px;
+            }
+        }
+        p {
+            @media (max-width: $screen-xs-max) {
+                font-size: $font-size-small;
+            }
+        }
+    }
+}

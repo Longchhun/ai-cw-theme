@@ -1,0 +1,29 @@
+.org-user-group-wrapper {
+    .org-user-group-name {
+         height: 5rem;
+         input {
+             border: none;
+             color: $black;
+             font-size: $font-size-title;
+             outline: none;
+             min-height: 3.57rem;
+             padding-left: 0;
+             margin-bottom: -1.2rem;
+             &::placeholder {
+                 color: $black;
+                 font-size: $font-size-title;
+                 font-style: italic;
+                 opacity: 0.7;
+             }
+         }
+         &.card-inner {
+             padding-left: 2rem;
+             padding-right: 2rem;
+         }
+     }
+
+    .border-bottom-red {
+        border-bottom: 0.063rem dashed $red;
+    }
+}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Contact-detail" stroke="currentColor" stroke-width="0" fill="none" fill-rule="evenodd">
+        <g id="ic-phone-android-24px">
+            <path d="M14,0.875 L7,0.875 C5.5475,0.875 4.375,2.0475 4.375,3.5 L4.375,17.5 C4.375,18.9525 5.5475,20.125 7,20.125 L14,20.125 C15.4525,20.125 16.625,18.9525 16.625,17.5 L16.625,3.5 C16.625,2.0475 15.4525,0.875 14,0.875 Z M12.25,18.375 L8.75,18.375 L8.75,17.5 L12.25,17.5 L12.25,18.375 Z M15.09375,15.75 L5.90625,15.75 L5.90625,3.5 L15.09375,3.5 L15.09375,15.75 Z" id="Shape" fill="currentColor" fill-rule="nonzero"></path>
+            <polygon id="Path" points="0 0 21 0 21 21 0 21"></polygon>
+        </g>
+    </g>
+</svg>

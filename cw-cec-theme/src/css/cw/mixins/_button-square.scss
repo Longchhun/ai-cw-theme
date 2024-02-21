@@ -1,0 +1,67 @@
+@mixin button-square {
+    .btn-square-wrapper {
+        color: $gray;
+
+        &:visited {
+            color: $gray;
+            span {
+                color: $gray;
+            }
+        }
+
+        &:focus {
+            color: $gray;
+            span {
+                color: $gray;
+            }
+        }
+
+        &:hover {
+            text-decoration: none;
+
+            .btn-square {
+                background-color: $primary;
+                border-color: $primary;
+                color: $white;
+
+                i {
+                    color: $white;
+                }
+            }
+
+            span {
+                color: $primary;
+            }
+        }
+    }
+
+    .btn-square {
+        border-color: $gray;
+        border-radius: $border-radius-base;
+        color: $gray;
+        height: 24px;
+        line-height: 24px;
+        min-height: 0;
+        min-width: 0;
+        padding: 0;
+        width: 24px;
+
+        &:hover,
+        &:focus {
+            border-color: $primary;
+            color: $white;
+
+            i {
+                color: $white;
+            }
+        }
+
+        &[disabled]:hover {
+            background-color: transparent;
+
+            i {
+                color: $gray;
+            }
+        }
+    }
+}

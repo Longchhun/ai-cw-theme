@@ -1,0 +1,14 @@
+.tab-menu-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    .tab-menu {
+        position: relative;
+        cursor: pointer;
+        border-bottom: 0.125rem solid transparent;
+    }
+
+    .tab-active {
+        border-bottom: 0.125rem solid $teal;
+    }
+}

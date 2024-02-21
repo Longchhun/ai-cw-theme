@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 23.08">
+    <g data-name="Group 1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path data-name="Shape 538"
+              d="M19.5 12.02V6.236A5.859 5.859 0 0013.525.5H1.5a.98.98 0 00-1 .96v20.16a.981.981 0 001 .96h3"/>
+        <path data-name="Shape 539" d="M14.5.577V4.34a.981.981 0 001 .96h3.92"/>
+        <path data-name="Shape 540"
+              d="M11.4 22.58H7.8a.5.5 0 01-.437-.248.464.464 0 01.013-.487l4.044-6.211a.461.461 0 00.014-.485A.5.5 0 0011 14.9H7.4"/>
+        <path data-name="Shape 541" d="M15.5 14.9v7.68"/>
+        <path data-name="Shape 542" d="M13.5 22.58h4"/>
+        <path data-name="Shape 543" d="M13.5 14.9h4"/>
+        <path data-name="Shape 544" d="M23.5 16.82a1.961 1.961 0 01-2 1.92h-2V14.9h2a1.961 1.961 0 012 1.92z"/>
+        <path data-name="Shape 545" d="M19.5 22.58v-3.84"/>
+    </g>
+</svg>

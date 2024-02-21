@@ -1,0 +1,13 @@
+<svg viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+    <g data-name="learning path" fill="none" stroke="#339BB2" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" transform="translate(7472.022 -3825.031)">
+        <path d="M-7462.918 3848.162a11.185 11.185 0 01-1.426-.474 11.5 11.5 0 1115.842-10.649h0"/>
+        <path
+            d="M-7471.327 3835.037h6.084a3 3 0 012.122.879l.025.021a3.359 3.359 0 01.758 3.588l-.252.653a4.424 4.424 0 01-3.4 2.77l-3.51.589M-7451.739 3829.037h-5.8a2.25 2.25 0 000 4.5h.432a3 3 0 012.435 1.247"
+            data-name="Path"/>
+        <path
+            d="M-7451.5 3839.537a2 2 0 00-2-2h-2a2 2 0 00-2 2v1h6zM-7456.5 3840.537v8M-7452.5 3840.537v8"
+            data-name="Path"/>
+        <rect height="8" rx="2.25" transform="translate(-7460.5 3840.537)" width="12"/>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+.user-img-center {
+    position: relative;
+
+    .img-circle, .img-rounded {
+        border: 1px solid $color-grey-light;
+    }
+}
+
+.edit-profile-image {
+    width: 100%;
+
+    &:hover {
+        .img-circle, .img-rounded, .img-square {
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+        }
+
+        .btn-change-photo {
+            display: block;
+        }
+    }
+
+    @media (max-width: $screen-sm-min) {
+        .btn-change-photo {
+            border-radius: 50%;
+            display: block;
+            height: 40px;
+            min-width: 0;
+            padding: 7px 10px;
+            width: 40px;
+            min-width: auto !important;
+
+            span {
+                display: none;
+            }
+        }
+    }
+
+    .aspect-ratio-rectangle {
+        padding-bottom: 50%;
+    }
+}

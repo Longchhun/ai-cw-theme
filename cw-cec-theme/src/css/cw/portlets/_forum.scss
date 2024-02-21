@@ -1,0 +1,313 @@
+.forum-wrapper {
+    @import 'cw/partials/discussion/loading';
+
+    .cec-card {
+        &__header {
+            svg {
+                margin-right: 0 !important;
+            }
+        }
+       .select-category-wrapper {
+            max-width: 100%;
+            .vue-treeselect__single-value {
+                line-height: 2.5rem;
+            }
+            .vue-treeselect__input {
+                min-height: 2.5rem;
+            }
+        }
+    }
+
+    .nav {
+        padding: 0.9375rem 0;
+
+        .nav-link {
+            padding: 0.625rem 1.875rem;
+            &:hover,
+            &.active {
+                background-color: $gray-lighter;
+            }
+        }
+    }
+
+    .card-header {
+        padding: 0.9375rem 1.25rem;
+        background-color: $color-grey-light-alt5;
+        border: none;
+        color: $black-light;
+
+        @include media-breakpoint-up(md) {
+            padding: 0.9375rem 1.875rem;
+        }
+
+        i {
+            color: $gray;
+        }
+    }
+
+    .filter-thread {
+        padding: 1.25rem 1.25rem 1.875rem 1.25rem;
+
+        span {
+            color: $black;
+        }
+
+        @include media-breakpoint-up(md) {
+            padding: 1.25rem 1.875rem 1.875rem 1.875rem;
+        }
+    }
+
+    .list-group-item {
+        border-left: none;
+        border-right: none;
+        padding: 0.9375rem 1.25rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 1.25rem 1.875rem;
+        }
+
+        &:first-child {
+            border: none;
+            padding-top: 0;
+            border-top: 0 !important;
+        }
+
+        &:last-child {
+            border-bottom: none !important;
+        }
+
+        > .list-group-wrapper {
+            .list-group-item {
+                border: none;
+                border-left: 1px dotted $border-color-base;
+                border-radius: 0;
+                padding: 1.875rem 0 0 1.875rem;
+
+                &:first-child {
+                    margin-top: 1.875rem;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+
+    .thread-wrapper,
+    .thread {
+        &.thread-comment {
+            padding: 0 1.875rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .user-profile {
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+
+        .user-info {
+            font-size: $font-size-regular;
+            color: $black-light;
+
+            i {
+                color: $gray;
+            }
+        }
+
+        .list-attachment {
+            a:first-child {
+                margin-top: 0;
+            }
+
+            a:last-child {
+                margin-bottom: 1.1rem;
+            }
+
+            svg {
+                color: $gray;
+                width: 1.07rem;
+                height: 1.19rem;
+            }
+        }
+        .description {
+            padding-right: 1.875rem;
+
+            img {
+                width: 100%;
+                max-height: 37.5rem;
+                object-fit: contain;
+            }
+        }
+        .comment-user-profile {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+        .comment-box {
+            padding: 0.60rem 1.05rem 0.55rem 1.05rem;
+            resize: none;
+            overflow: hidden;
+        }
+        .comment-action {
+            margin-top: 1.25rem;
+
+            .form-group {
+                margin-top: -0.38rem;
+            }
+        }
+        .short-description {
+            max-height: 8.125rem;
+
+            * {
+                display: initial;
+            }
+
+            img {
+                display: none !important;
+            }
+        }
+    }
+
+    .item-bottom-container {
+        span {
+            margin-right: 1.25rem;
+            color: $black-light;
+
+            i {
+                margin-left: 0.4375rem;
+                color: $gray;
+            }
+
+            &:last-child {
+                i {
+                    margin: 0 0.4375rem 0 0;
+                }
+            }
+        }
+    }
+
+    .view-tag {
+        font-size: $font-size-small;
+        margin-top: 0.5625rem;
+    }
+
+    .subject {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-regular;
+        color: $primary;
+    }
+
+    .banner {
+        padding: 1.875rem;
+
+        svg {
+            color: $primary;
+            margin-top: 3.4rem;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: -1rem;
+            }
+        }
+
+        &-text-wrapper {
+            margin-top: 2.5rem;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+
+        &-subject {
+            font-size: $font-size-title-desktop;
+            color: $black-light;
+            text-transform: uppercase;
+
+            &:first-child {
+                font-weight: $font-weight-bold;
+            }
+        }
+
+        &-description {
+            font-size: $header-font-size;
+            color: $black;
+            font-weight: $font-weight-light;
+            padding: 0.15rem 0 0 0.1rem;
+        }
+
+        &-image {
+            height: 14rem;
+            width: 22rem;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-top: 1.875rem;
+            }
+        }
+    }
+
+    .checkbox-label {
+        margin-top: 0.4rem;
+    }
+
+    .empty-state {
+        svg {
+            height: 5.625rem;
+            width: 7.8125rem;
+        }
+    }
+
+    .lfr-upload-container.cw-hide-checkboxes {
+        input[type="checkbox"] {
+            &.select-file,
+            &.select-all-files {
+                display: none;
+            }
+        }
+
+        li.checkbox > label {
+            display: block;
+            padding: 0;
+        }
+
+        .upload-complete {
+            padding-left: 0;
+        }
+    }
+}
+.forum-category-tree {
+    max-height: 21.875rem;
+    .vue-treeselect {
+        margin-top: 0.5625rem;
+        max-width: 15.958125rem;
+        .vue-treeselect__list {
+            max-height: 14.375rem;
+        }
+        .vue-treeselect__tip {
+            display: none;
+        }
+    }
+    ul {
+        list-style-type: none;
+    }
+    .category-name {
+        font-size: $font-size-base;
+        color: $black-light;
+    }
+}
+
+.vertical-line {
+    border-left: 0.0625rem solid $color-grey-light-alt4;
+    position: absolute;
+    height: 100%;
+    margin-left: 2.5rem;
+}
+
+.no-gutters {
+    .vue-treeselect {
+        max-width: 15.958125rem;
+        .vue-treeselect__list {
+            max-height: 14.375rem;
+        }
+        .vue-treeselect__tip {
+            display: none;
+        }
+    }
+}

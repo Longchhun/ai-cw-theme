@@ -1,0 +1,36 @@
+.cec-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    z-index: 5;
+
+    @include cw-transition();
+
+    &.open {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.cec-loading-overlay {
+    position: fixed;
+    background-color: rgba(255, 255, 255, .8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    z-index: 2000;
+    &__only-horizontal {
+        top: initial !important;
+        bottom: initial !important;
+    }
+}
